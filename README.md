@@ -1,2 +1,1 @@
-# atlus
-A GeoLocation Web-App that tracks city quality 
+A GIS + deep learning project that predicts a city's traffic index & quality from its road network. Road geometry is scraped from OpenStreetMap (osmnx/Overpass), rendered into raster composites and graph structures, then modeled with a CNN/ViT (image branch) and GNN/graph-stats (structure branch) against city-level traffic index labels.
