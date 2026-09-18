@@ -1,0 +1,317 @@
+"""
+OSM city scraper (test batch): pulls MAIN ROADS ONLY (no alleys/service/
+residential streets) per city, saves the road network as GraphML and a
+rendered raster PNG.
+
+Data source: OpenStreetMap, via the osmnx library (wraps Overpass + Nominatim).
+
+Install:
+    pip install osmnx matplotlib
+
+Run:
+    python osm_city_scraper.py
+
+Output structure:
+    osm_city_data/<city>/<city>_roads.graphml
+    osm_city_data/<city>/<city>_roads.png
+"""
+
+import os
+import time
+import osmnx as ox
+import matplotlib.pyplot as plt
+
+ox.settings.log_console = True
+ox.settings.use_cache = True       # caches raw responses locally, avoids re-hitting API on reruns
+ox.settings.timeout = 300          # bigger queries need more time on Overpass
+
+# Swap to a mirror if overpass-api.de is slow/overloaded (uncomment):
+# ox.settings.overpass_endpoint = "https://overpass.kumi.systems/api"
+
+from pathlib import Path
+
+OUTPUT_DIR = Path(__file__).parent / "osm_city_data"
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+# Only keep major roads (motorway/trunk/primary/secondary + their link
+# ramps). Excludes tertiary, residential, service, alleys, footways,
+# tracks, etc. Add "tertiary", "tertiary_link" below to include connector
+# roads too.
+MAIN_ROAD_TAGS = [
+    "motorway", "motorway_link",
+    "trunk", "trunk_link",
+    "primary", "primary_link",
+    "secondary", "secondary_link",
+]
+ROAD_FILTER = f'["highway"~"^({"|".join(MAIN_ROAD_TAGS)})$"]'
+
+# megacities whose OSM admin boundary balloons past the urban core
+# (Tokyo's prefecture includes remote islands, Jakarta's includes Kepulauan
+# Seribu, Lagos/Mumbai boundaries sprawl) get an explicit bbox around the
+# built-up area instead of the full place polygon.
+# bbox format: (west, south, east, north)
+CITY_CONFIGS = [
+    # --- original batch (bbox = urban core only, avoids huge admin boundaries) ---
+    # {"name": "Jakarta",       "bbox": (106.68, -6.37, 106.97, -6.08)},
+    # {"name": "Tokyo",         "bbox": (139.56, 35.53, 139.92, 35.82)},
+    # {"name": "New York City", "place": "New York City, USA"},
+    # {"name": "London",        "place": "Greater London, United Kingdom"},
+    # {"name": "Paris",         "place": "Paris, France"},
+    # {"name": "Mumbai",        "bbox": (72.77, 18.89, 72.99, 19.30)},
+    # {"name": "Lagos",         "bbox": (3.15, 6.39, 3.55, 6.70)},
+    # {"name": "Sao Paulo",     "place": "Sao Paulo, Brazil"},
+    # {"name": "Berlin",        "place": "Berlin, Germany"},
+    # {"name": "Singapore",     "place": "Singapore"},
+
+    # --- more megacities needing a tight bbox (sprawling/rural/island admin boundaries) ---
+    # {"name": "Beijing",          "bbox": (116.20, 39.75, 116.60, 40.05)},
+    # {"name": "Chongqing",        "bbox": (106.35, 29.45, 106.65, 29.75)},
+    # {"name": "Tianjin",          "bbox": (117.05, 39.05, 117.35, 39.25)},
+    # {"name": "Shanghai",         "bbox": (121.15, 30.95, 121.75, 31.45)},
+    # {"name": "Guangzhou",        "bbox": (113.15, 23.00, 113.55, 23.30)},
+    # {"name": "Istanbul",         "bbox": (28.60, 40.85, 29.35, 41.20)},
+    # {"name": "Moscow",           "bbox": (37.35, 55.55, 37.85, 55.90)},
+    # {"name": "Cairo",            "bbox": (31.15, 29.90, 31.45, 30.15)},
+    # {"name": "Bogota",           "bbox": (-74.23, 4.45, -74.00, 4.85)},
+    # {"name": "Lima",             "bbox": (-77.15, -12.25, -76.85, -11.85)},
+    # {"name": "Santiago",         "bbox": (-70.80, -33.60, -70.50, -33.35)},
+    # {"name": "Cape Town",        "bbox": (18.35, -34.05, 18.70, -33.80)},
+    # {"name": "Sydney",           "bbox": (150.85, -34.05, 151.35, -33.65)},
+    # {"name": "Melbourne",        "bbox": (144.75, -38.05, 145.25, -37.55)},
+    # {"name": "Perth",            "bbox": (115.65, -32.15, 115.95, -31.75)},
+    # {"name": "Brisbane",         "bbox": (152.85, -27.65, 153.15, -27.30)},
+    # {"name": "Auckland",         "bbox": (174.65, -37.00, 174.95, -36.75)},
+    # {"name": "Riyadh",           "bbox": (46.55, 24.55, 46.90, 24.90)},
+    # {"name": "Dubai",            "bbox": (55.10, 25.00, 55.45, 25.35)},
+    # {"name": "Karachi",          "bbox": (66.90, 24.75, 67.20, 25.05)},
+    # {"name": "Delhi",            "bbox": (77.00, 28.40, 77.35, 28.75)},
+    # {"name": "Hanoi",            "bbox": (105.75, 20.95, 105.95, 21.10)},
+    # {"name": "Ho Chi Minh City", "bbox": (106.55, 10.70, 106.85, 10.90)},
+    # {"name": "Bangkok",          "bbox": (100.40, 13.60, 100.70, 13.90)},
+    # {"name": "Islamabad",        "bbox": (72.95, 33.60, 73.20, 33.75)},
+
+    # # --- East Asia ---
+    # {"name": "Seoul",        "place": "Seoul, South Korea"},
+    # {"name": "Busan",        "place": "Busan, South Korea"},
+    # {"name": "Incheon",      "place": "Incheon, South Korea"},
+    # {"name": "Osaka",        "place": "Osaka, Japan"},
+    # {"name": "Nagoya",       "place": "Nagoya, Japan"},
+    # {"name": "Yokohama",     "place": "Yokohama, Japan"},
+    # {"name": "Sapporo",      "place": "Sapporo, Japan"},
+    # {"name": "Fukuoka",      "place": "Fukuoka, Japan"},
+    # {"name": "Taipei",       "place": "Taipei, Taiwan"},
+    # {"name": "Kaohsiung",    "place": "Kaohsiung, Taiwan"},
+    # {"name": "Hong Kong",    "place": "Hong Kong"},
+    # {"name": "Macau",        "place": "Macau"},
+    # {"name": "Shenzhen",     "place": "Shenzhen, China"},
+    # {"name": "Chengdu",      "place": "Chengdu, China"},
+    # {"name": "Xian",         "place": "Xi'an, China"},
+    # {"name": "Wuhan",        "place": "Wuhan, China"},
+    # {"name": "Hangzhou",     "place": "Hangzhou, China"},
+    # {"name": "Nanjing",      "place": "Nanjing, China"},
+    # {"name": "Qingdao",      "place": "Qingdao, China"},
+    # {"name": "Kunming",      "place": "Kunming, China"},
+    # {"name": "Zhengzhou",    "place": "Zhengzhou, China"},
+    # {"name": "Ulaanbaatar",  "place": "Ulaanbaatar, Mongolia"},
+
+    # # --- South Asia ---
+    # {"name": "Bengaluru",   "place": "Bengaluru, India"},
+    # {"name": "Chennai",     "place": "Chennai, India"},
+    # {"name": "Hyderabad",   "place": "Hyderabad, India"},
+    # {"name": "Kolkata",     "place": "Kolkata, India"},
+    # {"name": "Pune",        "place": "Pune, India"},
+    # {"name": "Ahmedabad",   "place": "Ahmedabad, India"},
+    # {"name": "Surat",       "place": "Surat, India"},
+    # {"name": "Jaipur",      "place": "Jaipur, India"},
+    # {"name": "Lucknow",     "place": "Lucknow, India"},
+    # {"name": "Chandigarh",  "place": "Chandigarh, India"},
+    # {"name": "Lahore",      "place": "Lahore, Pakistan"},
+    # {"name": "Dhaka",       "place": "Dhaka, Bangladesh"},
+    # {"name": "Kathmandu",   "place": "Kathmandu, Nepal"},
+    # {"name": "Colombo",     "place": "Colombo, Sri Lanka"},
+
+    # # --- Southeast Asia ---
+    # {"name": "Manila",             "place": "Metro Manila, Philippines"},
+    # {"name": "Cebu City",          "place": "Cebu City, Philippines"},
+    # {"name": "Kuala Lumpur",       "place": "Kuala Lumpur, Malaysia"},
+    # {"name": "George Town",        "place": "George Town, Penang, Malaysia"},
+    # {"name": "Phnom Penh",         "place": "Phnom Penh, Cambodia"},
+    # {"name": "Yangon",             "place": "Yangon, Myanmar"},
+    # {"name": "Vientiane",          "place": "Vientiane, Laos"},
+    # {"name": "Bandar Seri Begawan","place": "Bandar Seri Begawan, Brunei"},
+
+    # # --- Central Asia / Caucasus ---
+    # {"name": "Almaty",    "place": "Almaty, Kazakhstan"},
+    # {"name": "Tashkent",  "place": "Tashkent, Uzbekistan"},
+    # {"name": "Baku",      "place": "Baku, Azerbaijan"},
+    # {"name": "Yerevan",   "place": "Yerevan, Armenia"},
+    # {"name": "Tbilisi",   "place": "Tbilisi, Georgia"},
+
+    # # --- Middle East ---
+    # {"name": "Tehran",      "place": "Tehran, Iran"},
+    # {"name": "Baghdad",     "place": "Baghdad, Iraq"},
+    {"name": "Amman",       "place": "Amman, Jordan"},
+    {"name": "Beirut",      "place": "Beirut, Lebanon"},
+    {"name": "Damascus",    "place": "Damascus, Syria"},
+    {"name": "Tel Aviv",    "place": "Tel Aviv, Israel"},
+    {"name": "Sharjah",     "place": "Sharjah, United Arab Emirates"},
+    {"name": "Doha",        "place": "Doha, Qatar"},
+    {"name": "Kuwait City", "place": "Kuwait City, Kuwait"},
+    {"name": "Muscat",      "place": "Muscat, Oman"},
+    {"name": "Manama",      "place": "Manama, Bahrain"},
+    {"name": "Abu Dhabi",   "place": "Abu Dhabi, United Arab Emirates"},
+    {"name": "Jeddah",      "place": "Jeddah, Saudi Arabia"},
+
+    # --- Europe ---
+    {"name": "Madrid",           "place": "Madrid, Spain"},
+    {"name": "Barcelona",        "place": "Barcelona, Spain"},
+    {"name": "Rome",             "place": "Rome, Italy"},
+    {"name": "Milan",            "place": "Milan, Italy"},
+    {"name": "Naples",           "place": "Naples, Italy"},
+    {"name": "Amsterdam",        "place": "Amsterdam, Netherlands"},
+    {"name": "Rotterdam",        "place": "Rotterdam, Netherlands"},
+    {"name": "Brussels",         "place": "Brussels, Belgium"},
+    {"name": "Vienna",           "place": "Vienna, Austria"},
+    {"name": "Zurich",           "place": "Zurich, Switzerland"},
+    {"name": "Geneva",           "place": "Geneva, Switzerland"},
+    {"name": "Munich",           "place": "Munich, Germany"},
+    {"name": "Hamburg",          "place": "Hamburg, Germany"},
+    {"name": "Frankfurt",        "place": "Frankfurt, Germany"},
+    {"name": "Cologne",          "place": "Cologne, Germany"},
+    {"name": "Stockholm",        "place": "Stockholm, Sweden"},
+    {"name": "Oslo",             "place": "Oslo, Norway"},
+    {"name": "Copenhagen",       "place": "Copenhagen, Denmark"},
+    {"name": "Helsinki",         "place": "Helsinki, Finland"},
+    {"name": "Warsaw",           "place": "Warsaw, Poland"},
+    {"name": "Krakow",           "place": "Krakow, Poland"},
+    {"name": "Prague",           "place": "Prague, Czech Republic"},
+    {"name": "Budapest",         "place": "Budapest, Hungary"},
+    {"name": "Bucharest",        "place": "Bucharest, Romania"},
+    {"name": "Sofia",            "place": "Sofia, Bulgaria"},
+    {"name": "Athens",           "place": "Athens, Greece"},
+    {"name": "Lisbon",           "place": "Lisbon, Portugal"},
+    {"name": "Porto",            "place": "Porto, Portugal"},
+    {"name": "Dublin",           "place": "Dublin, Ireland"},
+    {"name": "Edinburgh",        "place": "Edinburgh, United Kingdom"},
+    {"name": "Manchester",       "place": "Manchester, United Kingdom"},
+    {"name": "Birmingham",       "place": "Birmingham, United Kingdom"},
+    {"name": "Glasgow",          "place": "Glasgow, United Kingdom"},
+    {"name": "Zagreb",           "place": "Zagreb, Croatia"},
+    {"name": "Belgrade",         "place": "Belgrade, Serbia"},
+    {"name": "Kyiv",             "place": "Kyiv, Ukraine"},
+    {"name": "Minsk",            "place": "Minsk, Belarus"},
+    {"name": "Vilnius",          "place": "Vilnius, Lithuania"},
+    {"name": "Riga",             "place": "Riga, Latvia"},
+    {"name": "Tallinn",          "place": "Tallinn, Estonia"},
+    {"name": "Reykjavik",        "place": "Reykjavik, Iceland"},
+    {"name": "Saint Petersburg", "place": "Saint Petersburg, Russia"},
+
+    # --- North America ---
+    {"name": "Los Angeles",   "place": "Los Angeles, California, USA"},
+    {"name": "Chicago",       "place": "Chicago, Illinois, USA"},
+    {"name": "Houston",       "place": "Houston, Texas, USA"},
+    {"name": "Phoenix",       "place": "Phoenix, Arizona, USA"},
+    {"name": "Philadelphia",  "place": "Philadelphia, Pennsylvania, USA"},
+    {"name": "San Antonio",   "place": "San Antonio, Texas, USA"},
+    {"name": "San Diego",     "place": "San Diego, California, USA"},
+    {"name": "Dallas",        "place": "Dallas, Texas, USA"},
+    {"name": "San Jose",      "place": "San Jose, California, USA"},
+    {"name": "Austin",        "place": "Austin, Texas, USA"},
+    {"name": "San Francisco", "place": "San Francisco, California, USA"},
+    {"name": "Seattle",       "place": "Seattle, Washington, USA"},
+    {"name": "Denver",        "place": "Denver, Colorado, USA"},
+    {"name": "Boston",        "place": "Boston, Massachusetts, USA"},
+    {"name": "Atlanta",       "place": "Atlanta, Georgia, USA"},
+    {"name": "Miami",         "place": "Miami, Florida, USA"},
+    {"name": "Portland",      "place": "Portland, Oregon, USA"},
+    {"name": "Las Vegas",     "place": "Las Vegas, Nevada, USA"},
+    {"name": "Detroit",       "place": "Detroit, Michigan, USA"},
+    {"name": "Minneapolis",   "place": "Minneapolis, Minnesota, USA"},
+    {"name": "Washington DC", "place": "Washington, District of Columbia, USA"},
+    {"name": "Toronto",       "place": "Toronto, Ontario, Canada"},
+    {"name": "Vancouver",     "place": "Vancouver, British Columbia, Canada"},
+    {"name": "Montreal",      "place": "Montreal, Quebec, Canada"},
+    {"name": "Calgary",       "place": "Calgary, Alberta, Canada"},
+    {"name": "Ottawa",        "place": "Ottawa, Ontario, Canada"},
+    {"name": "Mexico City",   "place": "Mexico City, Mexico"},
+    {"name": "Guadalajara",   "place": "Guadalajara, Mexico"},
+    {"name": "Monterrey",     "place": "Monterrey, Mexico"},
+
+    # --- South America ---
+    {"name": "Rio de Janeiro", "place": "Rio de Janeiro, Brazil"},
+    {"name": "Brasilia",       "place": "Brasilia, Brazil"},
+    {"name": "Buenos Aires",   "place": "Buenos Aires, Argentina"},
+    {"name": "Montevideo",     "place": "Montevideo, Uruguay"},
+    {"name": "Asuncion",       "place": "Asuncion, Paraguay"},
+    {"name": "Quito",          "place": "Quito, Ecuador"},
+    {"name": "Guayaquil",      "place": "Guayaquil, Ecuador"},
+    {"name": "Caracas",        "place": "Caracas, Venezuela"},
+    {"name": "La Paz",         "place": "La Paz, Bolivia"},
+    {"name": "Medellin",       "place": "Medellin, Colombia"},
+    {"name": "Cali",           "place": "Cali, Colombia"},
+
+    # --- Africa ---
+    {"name": "Nairobi",       "place": "Nairobi, Kenya"},
+    {"name": "Addis Ababa",   "place": "Addis Ababa, Ethiopia"},
+    {"name": "Kampala",       "place": "Kampala, Uganda"},
+    {"name": "Dar es Salaam", "place": "Dar es Salaam, Tanzania"},
+    {"name": "Kigali",        "place": "Kigali, Rwanda"},
+    {"name": "Accra",         "place": "Accra, Ghana"},
+    {"name": "Abidjan",       "place": "Abidjan, Ivory Coast"},
+    {"name": "Dakar",         "place": "Dakar, Senegal"},
+    {"name": "Casablanca",    "place": "Casablanca, Morocco"},
+    {"name": "Tunis",         "place": "Tunis, Tunisia"},
+    {"name": "Algiers",       "place": "Algiers, Algeria"},
+    {"name": "Johannesburg",  "place": "Johannesburg, South Africa"},
+    {"name": "Kinshasa",      "place": "Kinshasa, Democratic Republic of the Congo"},
+    {"name": "Luanda",        "place": "Luanda, Angola"},
+    {"name": "Maputo",        "place": "Maputo, Mozambique"},
+    {"name": "Harare",        "place": "Harare, Zimbabwe"},
+    {"name": "Lusaka",        "place": "Lusaka, Zambia"},
+    {"name": "Khartoum",      "place": "Khartoum, Sudan"},
+
+    # --- Oceania ---
+    {"name": "Wellington", "place": "Wellington, New Zealand"},
+    {"name": "Adelaide",   "place": "Adelaide, Australia"},
+    {"name": "Canberra",   "place": "Canberra, Australia"},
+]
+
+
+def safe_name(city: str) -> str:
+    return city.strip().lower().replace(" ", "_")
+
+
+def fetch_graph(config):
+    if "bbox" in config:
+        return ox.graph_from_bbox(bbox=config["bbox"], custom_filter=ROAD_FILTER)
+    return ox.graph_from_place(config["place"], custom_filter=ROAD_FILTER)
+
+
+def scrape_city(config: dict) -> None:
+    city = config["name"]
+    name = safe_name(city)
+    city_dir = os.path.join(OUTPUT_DIR, name)
+    os.makedirs(city_dir, exist_ok=True)
+
+    print(f"[{city}] fetching main road network...")
+    try:
+        graph = fetch_graph(config)
+        ox.save_graphml(graph, os.path.join(city_dir, f"{name}_roads.graphml"))
+    except Exception as e:
+        print(f"  road network failed: {e}")
+        return
+
+    fig, ax = ox.plot_graph(
+        graph, show=False, close=False, node_size=0,
+        edge_color="white", edge_linewidth=0.8, bgcolor="black",
+    )
+    fig.savefig(os.path.join(city_dir, f"{name}_roads.png"), dpi=200, facecolor="black")
+    plt.close(fig)
+    print(f"[{city}] saved -> {city_dir}")
+
+
+if __name__ == "__main__":
+    for cfg in CITY_CONFIGS:
+        scrape_city(cfg)
+        time.sleep(1)  # be polite to Overpass/Nominatim, avoid rate limiting
+    print("Done.")
