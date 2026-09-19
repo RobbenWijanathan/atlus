@@ -1,0 +1,670 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d17" for="edge" attr.name="junction" attr.type="string" />
+  <key id="d16" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="d15" for="edge" attr.name="length" attr.type="string" />
+  <key id="d14" for="edge" attr.name="reversed" attr.type="string" />
+  <key id="d13" for="edge" attr.name="ref" attr.type="string" />
+  <key id="d12" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="d11" for="edge" attr.name="name" attr.type="string" />
+  <key id="d10" for="edge" attr.name="maxspeed" attr.type="string" />
+  <key id="d9" for="edge" attr.name="lanes" attr.type="string" />
+  <key id="d8" for="edge" attr.name="highway" attr.type="string" />
+  <key id="d7" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="d6" for="node" attr.name="street_count" attr.type="string" />
+  <key id="d5" for="node" attr.name="x" attr.type="string" />
+  <key id="d4" for="node" attr.name="y" attr.type="string" />
+  <key id="d3" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="d2" for="graph" attr.name="crs" attr.type="string" />
+  <key id="d1" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="d0" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="215474115">
+      <data key="d4">23.6219269</data>
+      <data key="d5">58.576193</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="215474325">
+      <data key="d4">23.6159479</data>
+      <data key="d5">58.5889661</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="215474337">
+      <data key="d4">23.6155663</data>
+      <data key="d5">58.5894657</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="215474431">
+      <data key="d4">23.613802</data>
+      <data key="d5">58.5906952</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="215474462">
+      <data key="d4">23.6146763</data>
+      <data key="d5">58.5910239</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="215474496">
+      <data key="d4">23.6156908</data>
+      <data key="d5">58.5898841</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="215474523">
+      <data key="d4">23.61611</data>
+      <data key="d5">58.5893257</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="215474551">
+      <data key="d4">23.6165875</data>
+      <data key="d5">58.5881416</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="215474555">
+      <data key="d4">23.6168178</data>
+      <data key="d5">58.5875987</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="412117945">
+      <data key="d4">23.6225195</data>
+      <data key="d5">58.5769112</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="412117987">
+      <data key="d4">23.6217511</data>
+      <data key="d5">58.5768856</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="412118055">
+      <data key="d4">23.616837</data>
+      <data key="d5">58.5870807</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="412383152">
+      <data key="d4">23.61628</data>
+      <data key="d5">58.587952</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="412384529">
+      <data key="d4">23.6137793</data>
+      <data key="d5">58.5912746</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="806307413">
+      <data key="d4">23.612439</data>
+      <data key="d5">58.5934323</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="806396695">
+      <data key="d4">23.6169271</data>
+      <data key="d5">58.5872975</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1796727437">
+      <data key="d4">23.6140518</data>
+      <data key="d5">58.5909572</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1885315130">
+      <data key="d4">23.6121495</data>
+      <data key="d5">58.593825</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1885315134">
+      <data key="d4">23.612307</data>
+      <data key="d5">58.5940409</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1885315135">
+      <data key="d4">23.6122691</data>
+      <data key="d5">58.5936224</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1885315139">
+      <data key="d4">23.6124998</data>
+      <data key="d5">58.5936714</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1885315261">
+      <data key="d4">23.6168715</data>
+      <data key="d5">58.5871238</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1885315486">
+      <data key="d4">23.6219951</data>
+      <data key="d5">58.5765344</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1885315494">
+      <data key="d4">23.6221515</data>
+      <data key="d5">58.5767138</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1885315502">
+      <data key="d4">23.6222166</data>
+      <data key="d5">58.5764629</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1885315504">
+      <data key="d4">23.6222366</data>
+      <data key="d5">58.576489</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1913647137">
+      <data key="d4">23.614169</data>
+      <data key="d5">58.5912002</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="2102280692">
+      <data key="d4">23.6120306</data>
+      <data key="d5">58.5940266</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="2102282324">
+      <data key="d4">23.6218443</data>
+      <data key="d5">58.5767401</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="2102282328">
+      <data key="d4">23.62204</data>
+      <data key="d5">58.5761084</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="2102282341">
+      <data key="d4">23.6225884</data>
+      <data key="d5">58.576819</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="6029786856">
+      <data key="d4">23.6171628</data>
+      <data key="d5">58.5871479</data>
+      <data key="d6">3</data>
+    </node>
+    <edge source="215474115" target="1885315486" id="0">
+      <data key="d7">20309256</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d10">80</data>
+      <data key="d11">الطريق البحري</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">35.779032177188</data>
+      <data key="d16">LINESTRING (58.576193 23.6219269, 58.5763661 23.621978, 58.5765344 23.6219951)</data>
+    </edge>
+    <edge source="215474115" target="2102282324" id="0">
+      <data key="d7">690332222</data>
+      <data key="d8">primary_link</data>
+      <data key="d9">1</data>
+      <data key="d12">True</data>
+      <data key="d14">False</data>
+      <data key="d15">58.37184213284942</data>
+      <data key="d16">LINESTRING (58.576193 23.6219269, 58.5763691 23.6219482, 58.5764757 23.6219408, 58.5765622 23.6219298, 58.57665 23.6218923, 58.5767401 23.6218443)</data>
+    </edge>
+    <edge source="215474325" target="215474523" id="0">
+      <data key="d7">200258506</data>
+      <data key="d8">primary_link</data>
+      <data key="d9">2</data>
+      <data key="d12">True</data>
+      <data key="d14">False</data>
+      <data key="d15">45.82000829356404</data>
+      <data key="d16">LINESTRING (58.5889661 23.6159479, 58.5891274 23.6159388, 58.5891887 23.615955, 58.5892394 23.615984, 58.5892864 23.6160298, 58.5893257 23.61611)</data>
+    </edge>
+    <edge source="215474325" target="215474337" id="0">
+      <data key="d7">327384037</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d11">شارع سلطان بن أحمد</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">71.9210969962553</data>
+      <data key="d16">LINESTRING (58.5889661 23.6159479, 58.5891625 23.6158883, 58.5892494 23.6158608, 58.589326 23.6158176, 58.5893841 23.6157636, 58.5894231 23.6157092, 58.5894548 23.6156434, 58.5894657 23.6155663)</data>
+    </edge>
+    <edge source="215474337" target="215474431" id="0">
+      <data key="d7">1387947333</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d11">شارع تيمور</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">299.580315744208</data>
+      <data key="d16">LINESTRING (58.5894657 23.6155663, 58.5894374 23.615454, 58.5893819 23.6152755, 58.5893603 23.6152058, 58.5893382 23.6151348, 58.5893281 23.6150325, 58.5893336 23.6149817, 58.5893809 23.6149061, 58.58944 23.6148538, 58.5894901 23.6148311, 58.5896505 23.6147881, 58.5899089 23.6147249, 58.590099 23.6146703, 58.59014 23.6146335, 58.5901736 23.6145825, 58.5901837 23.6145395, 58.5901408 23.6141662, 58.5901368 23.6140663, 58.5901464 23.6139888, 58.5901985 23.6138931, 58.5902637 23.6138396, 58.5903484 23.6138087, 58.5905931 23.6137928, 58.5906952 23.613802)</data>
+    </edge>
+    <edge source="215474431" target="412384529" id="0">
+      <data key="d7">20450563</data>
+      <data key="d8">primary</data>
+      <data key="d9">1</data>
+      <data key="d11">شارع تيمور</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">75.55633997111929</data>
+      <data key="d16">LINESTRING (58.5906952 23.613802, 58.5907531 23.6138008, 58.5907879 23.6138076, 58.5908228 23.6138211, 58.5908835 23.6138682, 58.590957 23.6139243, 58.5910095 23.613958, 58.5910759 23.6139688, 58.5911445 23.6139519, 58.5911875 23.613922, 58.5912276 23.6138546, 58.5912746 23.6137793)</data>
+    </edge>
+    <edge source="215474431" target="1796727437" id="0">
+      <data key="d7">1387947333</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d11">شارع تيمور</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">39.355061698311864</data>
+      <data key="d16">LINESTRING (58.5906952 23.613802, 58.5907634 23.6138356, 58.5908107 23.6138678, 58.590856 23.6139082, 58.5909019 23.6139673, 58.5909572 23.6140518)</data>
+    </edge>
+    <edge source="215474462" target="215474496" id="0">
+      <data key="d7">200246582</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d11">شارع السعيدية</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">166.50758245165187</data>
+      <data key="d16">LINESTRING (58.5910239 23.6146763, 58.5909063 23.6149231, 58.5908913 23.6149436, 58.5907927 23.6150814, 58.5907419 23.6151391, 58.5907122 23.6151706, 58.5906257 23.6152483, 58.5905669 23.6152882, 58.5903546 23.6154325, 58.5903058 23.6154601, 58.5899986 23.6156337, 58.5898841 23.6156908)</data>
+    </edge>
+    <edge source="215474496" target="215474337" id="0">
+      <data key="d7">55537187</data>
+      <data key="d8">primary</data>
+      <data key="d9">1</data>
+      <data key="d11">شارع تيمور</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">52.24530374376279</data>
+      <data key="d16">LINESTRING (58.5898841 23.6156908, 58.5896803 23.615736, 58.5896132 23.6157266, 58.589561 23.6157011, 58.5895169 23.6156524, 58.5894657 23.6155663)</data>
+    </edge>
+    <edge source="215474496" target="215474523" id="0">
+      <data key="d7">200246582</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d11">شارع السعيدية</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">77.89505234343326</data>
+      <data key="d16">LINESTRING (58.5898841 23.6156908, 58.58974 23.6157576, 58.5895837 23.6158057, 58.5895541 23.615817, 58.5894858 23.6158557, 58.5894295 23.6159026, 58.5893911 23.6159606, 58.5893257 23.61611)</data>
+    </edge>
+    <edge source="215474523" target="215474551" id="0">
+      <data key="d7">[327384040, 200258508, 48430272]</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d11">['شارع السعيدية', 'شارع باب المثاعيب']</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">161.9148385176971</data>
+      <data key="d16">LINESTRING (58.5893257 23.61611, 58.5892833 23.6163301, 58.5892754 23.616371, 58.5892583 23.6164595, 58.5892001 23.6165456, 58.5891342 23.6165942, 58.589062 23.6166246, 58.5889431 23.6166387, 58.5889086 23.6166333, 58.5887161 23.6166031, 58.5886817 23.6165998, 58.5885119 23.616588, 58.5883381 23.6165707, 58.5882825 23.6165764, 58.5882171 23.616583, 58.5881416 23.6165875)</data>
+    </edge>
+    <edge source="215474551" target="412383152" id="0">
+      <data key="d7">168402545</data>
+      <data key="d8">primary_link</data>
+      <data key="d9">1</data>
+      <data key="d12">True</data>
+      <data key="d14">False</data>
+      <data key="d15">49.62426860249853</data>
+      <data key="d16">LINESTRING (58.5881416 23.6165875, 58.5880241 23.6165583, 58.5879731 23.616532, 58.5879345 23.6164897, 58.5879079 23.6164335, 58.5879048 23.6163648, 58.5879159 23.6163321, 58.587952 23.61628)</data>
+    </edge>
+    <edge source="215474551" target="215474555" id="0">
+      <data key="d7">640026170</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d10">80</data>
+      <data key="d11">الطريق البحري</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">61.733738765040734</data>
+      <data key="d16">LINESTRING (58.5881416 23.6165875, 58.5880644 23.616599, 58.5879736 23.6166221, 58.5878249 23.6166812, 58.5877027 23.6167461, 58.5875987 23.6168178)</data>
+    </edge>
+    <edge source="215474555" target="806396695" id="0">
+      <data key="d7">66659257</data>
+      <data key="d8">primary_link</data>
+      <data key="d9">1</data>
+      <data key="d12">True</data>
+      <data key="d14">False</data>
+      <data key="d15">33.683878534666235</data>
+      <data key="d16">LINESTRING (58.5875987 23.6168178, 58.5873934 23.6169217, 58.5872975 23.6169271)</data>
+    </edge>
+    <edge source="215474555" target="2102282341" id="0">
+      <data key="d7">[640026162, 200258502, 1185253134, 1185253135]</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d10">80</data>
+      <data key="d11">الطريق البحري</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">1581.016744254924</data>
+      <data key="d16">LINESTRING (58.5875987 23.6168178, 58.5874705 23.6169391, 58.5873711 23.6170521, 58.5872433 23.6172561, 58.5869978 23.6176373, 58.5869188 23.61776, 58.5866539 23.6181776, 58.5863207 23.6186502, 58.5862008 23.6188218, 58.5861005 23.6189669, 58.5860171 23.6190775, 58.5858739 23.6192367, 58.5858394 23.6192714, 58.5857372 23.6193744, 58.5855624 23.6195311, 58.5853516 23.6196954, 58.5851061 23.6198608, 58.5844274 23.6202679, 58.5843514 23.6203207, 58.5841908 23.6204322, 58.5837762 23.620725, 58.5833981 23.6210281, 58.5831642 23.6212392, 58.5829786 23.6214119, 58.5828008 23.6215924, 58.5825199 23.6219002, 58.581649 23.622947, 58.5811282 23.6235619, 58.5809188 23.6237935, 58.5807682 23.6239393, 58.580638 23.6240494, 58.5804959 23.6241521, 58.5803679 23.6242308, 58.580244 23.6242967, 58.5801396 23.6243463, 58.5800362 23.6243848, 58.5799154 23.6244265, 58.5797673 23.6244686, 58.5795706 23.6245008, 58.5794013 23.624509, 58.5792291 23.6245113, 58.5790878 23.6245032, 58.5788935 23.6244749, 58.5786798 23.6244212, 58.5785459 23.6243739, 58.5784203 23.6243192, 58.5782529 23.6242363, 58.5780665 23.6241149, 58.5778946 23.6239885, 58.5777056 23.6237984, 58.5775503 23.6236208, 58.5769265 23.6227549, 58.576819 23.6225884)</data>
+    </edge>
+    <edge source="412117945" target="6029786856" id="0">
+      <data key="d7">[1185253136, 1185253137, 178157861]</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d10">80</data>
+      <data key="d11">الطريق البحري</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">1506.8839717476765</data>
+      <data key="d16">LINESTRING (58.5769112 23.6225195, 58.5770576 23.6227259, 58.5776281 23.6235699, 58.5777631 23.6237281, 58.577937 23.6239078, 58.5781207 23.6240565, 58.5782887 23.6241602, 58.5784463 23.6242442, 58.5785595 23.6242914, 58.5787165 23.6243432, 58.5789115 23.6243943, 58.5790982 23.6244238, 58.579222 23.6244309, 58.5793913 23.6244331, 58.5795676 23.6244205, 58.5797427 23.6243927, 58.5798951 23.6243493, 58.5800095 23.6243143, 58.5801039 23.6242753, 58.5802051 23.6242322, 58.5803322 23.6241634, 58.5804522 23.62409, 58.5805812 23.6239971, 58.5807114 23.6238819, 58.5808578 23.62373, 58.5810618 23.6234969, 58.5815687 23.6228985, 58.5817285 23.6226987, 58.5824306 23.621829, 58.582702 23.6215299, 58.5828875 23.6213421, 58.5830845 23.6211565, 58.583321 23.6209471, 58.5836795 23.6206583, 58.5841144 23.6203462, 58.584363 23.6201887, 58.5850249 23.6197935, 58.5853091 23.6195937, 58.5855051 23.6194326, 58.5856893 23.6192639, 58.5857542 23.6191926, 58.5859097 23.619022, 58.5860758 23.6188041, 58.5862256 23.618578, 58.5868146 23.6177026, 58.5868966 23.6175817, 58.5871479 23.6171628)</data>
+    </edge>
+    <edge source="412117987" target="412117945" id="0">
+      <data key="d7">200235710</data>
+      <data key="d8">primary_link</data>
+      <data key="d9">1</data>
+      <data key="d12">True</data>
+      <data key="d14">False</data>
+      <data key="d15">86.04056188396743</data>
+      <data key="d16">LINESTRING (58.5768856 23.6217511, 58.5768562 23.6220957, 58.5768566 23.6222326, 58.5769112 23.6225195)</data>
+    </edge>
+    <edge source="412383152" target="215474325" id="0">
+      <data key="d7">200258511</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d11">شارع سلطان بن أحمد</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">110.78011938550802</data>
+      <data key="d16">LINESTRING (58.587952 23.61628, 58.5880731 23.6162037, 58.5882343 23.616128, 58.5883828 23.6160731, 58.5889661 23.6159479)</data>
+    </edge>
+    <edge source="412384529" target="1913647137" id="0">
+      <data key="d7">20454766</data>
+      <data key="d8">primary</data>
+      <data key="d9">1</data>
+      <data key="d11">شارع السعيدية</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">44.01118907359056</data>
+      <data key="d16">LINESTRING (58.5912746 23.6137793, 58.5912548 23.6139164, 58.5912002 23.614169)</data>
+    </edge>
+    <edge source="412384529" target="806307413" id="0">
+      <data key="d7">35158639</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d11">شارع السعيدية</data>
+      <data key="d13">D321</data>
+      <data key="d12">False</data>
+      <data key="d14">False</data>
+      <data key="d15">295.2148238478454</data>
+      <data key="d16">LINESTRING (58.5912746 23.6137793, 58.5913752 23.6133591, 58.5914021 23.6132743, 58.5914424 23.6131758, 58.5914973 23.6130864, 58.5915634 23.6130088, 58.5916372 23.6129382, 58.5917247 23.612872, 58.5918323 23.6128159, 58.591946 23.6127721, 58.5920862 23.6127379, 58.5928853 23.6125603, 58.5934323 23.612439)</data>
+    </edge>
+    <edge source="806307413" target="412384529" id="0">
+      <data key="d7">35158639</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d11">شارع السعيدية</data>
+      <data key="d13">D321</data>
+      <data key="d12">False</data>
+      <data key="d14">True</data>
+      <data key="d15">295.21482384784537</data>
+      <data key="d16">LINESTRING (58.5934323 23.612439, 58.5928853 23.6125603, 58.5920862 23.6127379, 58.591946 23.6127721, 58.5918323 23.6128159, 58.5917247 23.612872, 58.5916372 23.6129382, 58.5915634 23.6130088, 58.5914973 23.6130864, 58.5914424 23.6131758, 58.5914021 23.6132743, 58.5913752 23.6133591, 58.5912746 23.6137793)</data>
+    </edge>
+    <edge source="806307413" target="1885315135" id="0">
+      <data key="d7">79006004</data>
+      <data key="d8">primary</data>
+      <data key="d9">1</data>
+      <data key="d11">شارع السعيدية</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">27.155917123038254</data>
+      <data key="d16">LINESTRING (58.5934323 23.612439, 58.5935304 23.6123659, 58.5936224 23.6122691)</data>
+    </edge>
+    <edge source="806396695" target="1885315261" id="0">
+      <data key="d7">66659257</data>
+      <data key="d8">primary_link</data>
+      <data key="d9">1</data>
+      <data key="d12">True</data>
+      <data key="d14">False</data>
+      <data key="d15">18.99919532254291</data>
+      <data key="d16">LINESTRING (58.5872975 23.6169271, 58.5872103 23.6169139, 58.5871238 23.6168715)</data>
+    </edge>
+    <edge source="806396695" target="412383152" id="0">
+      <data key="d7">640026172</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d10">80</data>
+      <data key="d11">الطريق البحري</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">99.1102883582824</data>
+      <data key="d16">LINESTRING (58.5872975 23.6169271, 58.5873729 23.6168166, 58.5874668 23.6166833, 58.5876002 23.6165431, 58.5877549 23.6164178, 58.587952 23.61628)</data>
+    </edge>
+    <edge source="1796727437" target="1913647137" id="0">
+      <data key="d7">48430251</data>
+      <data key="d8">primary_link</data>
+      <data key="d9">2</data>
+      <data key="d12">True</data>
+      <data key="d14">False</data>
+      <data key="d15">27.978290029243748</data>
+    </edge>
+    <edge source="1796727437" target="215474462" id="0">
+      <data key="d7">27167783</data>
+      <data key="d8">primary</data>
+      <data key="d9">1</data>
+      <data key="d11">شارع تيمور</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">71.14298311155346</data>
+      <data key="d16">LINESTRING (58.5909572 23.6140518, 58.5910267 23.6142168, 58.5910437 23.6143073, 58.5910553 23.6144204, 58.5910239 23.6146763)</data>
+    </edge>
+    <edge source="1885315130" target="2102280692" id="0">
+      <data key="d7">66647550</data>
+      <data key="d8">primary</data>
+      <data key="d9">1</data>
+      <data key="d11">شارع السعيدية</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">24.54856115094624</data>
+      <data key="d16">LINESTRING (58.593825 23.6121495, 58.5939317 23.6120996, 58.5940266 23.6120306)</data>
+    </edge>
+    <edge source="1885315130" target="1885315134" id="0">
+      <data key="d7">66647555</data>
+      <data key="d8">primary</data>
+      <data key="d17">roundabout</data>
+      <data key="d9">2</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">30.312570509921642</data>
+      <data key="d16">LINESTRING (58.593825 23.6121495, 58.5938621 23.6121524, 58.5938981 23.6121609, 58.593932 23.6121748, 58.5939629 23.6121937, 58.59399 23.6122171, 58.5940124 23.6122443, 58.5940295 23.6122745, 58.5940409 23.612307)</data>
+    </edge>
+    <edge source="1885315134" target="1885315139" id="0">
+      <data key="d7">66647555</data>
+      <data key="d8">primary</data>
+      <data key="d17">roundabout</data>
+      <data key="d9">2</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">57.79477554828297</data>
+      <data key="d16">LINESTRING (58.5940409 23.612307, 58.5940464 23.6123442, 58.5940444 23.6123817, 58.5940348 23.6124182, 58.5940181 23.6124524, 58.5939948 23.6124833, 58.5939658 23.6125098, 58.5939228 23.6125352, 58.5938746 23.6125509, 58.5938238 23.6125561, 58.593773 23.6125505, 58.5937361 23.6125392, 58.5937018 23.6125221, 58.5936714 23.6124998)</data>
+    </edge>
+    <edge source="1885315135" target="1885315130" id="0">
+      <data key="d7">66647555</data>
+      <data key="d8">primary</data>
+      <data key="d17">roundabout</data>
+      <data key="d9">2</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">25.91596543904022</data>
+      <data key="d16">LINESTRING (58.5936224 23.6122691, 58.5936435 23.6122354, 58.5936712 23.612206, 58.5937045 23.6121819, 58.5937421 23.6121641, 58.5937828 23.6121531, 58.593825 23.6121495)</data>
+    </edge>
+    <edge source="1885315139" target="806307413" id="0">
+      <data key="d7">66647535</data>
+      <data key="d8">primary</data>
+      <data key="d9">1</data>
+      <data key="d11">شارع السعيدية</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">25.367863771392372</data>
+      <data key="d16">LINESTRING (58.5936714 23.6124998, 58.5935603 23.6124618, 58.5934323 23.612439)</data>
+    </edge>
+    <edge source="1885315139" target="1885315135" id="0">
+      <data key="d7">66647555</data>
+      <data key="d8">primary</data>
+      <data key="d17">roundabout</data>
+      <data key="d9">2</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">27.811372589491327</data>
+      <data key="d16">LINESTRING (58.5936714 23.6124998, 58.5936419 23.6124681, 58.5936201 23.6124315, 58.5936069 23.6123916, 58.5936028 23.6123501, 58.5936081 23.6123087, 58.5936224 23.6122691)</data>
+    </edge>
+    <edge source="1885315261" target="412118055" id="0">
+      <data key="d7">757349635</data>
+      <data key="d8">primary_link</data>
+      <data key="d9">1</data>
+      <data key="d12">True</data>
+      <data key="d14">False</data>
+      <data key="d15">5.830825099503726</data>
+    </edge>
+    <edge source="1885315486" target="1885315494" id="0">
+      <data key="d7">35158244</data>
+      <data key="d8">primary</data>
+      <data key="d17">roundabout</data>
+      <data key="d9">2</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">29.700067861174034</data>
+      <data key="d16">LINESTRING (58.5765344 23.6219951, 58.5765707 23.6219914, 58.5766065 23.621996, 58.5766399 23.6220086, 58.576669 23.6220283, 58.5766918 23.622054, 58.576707 23.622084, 58.5767138 23.6221174, 58.5767138 23.6221515)</data>
+    </edge>
+    <edge source="1885315494" target="1885315504" id="0">
+      <data key="d7">35158244</data>
+      <data key="d8">primary</data>
+      <data key="d17">roundabout</data>
+      <data key="d9">2</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">28.886498732037673</data>
+      <data key="d16">LINESTRING (58.5767138 23.6221515, 58.5767005 23.6221809, 58.5766817 23.6222085, 58.5766562 23.6222312, 58.5766254 23.6222475, 58.5765913 23.6222565, 58.5765557 23.6222576, 58.576521 23.6222509, 58.576489 23.6222366)</data>
+    </edge>
+    <edge source="1885315494" target="412117945" id="0">
+      <data key="d7">178157861</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d10">80</data>
+      <data key="d11">الطريق البحري</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">45.60432214207033</data>
+      <data key="d16">LINESTRING (58.5767138 23.6221515, 58.5767488 23.6222173, 58.5768131 23.6223455, 58.5769112 23.6225195)</data>
+    </edge>
+    <edge source="1885315502" target="1885315486" id="0">
+      <data key="d7">35158244</data>
+      <data key="d8">primary</data>
+      <data key="d17">roundabout</data>
+      <data key="d9">2</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">30.94166651447298</data>
+      <data key="d16">LINESTRING (58.5764629 23.6222166, 58.576438 23.622184, 58.5764248 23.6221462, 58.5764243 23.6221064, 58.5764366 23.6220683, 58.5764606 23.6220352, 58.5764942 23.62201, 58.5765344 23.6219951)</data>
+    </edge>
+    <edge source="1885315502" target="2102282328" id="0">
+      <data key="d7">1082373564</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d10">80</data>
+      <data key="d11">الطريق البحري</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">41.16286321746733</data>
+      <data key="d16">LINESTRING (58.5764629 23.6222166, 58.5763012 23.6221253, 58.5761084 23.62204)</data>
+    </edge>
+    <edge source="1885315504" target="1885315502" id="0">
+      <data key="d7">35158244</data>
+      <data key="d8">primary</data>
+      <data key="d17">roundabout</data>
+      <data key="d9">2</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">3.466420266320987</data>
+    </edge>
+    <edge source="1913647137" target="215474462" id="0">
+      <data key="d7">20454766</data>
+      <data key="d8">primary</data>
+      <data key="d9">1</data>
+      <data key="d11">شارع السعيدية</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">59.25546279039681</data>
+      <data key="d16">LINESTRING (58.5912002 23.614169, 58.5911464 23.6143605, 58.5910239 23.6146763)</data>
+    </edge>
+    <edge source="2102280692" target="1885315134" id="0">
+      <data key="d7">178157863</data>
+      <data key="d8">primary</data>
+      <data key="d9">1</data>
+      <data key="d11">شارع السعيدية</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">30.907251304197164</data>
+      <data key="d16">LINESTRING (58.5940266 23.6120306, 58.594019 23.6121606, 58.5940409 23.612307)</data>
+    </edge>
+    <edge source="2102282341" target="1885315504" id="0">
+      <data key="d7">200258502</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d10">80</data>
+      <data key="d11">الطريق البحري</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">51.76716884040046</data>
+      <data key="d16">LINESTRING (58.576819 23.6225884, 58.576676 23.6224057, 58.5765657 23.6223049, 58.576489 23.6222366)</data>
+    </edge>
+    <edge source="2102282341" target="2102282328" id="0">
+      <data key="d7">694730922</data>
+      <data key="d8">primary</data>
+      <data key="d9">1</data>
+      <data key="d10">80</data>
+      <data key="d11">الطريق البحري</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">94.7304936198012</data>
+      <data key="d16">LINESTRING (58.576819 23.6225884, 58.5766672 23.6224553, 58.5765722 23.6223819, 58.5763603 23.6222172, 58.5761084 23.62204)</data>
+    </edge>
+    <edge source="6029786856" target="806396695" id="0">
+      <data key="d7">640026172</data>
+      <data key="d8">primary</data>
+      <data key="d9">2</data>
+      <data key="d10">80</data>
+      <data key="d11">الطريق البحري</data>
+      <data key="d12">True</data>
+      <data key="d13">D321</data>
+      <data key="d14">False</data>
+      <data key="d15">30.31829054469515</data>
+    </edge>
+    <edge source="6029786856" target="1885315261" id="0">
+      <data key="d7">640026173</data>
+      <data key="d8">primary_link</data>
+      <data key="d9">1</data>
+      <data key="d12">True</data>
+      <data key="d14">False</data>
+      <data key="d15">33.68618053702531</data>
+      <data key="d16">LINESTRING (58.5871479 23.6171628, 58.5871743 23.6170074, 58.5871609 23.616933, 58.5871238 23.6168715)</data>
+    </edge>
+    <data key="d0">2026-09-18 14:32:50</data>
+    <data key="d1">OSMnx 2.1.1</data>
+    <data key="d2">epsg:4326</data>
+    <data key="d3">True</data>
+  </graph>
+</graphml>
