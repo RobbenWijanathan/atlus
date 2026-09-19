@@ -286,32 +286,151 @@ def fetch_graph(config):
         return ox.graph_from_bbox(bbox=config["bbox"], custom_filter=ROAD_FILTER)
     return ox.graph_from_place(config["place"], custom_filter=ROAD_FILTER)
 
-
-def scrape_city(config: dict) -> None:
+def scrape_city(config: dict) -> bool:
     city = config["name"]
     name = safe_name(city)
-    city_dir = os.path.join(OUTPUT_DIR, name)
-    os.makedirs(city_dir, exist_ok=True)
 
-    print(f"[{city}] fetching main road network...")
+    city_dir = OUTPUT_DIR / name
+    city_dir.mkdir(exist_ok=True)
+
+    graph_path = city_dir / f"{name}_roads.graphml"
+    image_path = city_dir / f"{name}_roads.png"
+    complete_path = city_dir / ".complete"
+
+    # Temporary files prevent partially-written final files from being accepted.
+    graph_tmp = city_dir / f"{name}_roads.tmp.graphml"
+    image_tmp = city_dir / f"{name}_roads.tmp.png"
+
+    # A city counts as complete only if:
+    # 1. the completion marker exists
+    # 2. the GraphML exists
+    # 3. the PNG exists
+    if complete_path.exists() and graph_path.exists() and image_path.exists():
+        print(f"[{city}] already complete -> skipping")
+        return False
+
+    # A marker without both outputs is stale/inconsistent.
+    if complete_path.exists():
+        print(f"[{city}] completion marker is stale -> repairing")
+        complete_path.unlink()
+
+    # Remove leftovers from an interrupted previous write.
+    if graph_tmp.exists():
+        graph_tmp.unlink()
+
+    if image_tmp.exists():
+        image_tmp.unlink()
+
+    graph = None
+    downloaded = False
+
+    # ------------------------------------------------------------
+    # STEP 1: Recover an already-finished GraphML if possible.
+    # ------------------------------------------------------------
+    if graph_path.exists():
+        print(f"[{city}] unfinished city; checking existing GraphML...")
+
+        try:
+            graph = ox.load_graphml(graph_path)
+            print(f"[{city}] existing GraphML is valid -> reusing it")
+
+        except Exception as e:
+            print(f"[{city}] existing GraphML is invalid: {e}")
+            print(f"[{city}] will download it again")
+
+            # Do not retain a known-bad graph.
+            graph_path.unlink(missing_ok=True)
+            graph = None
+
+    # ------------------------------------------------------------
+    # STEP 2: Download if there is no usable GraphML.
+    # ------------------------------------------------------------
+    if graph is None:
+        print(f"[{city}] fetching main road network...")
+
+        try:
+            graph = fetch_graph(config)
+
+            # First write to a temporary file.
+            ox.save_graphml(graph, graph_tmp)
+
+            # Only expose the final GraphML after the write succeeds.
+            os.replace(graph_tmp, graph_path)
+
+            downloaded = True
+            print(f"[{city}] GraphML saved")
+
+        except Exception as e:
+            graph_tmp.unlink(missing_ok=True)
+            print(f"[{city}] road network failed: {e}")
+            return downloaded
+
+    # ------------------------------------------------------------
+    # STEP 3: Render the PNG.
+    #
+    # Important:
+    # If .complete did not exist, we DO NOT trust an existing PNG.
+    # It may have been created only partially before interruption.
+    # ------------------------------------------------------------
+    print(f"[{city}] rendering PNG...")
+
+    fig = None
+
     try:
-        graph = fetch_graph(config)
-        ox.save_graphml(graph, os.path.join(city_dir, f"{name}_roads.graphml"))
-    except Exception as e:
-        print(f"  road network failed: {e}")
-        return
+        fig, ax = ox.plot_graph(
+            graph,
+            show=False,
+            close=False,
+            node_size=0,
+            edge_color="white",
+            edge_linewidth=0.8,
+            bgcolor="black",
+        )
 
-    fig, ax = ox.plot_graph(
-        graph, show=False, close=False, node_size=0,
-        edge_color="white", edge_linewidth=0.8, bgcolor="black",
-    )
-    fig.savefig(os.path.join(city_dir, f"{name}_roads.png"), dpi=200, facecolor="black")
-    plt.close(fig)
-    print(f"[{city}] saved -> {city_dir}")
+        # Render to temporary file first.
+        fig.savefig(
+            image_tmp,
+            dpi=200,
+            facecolor="black",
+            format="png",
+        )
+
+        plt.close(fig)
+        fig = None
+
+        # Replace/create final image only after savefig succeeds.
+        os.replace(image_tmp, image_path)
+
+        print(f"[{city}] PNG saved")
+
+    except Exception as e:
+        if fig is not None:
+            plt.close(fig)
+
+        image_tmp.unlink(missing_ok=True)
+
+        print(f"[{city}] rendering failed: {e}")
+        return downloaded
+
+    # ------------------------------------------------------------
+    # STEP 4: COMMIT.
+    #
+    # Nothing above this line considers the city complete.
+    # This is deliberately the final operation.
+    # ------------------------------------------------------------
+    complete_path.touch()
+
+    print(f"[{city}] COMPLETE -> {city_dir}")
+
+    return downloaded
 
 
 if __name__ == "__main__":
     for cfg in CITY_CONFIGS:
-        scrape_city(cfg)
-        time.sleep(1)  # be polite to Overpass/Nominatim, avoid rate limiting
+        downloaded = scrape_city(cfg)
+
+        # Only delay when we actually contacted OSM.
+        if downloaded:
+            time.sleep(1)
+
     print("Done.")
