@@ -81,8 +81,66 @@ heights from about 1.2 to 199 km.
 | 2026-09-28 | Bound and log Overpass retries; pause broad collection after repeated service failures | Two tested endpoints reset Beirut queries, so continuing through all 203 cities would not establish usable coverage | Active; collection still incomplete |
 | 2026-09-28 | Evaluate defined urban-area graphs as the main citywide input candidate | A 5-by-5 km center square cannot be assumed to represent a whole-city Traffic Index; a published global graph dataset provides explicit urban boundaries | Research direction; city-label matching and predictive value untested |
 | 2026-09-28 | Keep aligned residential density as an optional, auditable model input, but do not adopt it as a demonstrated accuracy improvement | On the same 185 cities and country-held-out folds, none of the tested density-aware models beat the existing road-only extent ridge (MAE 39.693); density-aware GNN scored 39.765 versus road-only GNN 39.205 | Tested once; geographic and temporal target mismatch remains |
+| 2026-09-28 | Audit GHSL urban-centre matches and the current square's city coverage before another model expansion | Boundary-sensitive urban measurements are documented, while the best boundary for this Numbeo label is untested; published urban-centre graphs offer a reproducible candidate | Planned; no new match count or performance result yet |
 
 ## Experiment log
+
+### 2026-09-28: External boundary research and next comparison design
+
+**Question:** Which geographic representation should be investigated after the
+5-by-5 km centre-window and residential-density experiments?
+
+**Inputs and eligible count:** the supplied literature synthesis, the current
+203 location-validated road/Traffic Index pairs (185 eligible for the existing
+fixed-window benchmark), and the cited primary sources below. No GHSL urban
+centre has yet been matched to an Atlus city; therefore the eligible count for
+a matched-boundary comparison is unknown.
+
+**Method and comparison:** checked the cited papers, GHSL product page,
+project code and Numbeo's target definition. Arcaute and colleagues show that
+urban measurements can depend on boundary rules, but do not predict Numbeo.
+Dingil and colleagues relate OSM infrastructure to TomTom extra travel time,
+which is a different target and is not a held-out comparison of boundaries.
+Chen and colleagues aggregate local road-pattern predictions to the city, but
+their outcome is urban vitality. Boeing's published workflow uses GHSL urban
+centre polygons to produce reusable public-drivable-street graphs and joined
+indicators. The [GHS-UCDB R2024A](https://human-settlement.emergency.copernicus.eu/ghs_ucdb_2024.php)
+provides 2025 urban-centre entities. Numbeo's [Traffic Index definition](https://www.numbeo.com/traffic/indices_explained.jsp)
+confirms a user-contributed commute-related composite rather than measured
+road-segment speeds. Sources: [Arcaute et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC4277074/),
+[Dingil et al.](https://link.springer.com/article/10.1186/s12544-018-0334-4),
+[Chen et al.](https://ual.sg/publication/2021-ceus-dl-morphology/), and
+[Boeing's current workflow](https://github.com/gboeing/street-network-models).
+
+**Result:** the literature supports an empirical boundary-sensitivity study,
+not a claim that a GHSL Urban Centre, functional area, or particular radius
+predicts this target better. No new Atlus model, match or score was run for
+this review.
+
+**Decision and ordered test:** first, record the Traffic Index snapshot date
+and exact label source if recoverable. Next, match each Atlus coordinate and
+country to a versioned GHSL urban-centre polygon, retaining the GHSL identifier
+and flagging ambiguous, nearest-only, multicore and unmatched cases for review.
+Then calculate, on a common population epoch and footprint, what fraction of
+the matched centre's residents lies in the existing square; add built-up and
+road coverage only from compatible source definitions. Audit centres and
+source coverage before model fitting. Compare a newly prepared centre square
+and full urban centre using the *same road data source, road classes, cities,
+and country-held-out folds*, reporting population-only, road-only and combined
+regularized regressions with both total and area/population-normalized road
+features. Preserve the earlier 5 km results as historical benchmarks; a score
+difference involving older road data would confound boundary and source.
+Use paired held-out city errors and uncertainty resampling by country. Treat
+boundary selection on these folds as exploratory; an untouched external set
+would be needed for an unbiased final performance claim. Test functional
+areas, adaptive extents and tiled aggregation after this first comparison.
+
+**Limitations:** the current population raster is for 2020, whereas the
+suggested urban-centre database describes 2025 entities, so epoch and product
+versions must be aligned or their mismatch recorded. Published drivable-road
+graphs differ from Atlus's historical major-road graphs. A geometric overlap
+cannot prove that roads were completely downloaded. The Numbeo label's own
+geographic support remains unspecified.
 
 ### 2026-09-28: GHSL population density integration
 
