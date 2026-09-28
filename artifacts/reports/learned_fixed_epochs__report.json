@@ -1,0 +1,37 @@
+{
+  "cities": 185,
+  "epochs": 25,
+  "batch_size": 16,
+  "input": "5 km city-center crops, 96x96 road-class images and intersection graphs",
+  "splits": {
+    "country": {
+      "cnn": {
+        "parameters": 42901,
+        "mae": 46.016,
+        "rmse": 59.389,
+        "r2": -0.354
+      },
+      "gnn": {
+        "parameters": 6625,
+        "mae": 40.504,
+        "rmse": 51.253,
+        "r2": -0.008
+      }
+    },
+    "city": {
+      "cnn": {
+        "parameters": 42901,
+        "mae": 47.656,
+        "rmse": 59.057,
+        "r2": -0.339
+      },
+      "gnn": {
+        "parameters": 6625,
+        "mae": 42.26,
+        "rmse": 52.354,
+        "r2": -0.052
+      }
+    }
+  },
+  "caveat": "One seed and a fixed epoch count; scores have substantial sampling and training uncertainty."
+}

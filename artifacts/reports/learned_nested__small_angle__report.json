@@ -1,0 +1,52 @@
+{
+  "cities": 185,
+  "selection": "inner validation MAE; up to 40 epochs; patience 7",
+  "outer_split": "country",
+  "models": {
+    "cnn": {
+      "parameters": 42901,
+      "selected_epochs": [
+        {
+          "fold": 1,
+          "epochs": 11,
+          "inner_validation_mae": 50.077,
+          "inner_validation_cities": 29
+        },
+        {
+          "fold": 2,
+          "epochs": 6,
+          "inner_validation_mae": 28.609,
+          "inner_validation_cities": 40
+        },
+        {
+          "fold": 3,
+          "epochs": 1,
+          "inner_validation_mae": 30.431,
+          "inner_validation_cities": 48
+        },
+        {
+          "fold": 4,
+          "epochs": 1,
+          "inner_validation_mae": 30.784,
+          "inner_validation_cities": 57
+        },
+        {
+          "fold": 5,
+          "epochs": 11,
+          "inner_validation_mae": 45.827,
+          "inner_validation_cities": 30
+        }
+      ],
+      "mae": 42.533,
+      "rmse": 53.576,
+      "r2": -0.102
+    },
+    "training_mean": {
+      "mae": 40.923,
+      "rmse": 51.653,
+      "r2": -0.024
+    }
+  },
+  "image_augmentation": "small_angle",
+  "caveat": "Single inner validation split and single seed per fold; performance remains uncertain."
+}

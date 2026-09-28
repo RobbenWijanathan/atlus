@@ -1,0 +1,204 @@
+city,country,old_status,old_window_nodes,old_window_edges,old_graph_to_reference_km,status,new_nodes,new_edges,reference_distance_km,collected_utc,review_reason
+"Aachen, Germany",Germany,accepted,202,359,3.2,collected,202,359,3.21,2026-09-28T05:59:23.244489+00:00,
+"Abu Dhabi, United Arab Emirates",United Arab Emirates,accepted,461,710,15.3,collected,467,724,15.327,2026-09-28T06:00:45.122214+00:00,reference_far_from_old_graph_midpoint
+"Adelaide, Australia",Australia,accepted,481,858,2.9,collected,482,860,2.936,2026-09-28T06:00:52.640532+00:00,
+"Ahmedabad, India",India,accepted,413,683,35.3,collected,413,683,35.25,2026-09-28T06:02:26.008993+00:00,reference_far_from_old_graph_midpoint
+"Albuquerque, NM, United States",United States,accepted,258,462,2.5,collected,256,458,2.487,2026-09-28T06:02:32.172152+00:00,
+"Alexandria, Egypt",Egypt,accepted,254,395,11.3,collected,254,395,11.278,2026-09-28T06:11:01.203327+00:00,reference_far_from_old_graph_midpoint
+"Almaty, Kazakhstan",Kazakhstan,accepted,131,251,0.8,collected,130,249,0.75,2026-09-28T06:11:22.470592+00:00,
+"Amman, Jordan",Jordan,accepted,397,562,40.1,collected,399,564,40.137,2026-09-28T06:11:28.026853+00:00,reference_far_from_old_graph_midpoint
+"Amsterdam, Netherlands",Netherlands,accepted,169,289,1.2,collected,167,286,1.241,2026-09-28T06:11:41.050140+00:00,
+"Anchorage, AK, United States",United States,too_few_center_roads,0,0,15.4,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Antwerp, Belgium",Belgium,accepted,74,107,5.0,collected,74,107,5.013,2026-09-28T06:12:24.851600+00:00,
+"Asheville, NC, United States",United States,accepted,93,147,3.7,collected,95,151,3.682,2026-09-28T06:13:34.958456+00:00,
+"Atlanta, GA, United States",United States,accepted,125,212,1.7,collected,125,212,1.73,2026-09-28T06:13:42.158815+00:00,
+"Auckland, New Zealand",New Zealand,accepted,409,782,4.1,missing,,,,,not_collected
+"Austin, TX, United States",United States,accepted,201,340,0.5,missing,,,,,not_collected
+"Baku, Azerbaijan",Azerbaijan,accepted,268,437,3.2,missing,,,,,not_collected
+"Baltimore, MD, United States",United States,accepted,506,1037,1.7,missing,,,,,not_collected
+"Bandung, Indonesia",Indonesia,accepted,412,694,3.2,missing,,,,,not_collected
+"Bangalore, India",India,accepted,441,704,3.2,missing,,,,,not_collected
+"Bangkok, Thailand",Thailand,accepted,547,1018,3.6,missing,,,,,not_collected
+"Banja Luka, Bosnia And Herzegovina",Bosnia And Herzegovina,accepted,209,357,2.0,missing,,,,,not_collected
+"Barcelona, Spain",Spain,accepted,207,334,3.2,missing,,,,,not_collected
+"Beijing, China",China,accepted,269,374,0.8,missing,,,,,not_collected
+"Beirut, Lebanon",Lebanon,bbox_does_not_surround_window,437,639,1.0,missing,,,,,not_collected
+"Belfast, United Kingdom",United Kingdom,accepted,377,677,0.5,missing,,,,,not_collected
+"Belgrade, Serbia",Serbia,accepted,310,538,2.3,missing,,,,,not_collected
+"Berlin, Germany",Germany,accepted,313,588,0.5,missing,,,,,not_collected
+"Bern, Switzerland",Switzerland,bbox_does_not_surround_window,235,447,2.0,missing,,,,,not_collected
+"Birmingham, United Kingdom",United Kingdom,accepted,455,742,1.4,missing,,,,,not_collected
+"Bogota, Colombia",Colombia,accepted,372,560,6.1,missing,,,,,not_collected
+"Bologna, Italy",Italy,accepted,219,360,1.1,missing,,,,,not_collected
+"Boston, MA, United States",United States,accepted,347,705,0.5,missing,,,,,not_collected
+"Brasilia, Brazil",Brazil,accepted,797,1216,8.6,missing,,,,,not_collected
+"Bratislava, Slovakia",Slovakia,accepted,219,320,1.6,missing,,,,,not_collected
+"Bremen, Germany",Germany,accepted,252,420,3.4,missing,,,,,not_collected
+"Brisbane, Australia",Australia,accepted,489,826,2.8,missing,,,,,not_collected
+"Bristol, United Kingdom",United Kingdom,accepted,458,775,1.7,missing,,,,,not_collected
+"Brno, Czech Republic",Czech Republic,accepted,180,292,2.8,missing,,,,,not_collected
+"Brooklyn, NY, United States",United States,accepted,138,269,0.3,missing,,,,,not_collected
+"Brussels, Belgium",Belgium,bbox_does_not_surround_window,119,172,3.7,missing,,,,,not_collected
+"Bucharest, Romania",Romania,accepted,359,635,2.8,missing,,,,,not_collected
+"Budapest, Hungary",Hungary,accepted,255,445,8.0,missing,,,,,not_collected
+"Buenos Aires, Argentina",Argentina,accepted,343,594,6.0,missing,,,,,not_collected
+"Cairo, Egypt",Egypt,accepted,475,699,6.5,missing,,,,,not_collected
+"Calgary, Canada",Canada,accepted,208,331,3.0,missing,,,,,not_collected
+"Cambridge, United Kingdom",United Kingdom,accepted,93,155,1.0,missing,,,,,not_collected
+"Cape Town, South Africa",South Africa,accepted,190,280,9.4,missing,,,,,not_collected
+"Caracas, Venezuela",Venezuela,accepted,214,280,5.9,missing,,,,,not_collected
+"Casablanca, Morocco",Morocco,accepted,347,551,4.2,missing,,,,,not_collected
+"Cebu, Philippines",Philippines,bbox_does_not_surround_window,146,257,6.1,missing,,,,,not_collected
+"Chennai, India",India,accepted,324,550,6.2,missing,,,,,not_collected
+"Chiang Mai, Thailand",Thailand,accepted,199,300,1.4,missing,,,,,not_collected
+"Chicago, IL, United States",United States,accepted,128,260,0.5,missing,,,,,not_collected
+"Christchurch, New Zealand",New Zealand,accepted,213,382,4.3,missing,,,,,not_collected
+"Cincinnati, OH, United States",United States,accepted,113,197,2.3,missing,,,,,not_collected
+"Cluj-Napoca, Romania",Romania,accepted,237,414,1.7,missing,,,,,not_collected
+"Cologne, Germany",Germany,accepted,566,894,1.5,missing,,,,,not_collected
+"Colombo, Sri Lanka",Sri Lanka,accepted,469,788,1.3,missing,,,,,not_collected
+"Columbus, OH, United States",United States,accepted,123,187,2.7,missing,,,,,not_collected
+"Cork, Ireland",Ireland,accepted,125,243,2.5,missing,,,,,not_collected
+"Cuenca, Ecuador",Ecuador,accepted,434,707,8.2,missing,,,,,not_collected
+"Dallas, TX, United States",United States,accepted,459,739,3.1,missing,,,,,not_collected
+"Davao, Philippines",Philippines,accepted,181,348,26.6,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Delhi, India",India,accepted,310,482,10.9,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Denver, CO, United States",United States,accepted,151,234,2.8,missing,,,,,not_collected
+"Detroit, MI, United States",United States,accepted,120,158,3.1,missing,,,,,not_collected
+"Dhaka, Bangladesh",Bangladesh,accepted,551,978,24.0,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Dnipro, Ukraine",Ukraine,accepted,185,326,0.2,missing,,,,,not_collected
+"Doha, Qatar",Qatar,accepted,833,1209,1.5,missing,,,,,not_collected
+"Dubai, United Arab Emirates",United Arab Emirates,accepted,795,1154,11.1,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Dublin, Ireland",Ireland,accepted,323,644,1.3,missing,,,,,not_collected
+"Edinburgh, United Kingdom",United Kingdom,accepted,92,164,4.5,missing,,,,,not_collected
+"Edmonton, Canada",Canada,accepted,239,446,2.4,missing,,,,,not_collected
+"Frankfurt, Germany",Germany,accepted,394,676,4.2,missing,,,,,not_collected
+"Geneva, Switzerland",Switzerland,bbox_does_not_surround_window,237,452,1.1,missing,,,,,not_collected
+"Gold Coast, Australia",Australia,accepted,195,276,5.2,missing,,,,,not_collected
+"Guadalajara, Mexico",Mexico,accepted,191,331,1.2,missing,,,,,not_collected
+"Guangzhou, China",China,accepted,612,984,9.5,missing,,,,,not_collected
+"Guatemala City, Guatemala",Guatemala,accepted,230,369,4.3,missing,,,,,not_collected
+"Gurgaon, India",India,accepted,213,319,13.7,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Haifa, Israel",Israel,bbox_does_not_surround_window,125,148,2.7,missing,,,,,not_collected
+"Halifax, Canada",Canada,bbox_does_not_surround_window,159,290,3.3,missing,,,,,not_collected
+"Hamburg, Germany",Germany,accepted,440,766,0.4,missing,,,,,not_collected
+"Hanoi, Vietnam",Vietnam,accepted,379,648,0.9,missing,,,,,not_collected
+"Helsinki, Finland",Finland,accepted,277,482,7.2,missing,,,,,not_collected
+"Ho Chi Minh City, Vietnam",Vietnam,accepted,781,1489,2.9,missing,,,,,not_collected
+"Hobart, Australia",Australia,accepted,144,249,5.3,missing,,,,,not_collected
+"Hong Kong, Hong Kong (China)",Hong Kong (China),accepted,525,805,14.4,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Honolulu, HI, United States",United States,accepted,217,366,4.8,missing,,,,,not_collected
+"Houston, TX, United States",United States,accepted,280,501,1.1,missing,,,,,not_collected
+"Hyderabad, India",India,accepted,215,384,6.8,missing,,,,,not_collected
+"Indianapolis, IN, United States",United States,accepted,328,676,0.6,missing,,,,,not_collected
+"Islamabad, Pakistan",Pakistan,accepted,295,423,4.5,missing,,,,,not_collected
+"Istanbul, Turkey",Turkey,accepted,418,653,2.1,missing,,,,,not_collected
+"Izmir, Turkey",Turkey,accepted,418,681,18.0,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Jacksonville, FL, United States",United States,accepted,256,417,5.1,missing,,,,,not_collected
+"Jaipur, India",India,accepted,164,246,12.6,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Jakarta, Indonesia",Indonesia,accepted,469,730,5.6,missing,,,,,not_collected
+"Kansas City, MO, United States",United States,accepted_with_sparse_warning,100,141,3.5,missing,,,,,not_collected
+"Karachi, Pakistan",Pakistan,accepted,306,564,5.8,missing,,,,,not_collected
+"Kathmandu, Nepal",Nepal,accepted,193,403,0.7,missing,,,,,not_collected
+"Kolkata, India",India,accepted,221,432,3.8,missing,,,,,not_collected
+"Kuala Lumpur, Malaysia",Malaysia,accepted,504,696,1.1,missing,,,,,not_collected
+"Lagos, Nigeria",Nigeria,accepted,213,321,11.5,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Lahore, Pakistan",Pakistan,accepted,361,582,11.8,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Las Vegas, NV, United States",United States,accepted,187,325,4.1,missing,,,,,not_collected
+"Leeds, United Kingdom",United Kingdom,accepted,408,610,3.8,missing,,,,,not_collected
+"Leipzig, Germany",Germany,accepted,305,574,1.4,missing,,,,,not_collected
+"Lima, Peru",Peru,accepted,454,695,4.1,missing,,,,,not_collected
+"Lisbon, Portugal",Portugal,bbox_does_not_surround_window,284,482,4.3,missing,,,,,not_collected
+"Liverpool, United Kingdom",United Kingdom,bbox_does_not_surround_window,291,514,5.0,missing,,,,,not_collected
+"Ljubljana, Slovenia",Slovenia,accepted,151,274,2.5,missing,,,,,not_collected
+"London, United Kingdom",United Kingdom,accepted,725,1401,2.1,missing,,,,,not_collected
+"Los Angeles, CA, United States",United States,too_few_center_roads,2,3,3.8,collected,3,3,3.821,2026-09-28T05:59:51.185713+00:00,fewer_than_20_major_road_nodes_or_edges
+"Luxembourg, Luxembourg",Luxembourg,accepted,239,457,0.6,missing,,,,,not_collected
+"Lyon, France",France,accepted,300,498,0.8,missing,,,,,not_collected
+"Madrid, Spain",Spain,accepted,395,637,4.5,missing,,,,,not_collected
+"Malaga, Spain",Spain,accepted,469,786,3.3,missing,,,,,not_collected
+"Manchester, United Kingdom",United Kingdom,accepted,307,543,3.8,missing,,,,,not_collected
+"Manila, Philippines",Philippines,accepted,320,511,7.1,missing,,,,,not_collected
+"Medellin, Colombia",Colombia,accepted,577,832,4.3,missing,,,,,not_collected
+"Melbourne, Australia",Australia,accepted,879,1558,3.5,missing,,,,,not_collected
+"Memphis, TN, United States",United States,accepted,76,180,6.6,missing,,,,,not_collected
+"Mexico City, Mexico",Mexico,accepted,290,433,2.0,missing,,,,,not_collected
+"Miami, FL, United States",United States,accepted,320,563,2.1,missing,,,,,not_collected
+"Milan, Italy",Italy,accepted,326,544,2.3,missing,,,,,not_collected
+"Minneapolis, MN, United States",United States,accepted,311,502,0.6,missing,,,,,not_collected
+"Minsk, Belarus",Belarus,accepted,437,794,1.3,missing,,,,,not_collected
+"Monterrey, Mexico",Mexico,accepted,297,442,2.0,missing,,,,,not_collected
+"Montevideo, Uruguay",Uruguay,accepted,88,129,7.2,missing,,,,,not_collected
+"Montreal, Canada",Canada,accepted,244,459,8.5,missing,,,,,not_collected
+"Moscow, Russia",Russia,accepted,390,654,3.0,missing,,,,,not_collected
+"Mumbai, India",India,accepted,277,458,3.2,missing,,,,,not_collected
+"Munich, Germany",Germany,accepted,236,436,2.2,missing,,,,,not_collected
+"Muscat, Oman",Oman,bbox_does_not_surround_window,32,45,0.8,collected,40,57,0.819,2026-09-28T05:59:26.854795+00:00,
+"Nairobi, Kenya",Kenya,accepted,416,632,3.7,missing,,,,,not_collected
+"Naples, Italy",Italy,bbox_does_not_surround_window,211,337,3.5,missing,,,,,not_collected
+"Nashville, TN, United States",United States,accepted,270,501,2.7,missing,,,,,not_collected
+"New Orleans, LA, United States",United States,accepted_with_sparse_warning,35,51,3.7,missing,,,,,not_collected
+"New York, NY, United States",United States,accepted,160,314,4.4,missing,,,,,not_collected
+"Nicosia, Cyprus",Cyprus,bbox_does_not_surround_window,215,390,30.8,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Oakland, CA, United States",United States,accepted,251,464,0.6,missing,,,,,not_collected
+"Oklahoma City, OK, United States",United States,accepted,311,602,6.3,missing,,,,,not_collected
+"Orlando, FL, United States",United States,too_few_center_roads,0,0,4.9,collected,48,72,4.928,2026-09-28T06:00:04.205305+00:00,
+"Oslo, Norway",Norway,accepted,402,669,3.3,missing,,,,,not_collected
+"Ottawa, Canada",Canada,accepted,319,597,21.2,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Oxford, United Kingdom",United Kingdom,bbox_does_not_surround_window,54,100,1.5,missing,,,,,not_collected
+"Paris, France",France,accepted,269,499,2.1,missing,,,,,not_collected
+"Perth, Australia",Australia,accepted,598,1042,2.1,missing,,,,,not_collected
+"Philadelphia, PA, United States",United States,accepted,116,232,1.6,missing,,,,,not_collected
+"Phoenix, AZ, United States",United States,accepted,55,104,3.1,missing,,,,,not_collected
+"Pittsburgh, PA, United States",United States,accepted,312,603,1.0,missing,,,,,not_collected
+"Portland, OR, United States",United States,accepted,233,400,0.6,missing,,,,,not_collected
+"Porto, Portugal",Portugal,bbox_does_not_surround_window,333,534,1.8,missing,,,,,not_collected
+"Prague, Czech Republic",Czech Republic,accepted,232,373,4.5,missing,,,,,not_collected
+"Pune, India",India,accepted,336,563,38.4,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Qingdao, Shandong, China",China,accepted,272,428,29.5,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Quebec City, Canada",Canada,accepted,98,165,7.2,missing,,,,,not_collected
+"Quito, Ecuador",Ecuador,accepted,279,402,12.7,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Raleigh, NC, United States",United States,accepted,81,128,2.8,missing,,,,,not_collected
+"Reykjavik, Iceland",Iceland,bbox_does_not_surround_window,197,281,5.6,missing,,,,,not_collected
+"Riga, Latvia",Latvia,accepted,184,309,3.1,missing,,,,,not_collected
+"Rio de Janeiro, Brazil",Brazil,accepted,393,568,25.1,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Riyadh, Saudi Arabia",Saudi Arabia,accepted,366,568,8.5,missing,,,,,not_collected
+"Rome, Italy",Italy,accepted,323,556,2.3,missing,,,,,not_collected
+"Rotterdam, Netherlands",Netherlands,accepted,239,379,1.4,missing,,,,,not_collected
+"Sacramento, CA, United States",United States,accepted,166,286,1.1,missing,,,,,not_collected
+"Saint Petersburg, Russia",Russia,accepted,260,432,11.7,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"San Antonio, TX, United States",United States,accepted,193,333,2.9,missing,,,,,not_collected
+"San Diego, CA, United States",United States,accepted,213,358,4.2,missing,,,,,not_collected
+"San Francisco, CA, United States",United States,accepted,327,566,1.5,missing,,,,,not_collected
+"San Jose, CA, United States",United States,accepted,183,288,3.1,missing,,,,,not_collected
+"San Juan, Puerto Rico",Puerto Rico,accepted,207,291,0.9,missing,,,,,not_collected
+"Santiago, Chile",Chile,accepted,512,855,4.2,missing,,,,,not_collected
+"Sao Paulo, Brazil",Brazil,accepted,530,820,7.3,missing,,,,,not_collected
+"Seattle, WA, United States",United States,accepted,362,795,0.8,missing,,,,,not_collected
+"Seoul, South Korea",South Korea,accepted,481,904,0.5,missing,,,,,not_collected
+"Shanghai, China",China,accepted,450,778,4.1,missing,,,,,not_collected
+"Sharjah, United Arab Emirates",United Arab Emirates,accepted,648,847,34.6,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Shenzhen, China",China,accepted,807,1199,16.1,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Singapore, Singapore",Singapore,accepted,379,538,5.1,missing,,,,,not_collected
+"Sofia, Bulgaria",Bulgaria,accepted,281,464,1.1,missing,,,,,not_collected
+"Stockholm, Sweden",Sweden,accepted,246,352,1.6,missing,,,,,not_collected
+"Stuttgart, Germany",Germany,accepted,252,440,1.0,missing,,,,,not_collected
+"Sydney, Australia",Australia,accepted,354,616,11.6,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Taipei, Taiwan",Taiwan,accepted,306,527,4.4,missing,,,,,not_collected
+"Tallinn, Estonia",Estonia,accepted,294,483,1.1,missing,,,,,not_collected
+"Tampa, FL, United States",United States,accepted,105,189,7.8,missing,,,,,not_collected
+"Tashkent, Uzbekistan",Uzbekistan,accepted,509,858,5.4,missing,,,,,not_collected
+"Tbilisi, Georgia",Georgia,accepted,301,501,3.1,missing,,,,,not_collected
+"Tehran, Iran",Iran,accepted,373,564,4.0,missing,,,,,not_collected
+"Tokyo, Japan",Japan,accepted,684,1197,1.5,missing,,,,,not_collected
+"Toronto, Canada",Canada,accepted,106,186,2.2,missing,,,,,not_collected
+"Tunis, Tunisia",Tunisia,accepted,331,517,4.2,missing,,,,,not_collected
+"Vancouver, Canada",Canada,accepted,167,334,1.6,missing,,,,,not_collected
+"Vienna, Austria",Austria,accepted,271,475,0.7,missing,,,,,not_collected
+"Vilnius, Lithuania",Lithuania,accepted,256,492,2.2,missing,,,,,not_collected
+"Warsaw, Poland",Poland,accepted,254,409,3.6,missing,,,,,not_collected
+"Wellington, New Zealand",New Zealand,accepted,162,288,53.2,missing,,,,,not_collected;reference_far_from_old_graph_midpoint
+"Yekaterinburg, Russia",Russia,accepted,162,327,3.8,missing,,,,,not_collected
+"Yerevan, Armenia",Armenia,accepted,343,581,2.7,missing,,,,,not_collected
+"Zagreb, Croatia",Croatia,accepted,201,323,2.6,missing,,,,,not_collected
+"Zurich, Switzerland",Switzerland,accepted,179,318,0.9,missing,,,,,not_collected

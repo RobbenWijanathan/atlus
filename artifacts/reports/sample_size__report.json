@@ -1,0 +1,104 @@
+{
+  "cities": 203,
+  "features": [
+    "log_nodes",
+    "log_edges",
+    "log_directed_road_km",
+    "log_bbox_km2",
+    "log_directed_road_km_per_bbox_km2",
+    "mean_segment_m",
+    "dead_end_node_fraction",
+    "intersection_node_fraction",
+    "oneway_edge_fraction",
+    "motorway_length_fraction",
+    "trunk_length_fraction",
+    "primary_length_fraction"
+  ],
+  "ablations": {
+    "city": {
+      "all_features": {
+        "mae": 37.877,
+        "rmse": 48.113,
+        "r2": 0.112
+      },
+      "extent_only": {
+        "mae": 37.959,
+        "rmse": 48.141,
+        "r2": 0.111
+      },
+      "normalized_structure": {
+        "mae": 40.613,
+        "rmse": 51.685,
+        "r2": -0.025
+      }
+    },
+    "country": {
+      "all_features": {
+        "mae": 40.192,
+        "rmse": 50.74,
+        "r2": 0.012
+      },
+      "extent_only": {
+        "mae": 39.055,
+        "rmse": 49.474,
+        "r2": 0.061
+      },
+      "normalized_structure": {
+        "mae": 44.24,
+        "rmse": 55.091,
+        "r2": -0.164
+      }
+    }
+  },
+  "learning_curve": {
+    "city": {
+      "25": {
+        "mae_mean": 40.881,
+        "mae_min": 39.025,
+        "mae_max": 43.539
+      },
+      "50": {
+        "mae_mean": 39.159,
+        "mae_min": 37.83,
+        "mae_max": 40.005
+      },
+      "100": {
+        "mae_mean": 37.894,
+        "mae_min": 37.165,
+        "mae_max": 38.377
+      },
+      "150": {
+        "mae_mean": 37.897,
+        "mae_min": 37.645,
+        "mae_max": 38.207
+      }
+    },
+    "country": {
+      "25": {
+        "mae_mean": 42.746,
+        "mae_min": 41.827,
+        "mae_max": 45.806
+      },
+      "50": {
+        "mae_mean": 40.989,
+        "mae_min": 39.714,
+        "mae_max": 43.057
+      },
+      "100": {
+        "mae_mean": 40.548,
+        "mae_min": 39.753,
+        "mae_max": 41.157
+      },
+      "150": {
+        "mae_mean": 40.258,
+        "mae_min": 39.875,
+        "mae_max": 40.61
+      }
+    }
+  },
+  "notes": [
+    "Fixed model and fixed held-out folds; these are diagnostics, not tuned test scores.",
+    "City counts are training cities, not road tiles or graph nodes.",
+    "Country folds test transfer to unseen countries, not causal effects."
+  ]
+}

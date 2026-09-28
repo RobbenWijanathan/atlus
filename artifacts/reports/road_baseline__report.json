@@ -1,0 +1,51 @@
+{
+  "target": "Traffic Index",
+  "cities": 203,
+  "features": [
+    "log_nodes",
+    "log_edges",
+    "log_directed_road_km",
+    "log_bbox_km2",
+    "log_directed_road_km_per_bbox_km2",
+    "mean_segment_m",
+    "dead_end_node_fraction",
+    "intersection_node_fraction",
+    "oneway_edge_fraction",
+    "motorway_length_fraction",
+    "trunk_length_fraction",
+    "primary_length_fraction"
+  ],
+  "method": "5-fold out-of-fold predictions; ridge alpha=10 fixed; train-only scaling",
+  "splits": {
+    "city": {
+      "mean": {
+        "mae": 40.382,
+        "rmse": 51.23,
+        "r2": -0.007
+      },
+      "ridge": {
+        "mae": 37.877,
+        "rmse": 48.113,
+        "r2": 0.112
+      }
+    },
+    "country": {
+      "mean": {
+        "mae": 40.915,
+        "rmse": 51.84,
+        "r2": -0.031
+      },
+      "ridge": {
+        "mae": 40.192,
+        "rmse": 50.74,
+        "r2": 0.012
+      }
+    }
+  },
+  "excluded_graphs": [],
+  "caveats": [
+    "Worldcities coordinates validate names and countries only to 75 km; inspect outliers.",
+    "Bounding-box area is a rough network-extent proxy, not administrative area.",
+    "Observed association is not a causal effect of roads on traffic."
+  ]
+}

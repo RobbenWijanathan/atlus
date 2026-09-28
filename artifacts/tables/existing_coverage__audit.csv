@@ -1,0 +1,204 @@
+city,country,reference_distance_km,old_bbox_width_km,old_bbox_height_km,old_bbox_surrounds_window,old_window_nodes,old_window_edges,empty_4x4_image_cells,status
+"Aachen, Germany",Germany,3.2,11.472781276929423,15.500842456000528,True,202,359,2,accepted
+"Abu Dhabi, United Arab Emirates",United Arab Emirates,15.3,44.99021340916806,29.70358239200025,True,461,710,2,accepted
+"Adelaide, Australia",Australia,2.9,31.182558434903154,84.27650919599928,True,481,858,0,accepted
+"Ahmedabad, India",India,35.3,93.86586122355688,155.55900214800005,True,413,683,0,accepted
+"Albuquerque, NM, United States",United States,2.5,24.456668741227393,25.615611428000015,True,258,462,0,accepted
+"Alexandria, Egypt",Egypt,11.3,47.21115772683489,49.14724566399983,True,254,395,3,accepted
+"Almaty, Kazakhstan",Kazakhstan,0.8,22.750206489373944,29.533763732000686,True,131,251,0,accepted
+"Amman, Jordan",Jordan,40.1,88.73376595536786,88.23932308399984,True,397,562,0,accepted
+"Amsterdam, Netherlands",Netherlands,1.2,18.61461791371655,11.428400632000239,True,169,289,2,accepted
+"Anchorage, AK, United States",United States,15.4,63.364673737924065,77.15752840400026,True,0,0,,too_few_center_roads
+"Antwerp, Belgium",Belgium,5.0,16.49208465674805,25.07124549599953,True,74,107,3,accepted
+"Asheville, NC, United States",United States,3.7,16.429312229382255,17.308267372000042,True,93,147,4,accepted
+"Atlanta, GA, United States",United States,1.7,20.659084953774624,24.58381974400004,True,125,212,3,accepted
+"Auckland, New Zealand",New Zealand,4.1,26.325346209667558,27.82480135600015,True,409,782,3,accepted
+"Austin, TX, United States",United States,0.5,34.12036120512908,44.440179651999856,True,201,340,3,accepted
+"Baku, Azerbaijan",Azerbaijan,3.2,18.532252034096995,14.21312609199968,True,268,437,3,accepted
+"Baltimore, MD, United States",United States,1.7,15.638745833386666,18.017743128000035,True,506,1037,0,accepted
+"Bandung, Indonesia",Indonesia,3.2,18.69088906126308,12.309208999999985,True,412,694,0,accepted
+"Bangalore, India",India,3.2,33.93910896286968,32.111656632000084,True,441,704,0,accepted
+"Bangkok, Thailand",Thailand,3.6,32.40339562732733,33.36165777999997,True,547,1018,0,accepted
+"Banja Luka, Bosnia And Herzegovina",Bosnia And Herzegovina,2.0,8.736614428039758,10.889433719999571,True,209,357,2,accepted
+"Barcelona, Spain",Spain,3.2,13.619914657530671,15.68728119200013,True,207,334,4,accepted
+"Beijing, China",China,0.8,34.138638319653545,33.39535434400005,True,269,374,0,accepted
+"Beirut, Lebanon",Lebanon,1.0,6.230652797513805,4.4008692199997155,False,437,639,,bbox_does_not_surround_window
+"Belfast, United Kingdom",United Kingdom,0.5,13.591212988979313,11.729298591999882,True,377,677,4,accepted
+"Belgrade, Serbia",Serbia,2.3,24.8412073634549,23.77285354399969,True,310,538,4,accepted
+"Berlin, Germany",Germany,0.5,37.63768068446404,29.891368100000168,True,313,588,0,accepted
+"Bern, Switzerland",Switzerland,2.0,8.633340512796758,4.8991152759998915,False,235,447,,bbox_does_not_surround_window
+"Birmingham, United Kingdom",United Kingdom,1.4,17.455084258786517,22.666143499999823,True,455,742,0,accepted
+"Bogota, Colombia",Colombia,6.1,24.26470400521559,44.18998795200003,True,372,560,0,accepted
+"Bologna, Italy",Italy,1.1,15.437639807486898,11.182316639999677,True,219,360,3,accepted
+"Boston, MA, United States",United States,0.5,14.421294297212578,17.791507492000456,True,347,705,0,accepted
+"Brasilia, Brazil",Brazil,8.6,96.99361766291939,60.74414024799997,True,797,1216,0,accepted
+"Bratislava, Slovakia",Slovakia,1.6,20.005864563131293,26.306685988000112,True,219,320,1,accepted
+"Bremen, Germany",Germany,3.4,19.338744128160585,17.48262788800008,True,252,420,3,accepted
+"Brisbane, Australia",Australia,2.8,29.499674798864863,38.947417079999795,True,489,826,0,accepted
+"Bristol, United Kingdom",United Kingdom,1.7,12.754372306552018,12.561961059999868,True,458,775,0,accepted
+"Brno, Czech Republic",Czech Republic,2.8,17.715395349871503,13.917371116000025,True,180,292,1,accepted
+"Brooklyn, NY, United States",United States,0.3,15.554108264198776,17.734489387999346,True,138,269,0,accepted
+"Brussels, Belgium",Belgium,3.7,5.334950972554234,12.55391262400073,False,119,172,,bbox_does_not_surround_window
+"Bucharest, Romania",Romania,2.8,19.517261255865844,22.06061836000046,True,359,635,1,accepted
+"Budapest, Hungary",Hungary,8.0,28.610405004735348,27.5438519399995,True,255,445,0,accepted
+"Buenos Aires, Argentina",Argentina,6.0,16.314432843117142,19.023029520000332,True,343,594,0,accepted
+"Cairo, Egypt",Egypt,6.5,28.909066528287926,27.754859000000273,True,475,699,0,accepted
+"Calgary, Canada",Canada,3.0,27.190040932191422,38.874636063999574,True,208,331,1,accepted
+"Cambridge, United Kingdom",United Kingdom,1.0,6.165673297809639,8.065501355999931,True,93,155,7,accepted
+"Cape Town, South Africa",South Africa,9.4,32.099813923392695,27.793910055999838,True,190,280,3,accepted
+"Caracas, Venezuela",Venezuela,5.9,34.38893751921727,17.74417422800001,True,214,280,1,accepted
+"Casablanca, Morocco",Morocco,4.2,26.00197430473537,14.420982796000416,True,347,551,4,accepted
+"Cebu, Philippines",Philippines,6.1,11.495030171109498,16.097873880000098,False,146,257,,bbox_does_not_surround_window
+"Chennai, India",India,6.2,18.866860588578916,40.63460526399998,True,324,550,1,accepted
+"Chiang Mai, Thailand",Thailand,1.4,8.358327776202838,9.453071760000203,True,199,300,4,accepted
+"Chicago, IL, United States",United States,0.5,27.443943668303707,41.86255391999982,True,128,260,1,accepted
+"Christchurch, New Zealand",New Zealand,4.3,25.084961015102262,18.28255114400031,True,213,382,1,accepted
+"Cincinnati, OH, United States",United States,2.3,26.06113390922848,17.295977643999592,True,113,197,1,accepted
+"Cluj-Napoca, Romania",Romania,1.7,11.780734902893066,11.245179044000267,True,237,414,0,accepted
+"Cologne, Germany",Germany,1.5,20.976562233889684,25.475548603999755,True,566,894,0,accepted
+"Colombo, Sri Lanka",Sri Lanka,1.3,6.86111600163123,11.58237845599997,True,469,788,0,accepted
+"Columbus, OH, United States",United States,2.7,31.23478214574483,32.452073191999816,True,123,187,2,accepted
+"Cork, Ireland",Ireland,2.5,17.528588681657848,12.617765775999452,True,125,243,4,accepted
+"Cuenca, Ecuador",Ecuador,8.2,24.21544775807534,28.676911427999997,True,434,707,1,accepted
+"Dallas, TX, United States",United States,3.1,37.49532571775314,43.66955581999993,True,459,739,0,accepted
+"Davao, Philippines",Philippines,26.6,41.22965148782494,64.69815985599999,True,181,348,3,accepted
+"Delhi, India",India,10.9,34.166342978286295,38.95424099600005,True,310,482,1,accepted
+"Denver, CO, United States",United States,2.8,37.4152418137961,25.33983839200053,True,151,234,2,accepted
+"Detroit, MI, United States",United States,3.1,31.02579972933049,21.10106222399987,True,120,158,7,accepted
+"Dhaka, Bangladesh",Bangladesh,24.0,165.3461770817024,198.91170785200018,True,551,978,2,accepted
+"Dnipro, Ukraine",Ukraine,0.2,21.42918102376112,20.309688343999895,True,185,326,1,accepted
+"Doha, Qatar",Qatar,1.5,17.024397750408895,20.635744624000086,True,833,1209,2,accepted
+"Dubai, United Arab Emirates",United Arab Emirates,11.1,35.24139293070254,38.945168416000016,True,795,1154,0,accepted
+"Dublin, Ireland",Ireland,1.3,14.153334488762683,11.318605715999338,True,323,644,0,accepted
+"Edinburgh, United Kingdom",United Kingdom,4.5,21.71753918379065,11.781641256000139,True,92,164,4,accepted
+"Edmonton, Canada",Canada,2.4,27.66055678158005,36.072444496000095,True,239,446,0,accepted
+"Frankfurt, Germany",Germany,4.2,21.011978266557268,17.44860849600039,True,394,676,1,accepted
+"Geneva, Switzerland",Switzerland,1.1,4.231601469194816,5.5827870560004875,False,237,452,,bbox_does_not_surround_window
+"Gold Coast, Australia",Australia,5.2,33.82779263945326,54.81930022800021,True,195,276,2,accepted
+"Guadalajara, Mexico",Mexico,1.2,14.421263999914627,12.796846260000072,True,191,331,0,accepted
+"Guangzhou, China",China,9.5,40.93595439233289,33.274193656,True,612,984,0,accepted
+"Guatemala City, Guatemala",Guatemala,4.3,19.53741242319147,18.42535243999994,True,230,369,1,accepted
+"Gurgaon, India",India,13.7,44.76917436165962,33.00117022400022,True,213,319,2,accepted
+"Haifa, Israel",Israel,2.7,11.422678206891662,9.078479959999948,False,125,148,,bbox_does_not_surround_window
+"Halifax, Canada",Canada,3.3,8.830091718704887,11.854010387999507,False,159,290,,bbox_does_not_surround_window
+"Hamburg, Germany",Germany,0.4,32.595070144401234,34.5576241999998,True,440,766,1,accepted
+"Hanoi, Vietnam",Vietnam,0.9,20.737262985512512,16.547684603999997,True,379,648,0,accepted
+"Helsinki, Finland",Finland,7.2,20.440038395622217,15.656490080000196,True,277,482,3,accepted
+"Ho Chi Minh City, Vietnam",Vietnam,2.9,31.451726254486424,21.979521739999953,True,781,1489,0,accepted
+"Hobart, Australia",Australia,5.3,33.82504248362795,38.58559368400005,True,144,249,5,accepted
+"Hong Kong, Hong Kong (China)",Hong Kong (China),14.4,44.155302348431846,36.83555422800001,True,525,805,3,accepted
+"Honolulu, HI, United States",United States,4.8,28.14068778044587,10.983064971999836,True,217,366,5,accepted
+"Houston, TX, United States",United States,1.1,62.56329669504177,53.207709456000146,True,280,501,0,accepted
+"Hyderabad, India",India,6.8,32.548780428349176,27.11353334799978,True,215,384,1,accepted
+"Indianapolis, IN, United States",United States,0.6,31.99371621461867,32.606897048000135,True,328,676,1,accepted
+"Islamabad, Pakistan",Pakistan,4.5,22.937485560143116,16.167682651999797,True,295,423,0,accepted
+"Istanbul, Turkey",Turkey,2.1,62.90482532281324,38.95358420799989,True,418,653,3,accepted
+"Izmir, Turkey",Turkey,18.0,166.74030222956787,147.96783531200006,True,418,681,1,accepted
+"Jacksonville, FL, United States",United States,5.1,60.18674784780163,46.61388076400013,True,256,417,0,accepted
+"Jaipur, India",India,12.6,103.55697915805817,97.33441198800008,True,164,246,2,accepted
+"Jakarta, Indonesia",Indonesia,5.6,32.01593774815344,32.10632440400006,True,469,730,0,accepted
+"Kansas City, MO, United States",United States,3.5,30.6188709188649,55.50680141599968,True,100,141,10,accepted_with_sparse_warning
+"Karachi, Pakistan",Pakistan,5.8,30.126261530351073,32.76610691199991,True,306,564,0,accepted
+"Kathmandu, Nepal",Nepal,0.7,8.250333885080495,7.840211939999941,True,193,403,0,accepted
+"Kolkata, India",India,3.8,13.076685567916952,19.063249435999715,True,221,432,1,accepted
+"Kuala Lumpur, Malaysia",Malaysia,1.1,15.799184861427726,22.047092979999956,True,504,696,0,accepted
+"Lagos, Nigeria",Nigeria,11.5,42.68690568253895,33.030080028000015,True,213,321,3,accepted
+"Lahore, Pakistan",Pakistan,11.8,50.70620508528278,46.061477528000246,True,361,582,0,accepted
+"Las Vegas, NV, United States",United States,4.1,28.226944480719997,22.33049143599981,True,187,325,2,accepted
+"Leeds, United Kingdom",United Kingdom,3.8,27.72652896415324,25.59282422399949,True,408,610,1,accepted
+"Leipzig, Germany",Germany,1.4,18.695145780594952,18.919167959999953,True,305,574,0,accepted
+"Lima, Peru",Peru,4.1,31.696100783177776,43.84397199600002,True,454,695,0,accepted
+"Lisbon, Portugal",Portugal,4.3,11.39982475500002,11.27586996799982,False,284,482,,bbox_does_not_surround_window
+"Liverpool, United Kingdom",United Kingdom,5.0,11.356371291624182,13.965439092000159,False,291,514,,bbox_does_not_surround_window
+"Ljubljana, Slovenia",Slovenia,2.5,14.675873663056613,12.381444547999868,True,151,274,0,accepted
+"London, United Kingdom",United Kingdom,2.1,55.782004133521696,42.447406935999645,True,725,1401,0,accepted
+"Los Angeles, CA, United States",United States,3.8,45.7360733956748,56.83133130400044,True,2,3,,too_few_center_roads
+"Luxembourg, Luxembourg",Luxembourg,0.6,8.633748288344934,8.035322504000034,True,239,457,1,accepted
+"Lyon, France",France,0.8,8.932879095805305,8.706081164000011,True,300,498,2,accepted
+"Madrid, Spain",Spain,4.5,26.819050316223976,29.352078360000473,True,395,637,0,accepted
+"Malaga, Spain",Spain,3.3,22.294490990418332,19.99303860400047,True,469,786,5,accepted
+"Manchester, United Kingdom",United Kingdom,3.8,9.944209112053501,21.116190612000278,True,307,543,3,accepted
+"Manila, Philippines",Philippines,7.1,20.014377163387614,47.51487144799992,True,320,511,2,accepted
+"Medellin, Colombia",Colombia,4.3,24.08800262071755,21.066397175999953,True,577,832,0,accepted
+"Melbourne, Australia",Australia,3.5,43.96873590695989,54.82853978799982,True,879,1558,0,accepted
+"Memphis, TN, United States",United States,6.6,46.56004967428166,29.20482426400002,True,76,180,0,accepted
+"Mexico City, Mexico",Mexico,2.0,38.29529004359556,46.585638879999934,True,290,433,0,accepted
+"Miami, FL, United States",United States,2.1,16.21614097679035,15.120027867999928,True,320,563,1,accepted
+"Milan, Italy",Italy,2.3,16.81668234264509,15.656701588000294,True,326,544,0,accepted
+"Minneapolis, MN, United States",United States,0.6,9.636874640821103,17.452727336000272,True,311,502,0,accepted
+"Minsk, Belarus",Belarus,1.3,23.124819326212325,16.42182621199963,True,437,794,0,accepted
+"Monterrey, Mexico",Mexico,2.0,20.524974553223966,26.9615481520002,True,297,442,0,accepted
+"Montevideo, Uruguay",Uruguay,7.2,29.396336983543293,19.623801296000302,True,88,129,4,accepted
+"Montreal, Canada",Canada,8.5,25.208996648558003,31.837019059999832,True,244,459,1,accepted
+"Moscow, Russia",Russia,3.0,31.31214995463273,38.92039971600046,True,390,654,0,accepted
+"Mumbai, India",India,3.2,21.60365323901318,43.74208080000032,True,277,458,2,accepted
+"Munich, Germany",Germany,2.2,23.89336429521162,16.890283035999715,True,236,436,0,accepted
+"Muscat, Oman",Oman,0.8,1.8290438152751132,1.1752942960000934,False,32,45,,bbox_does_not_surround_window
+"Nairobi, Kenya",Kenya,3.7,35.507515572631334,19.198881724000007,True,416,632,1,accepted
+"Naples, Italy",Italy,3.5,16.15175997045099,10.441059024000038,False,211,337,,bbox_does_not_surround_window
+"Nashville, TN, United States",United States,2.7,39.79228948666136,37.36046142399971,True,270,501,0,accepted
+"New Orleans, LA, United States",United States,3.7,38.43925946557854,32.754206804000056,True,35,51,8,accepted_with_sparse_warning
+"New York, NY, United States",United States,4.4,45.97144453589178,44.84852367600024,True,160,314,0,accepted
+"Nicosia, Cyprus",Cyprus,30.8,81.28058476777055,30.38494984799962,False,215,390,,bbox_does_not_surround_window
+"Oakland, CA, United States",United States,0.6,17.607086277728957,17.305339656000633,True,251,464,0,accepted
+"Oklahoma City, OK, United States",United States,6.3,56.03188716399393,39.092511568000326,True,311,602,0,accepted
+"Orlando, FL, United States",United States,4.9,20.2724982657688,21.196251956000157,True,0,0,,too_few_center_roads
+"Oslo, Norway",Norway,3.3,17.755084497530774,18.01379126799973,True,402,669,2,accepted
+"Ottawa, Canada",Canada,21.2,82.49926285881824,59.855739856,True,319,597,2,accepted
+"Oxford, United Kingdom",United Kingdom,1.5,7.177748212467702,7.618774195999877,False,54,100,,bbox_does_not_surround_window
+"Paris, France",France,2.1,13.334594144891764,9.526643148000174,True,269,499,0,accepted
+"Perth, Australia",Australia,2.1,20.918367299873964,44.38513191200042,True,598,1042,0,accepted
+"Philadelphia, PA, United States",United States,1.6,26.280980997251934,28.737514035999887,True,116,232,0,accepted
+"Phoenix, AZ, United States",United States,3.1,33.31619360002944,57.278915628000235,True,55,104,2,accepted
+"Pittsburgh, PA, United States",United States,1.0,14.763557735379875,14.315952375999824,True,312,603,0,accepted
+"Portland, OR, United States",United States,0.6,27.52968936272406,22.023815967999884,True,233,400,1,accepted
+"Porto, Portugal",Portugal,1.8,10.842520836278464,4.879723332000285,False,333,534,,bbox_does_not_surround_window
+"Prague, Czech Republic",Czech Republic,4.5,26.82169426266018,23.727201212000104,True,232,373,0,accepted
+"Pune, India",India,38.4,179.15099870610092,152.26543296799997,True,336,563,0,accepted
+"Qingdao, Shandong, China",China,29.5,128.53568505297906,165.44404003599945,True,272,428,0,accepted
+"Quebec City, Canada",Canada,7.2,23.23718632830821,20.000341195999592,True,98,165,6,accepted
+"Quito, Ecuador",Ecuador,12.7,52.46529077192513,55.302596008,True,279,402,2,accepted
+"Raleigh, NC, United States",United States,2.8,25.588337426914403,21.66509840000005,True,81,128,6,accepted
+"Reykjavik, Iceland",Iceland,5.6,12.269544957425406,7.036158712000098,False,197,281,,bbox_does_not_surround_window
+"Riga, Latvia",Latvia,3.1,18.7531055737244,22.495345224000282,True,184,309,1,accepted
+"Rio de Janeiro, Brazil",Brazil,25.1,57.9806091976416,27.320833451999945,True,393,568,2,accepted
+"Riyadh, Saudi Arabia",Saudi Arabia,8.5,35.278776455554045,38.95595532400031,True,366,568,0,accepted
+"Rome, Italy",Italy,2.3,40.83221638202066,42.8638884520006,True,323,556,0,accepted
+"Rotterdam, Netherlands",Netherlands,1.4,12.418918057697091,12.318637803999929,True,239,379,1,accepted
+"Sacramento, CA, United States",United States,1.1,16.33877838693724,27.544642311999244,True,166,286,3,accepted
+"Saint Petersburg, Russia",Russia,11.7,62.34121418100217,60.1980154599999,True,260,432,0,accepted
+"San Antonio, TX, United States",United States,2.9,51.95388408680559,56.35244379599988,True,193,333,1,accepted
+"San Diego, CA, United States",United States,4.2,25.32520758447548,44.64131262799993,True,213,358,1,accepted
+"San Francisco, CA, United States",United States,1.5,14.269153281572578,12.3403452039997,True,327,566,0,accepted
+"San Jose, CA, United States",United States,3.1,27.01349131401453,25.034754800000226,True,183,288,0,accepted
+"San Juan, Puerto Rico",Puerto Rico,0.9,12.83258118718219,14.735116703999704,True,207,291,2,accepted
+"Santiago, Chile",Chile,4.2,27.83204010488317,27.68361419999941,True,512,855,1,accepted
+"Sao Paulo, Brazil",Brazil,7.3,46.74079540042803,55.11623519600021,True,530,820,0,accepted
+"Seattle, WA, United States",United States,0.8,11.757799312500682,25.170420484000513,True,362,795,0,accepted
+"Seoul, South Korea",South Korea,0.5,34.0058325107577,28.107609815999588,True,481,904,0,accepted
+"Shanghai, China",China,4.1,57.12110577209307,55.5623723600001,True,450,778,0,accepted
+"Sharjah, United Arab Emirates",United Arab Emirates,34.6,65.05261579908985,76.87294995599991,True,648,847,0,accepted
+"Shenzhen, China",China,16.1,88.85078974869644,41.21841187200003,True,807,1199,0,accepted
+"Singapore, Singapore",Singapore,5.1,46.16091528569996,27.28075825199998,True,379,538,0,accepted
+"Sofia, Bulgaria",Bulgaria,1.1,20.661220081451223,17.607707040000047,True,281,464,1,accepted
+"Stockholm, Sweden",Sweden,1.6,19.011007699091426,20.71068524800024,True,246,352,1,accepted
+"Stuttgart, Germany",Germany,1.0,14.829186814722528,17.699312268000362,True,252,440,2,accepted
+"Sydney, Australia",Australia,11.6,43.74175163847898,44.25574467600033,True,354,616,3,accepted
+"Taipei, Taiwan",Taiwan,4.4,14.349127483309834,22.813653632000104,True,306,527,1,accepted
+"Tallinn, Estonia",Estonia,1.1,18.20198045184738,15.312077131999839,True,294,483,5,accepted
+"Tampa, FL, United States",United States,7.8,26.736178238918278,21.64087516799975,True,105,189,3,accepted
+"Tashkent, Uzbekistan",Uzbekistan,5.4,30.73487847318537,26.116161807999436,True,509,858,0,accepted
+"Tbilisi, Georgia",Georgia,3.1,29.015094698829405,22.64463647600002,True,301,501,6,accepted
+"Tehran, Iran",Iran,4.0,46.65362934679403,26.82370059599973,True,373,564,0,accepted
+"Tokyo, Japan",Japan,1.5,32.53402506348534,32.2807517119997,True,684,1197,0,accepted
+"Toronto, Canada",Canada,2.2,40.83330046343808,29.279776020000302,True,106,186,3,accepted
+"Tunis, Tunisia",Tunisia,4.2,26.22557216404631,22.94012428399972,True,331,517,1,accepted
+"Vancouver, Canada",Canada,1.6,13.943068798961395,12.393422579999841,True,167,334,0,accepted
+"Vienna, Austria",Austria,0.7,22.220082481303123,20.126188455999834,True,271,475,0,accepted
+"Vilnius, Lithuania",Lithuania,2.2,23.78381320970436,23.04934033600018,True,256,492,0,accepted
+"Warsaw, Poland",Poland,3.6,25.4866370712076,28.626583655999955,True,254,409,1,accepted
+"Wellington, New Zealand",New Zealand,53.2,100.36227376013018,67.05135333599996,True,162,288,4,accepted
+"Yekaterinburg, Russia",Russia,3.8,28.03266405642676,27.744172279999965,True,162,327,0,accepted
+"Yerevan, Armenia",Armenia,2.7,13.07820423823405,17.968929307999886,True,343,581,0,accepted
+"Zagreb, Croatia",Croatia,2.6,29.84647887298943,30.1609183479997,True,201,323,1,accepted
+"Zurich, Switzerland",Switzerland,0.9,9.419241157337883,11.564211031999843,True,179,318,1,accepted

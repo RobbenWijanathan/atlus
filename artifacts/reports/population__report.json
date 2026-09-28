@@ -1,0 +1,3534 @@
+{
+  "source": "GHS-POP R2023A",
+  "epoch": 2020,
+  "resolution": "4326_30ss",
+  "population_unit": "residents per source cell",
+  "density_unit": "residents per square kilometre",
+  "input_cities": 185,
+  "high_density_threshold_per_km2": 1000,
+  "prepared_cities": 185,
+  "failed": [],
+  "audit": [
+    {
+      "city": "Aachen, Germany",
+      "bounds": [
+        6.048285271612947,
+        50.75374222062523,
+        6.119314728387053,
+        50.79865777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 112431.33,
+      "source_tiles": [
+        {
+          "tile": "R4_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C19.zip",
+          "sha256": "2f6c06605c005b6ac0f13d90091cd15926a14af83f1ddb86ab6bb7c4256d9108"
+        }
+      ]
+    },
+    {
+      "city": "Abu Dhabi, United Arab Emirates",
+      "bounds": [
+        54.372229657667525,
+        24.428642220625225,
+        54.42157034233248,
+        24.473557779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 122575.15,
+      "source_tiles": [
+        {
+          "tile": "R7_C24",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C24.zip",
+          "sha256": "f1293312bad11b7341143c86620b6aa41040a1d1511d3fed728c3f822b14b528"
+        }
+      ]
+    },
+    {
+      "city": "Adelaide, Australia",
+      "bounds": [
+        138.57260836114713,
+        -34.94995777937478,
+        138.62739163885286,
+        -34.905042220625226
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 50505.83,
+      "source_tiles": [
+        {
+          "tile": "R13_C32",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R13_C32.zip",
+          "sha256": "5eef5eea5641fca502cb4c62b52a690e930c4431c598a309745fa09503ede151"
+        }
+      ]
+    },
+    {
+      "city": "Ahmedabad, India",
+      "bounds": [
+        72.55529879754822,
+        22.999442220625223,
+        72.60410120245179,
+        23.044357779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 1251428.63,
+      "source_tiles": [
+        {
+          "tile": "R7_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C26.zip",
+          "sha256": "30fc081ffd64b44e15e0a82193d93b205f55498a13ad38b07cc6b489c24a5371"
+        }
+      ]
+    },
+    {
+      "city": "Albuquerque, NM, United States",
+      "bounds": [
+        -106.67395129242632,
+        35.08294222062523,
+        -106.61904870757368,
+        35.12785777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 34355.12,
+      "source_tiles": [
+        {
+          "tile": "R6_C8",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C8.zip",
+          "sha256": "519124c4a3f1b346690af43286489693f9f2a6206ed70c36027a34bd17573ac3"
+        }
+      ]
+    },
+    {
+      "city": "Alexandria, Egypt",
+      "bounds": [
+        29.86624547078251,
+        31.175042220625226,
+        29.918754529217487,
+        31.219957779374777
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 774458.76,
+      "source_tiles": [
+        {
+          "tile": "R6_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C21.zip",
+          "sha256": "03ba09321ffb4668278d35ab2f40173153094f25fc6fda583667334a75c42cd3"
+        }
+      ]
+    },
+    {
+      "city": "Almaty, Kazakhstan",
+      "bounds": [
+        76.88417217456715,
+        43.217542220625226,
+        76.94582782543286,
+        43.26245777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 329845.73,
+      "source_tiles": [
+        {
+          "tile": "R5_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C26.zip",
+          "sha256": "fd369bcb0a369270b3eea7f61442e9bf1080742748593329f1aa1c25410cb27f"
+        }
+      ]
+    },
+    {
+      "city": "Amman, Jordan",
+      "bounds": [
+        35.90683269415235,
+        31.927542220625224,
+        35.959767305847656,
+        31.972457779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 853847.81,
+      "source_tiles": [
+        {
+          "tile": "R6_C22",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C22.zip",
+          "sha256": "c9b54cacf6f6fa29ab7524a04ac9f173ac59b4d6cb2f5b550e83ac6fd5eb467f"
+        }
+      ]
+    },
+    {
+      "city": "Amsterdam, Netherlands",
+      "bounds": [
+        4.846520478564795,
+        52.344242220625226,
+        4.9200795214352055,
+        52.38915777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 288198.61,
+      "source_tiles": [
+        {
+          "tile": "R4_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C19.zip",
+          "sha256": "2f6c06605c005b6ac0f13d90091cd15926a14af83f1ddb86ab6bb7c4256d9108"
+        }
+      ]
+    },
+    {
+      "city": "Antwerp, Belgium",
+      "bounds": [
+        4.364443486733968,
+        51.19814222062522,
+        4.436156513266031,
+        51.24305777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 70,
+      "window_population_estimate": 131862.6,
+      "source_tiles": [
+        {
+          "tile": "R4_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C19.zip",
+          "sha256": "2f6c06605c005b6ac0f13d90091cd15926a14af83f1ddb86ab6bb7c4256d9108"
+        }
+      ]
+    },
+    {
+      "city": "Asheville, NC, United States",
+      "bounds": [
+        -82.58130981701798,
+        35.54824222062523,
+        -82.52609018298203,
+        35.59315777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 16317.25,
+      "source_tiles": [
+        {
+          "tile": "R6_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C10.zip",
+          "sha256": "9e5bda1688a3502582f7cff69901b03eb4fe6ace56ac36ab9226f96eadc36a24"
+        }
+      ]
+    },
+    {
+      "city": "Atlanta, GA, United States",
+      "bounds": [
+        -84.44901377468672,
+        33.74034222062522,
+        -84.39498622531327,
+        33.785257779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 54075.77,
+      "source_tiles": [
+        {
+          "tile": "R6_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C10.zip",
+          "sha256": "9e5bda1688a3502582f7cff69901b03eb4fe6ace56ac36ab9226f96eadc36a24"
+        }
+      ]
+    },
+    {
+      "city": "Auckland, New Zealand",
+      "bounds": [
+        174.73723537754188,
+        -36.87165777937478,
+        174.7933646224581,
+        -36.82674222062523
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 90291.5,
+      "source_tiles": [
+        {
+          "tile": "R13_C36",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R13_C36.zip",
+          "sha256": "683e538a1577fd3426f7f386306beac0be41e473945e0e0cd032a4d7950358b8"
+        }
+      ]
+    },
+    {
+      "city": "Austin, TX, United States",
+      "bounds": [
+        -97.77821112998849,
+        30.278042220625224,
+        -97.72618887001151,
+        30.322957779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 83912.86,
+      "source_tiles": [
+        {
+          "tile": "R6_C9",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C9.zip",
+          "sha256": "4a736725b0da21a52e872e36fd9e70393e1a8aeebf3b0e4e6b3dbde4a6020b24"
+        }
+      ]
+    },
+    {
+      "city": "Baku, Azerbaijan",
+      "bounds": [
+        49.805724555335615,
+        40.344242220625226,
+        49.864675444664385,
+        40.38915777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 257952.62,
+      "source_tiles": [
+        {
+          "tile": "R5_C23",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C23.zip",
+          "sha256": "1ebe50131b77190c304df822084dc3320c418d719450fea0a2caed03d6b2ad57"
+        }
+      ]
+    },
+    {
+      "city": "Baltimore, MD, United States",
+      "bounds": [
+        -76.64342332480155,
+        39.28264222062523,
+        -76.58537667519846,
+        39.32755777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 131540.23,
+      "source_tiles": [
+        {
+          "tile": "R5_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C11.zip",
+          "sha256": "cf1568a67ab99141b0d7b31b8f122283265b47cb648f5d71e70d92c197f07e70"
+        }
+      ]
+    },
+    {
+      "city": "Bandung, Indonesia",
+      "bounds": [
+        107.58447733670555,
+        -6.944257779374776,
+        107.62972266329446,
+        -6.899342220625225
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 783848.05,
+      "source_tiles": [
+        {
+          "tile": "R10_C29",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R10_C29.zip",
+          "sha256": "11da535874fe8c41b049be72077ad1d8cd3fc7329d6ddde02fa3b8aeddb6caba"
+        }
+      ]
+    },
+    {
+      "city": "Bangalore, India",
+      "bounds": [
+        77.56825342810188,
+        12.956642220625225,
+        77.61434657189812,
+        13.001557779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 1184204.39,
+      "source_tiles": [
+        {
+          "tile": "R8_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C26.zip",
+          "sha256": "29ed47a0c42ae95131072d04b281c5f1d197a0d2fe36ac430e5e147b4bcea6ba"
+        }
+      ]
+    },
+    {
+      "city": "Bangkok, Thailand",
+      "bounds": [
+        100.49357963893185,
+        13.727542220625224,
+        100.53982036106815,
+        13.772457779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 433493.33,
+      "source_tiles": [
+        {
+          "tile": "R8_C29",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C29.zip",
+          "sha256": "e1f82c3da79aa3da534ee9c48286509007b2cfe490e8eab0f46f42db8580cf17"
+        }
+      ]
+    },
+    {
+      "city": "Banja Luka, Bosnia And Herzegovina",
+      "bounds": [
+        17.160865263767786,
+        44.750042220625225,
+        17.224134736232212,
+        44.794957779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 83605.42,
+      "source_tiles": [
+        {
+          "tile": "R5_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C20.zip",
+          "sha256": "ba7be68c73cadb888dc202c7b045f02546fde68b98587f05ff2974ecd12a9e91"
+        }
+      ]
+    },
+    {
+      "city": "Barcelona, Spain",
+      "bounds": [
+        2.1469687862923927,
+        41.360042220625225,
+        2.206831213707607,
+        41.404957779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 514464.46,
+      "source_tiles": [
+        {
+          "tile": "R5_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C19.zip",
+          "sha256": "6be8727273ace2b39a3820312d4496638ed07a6d4464ba40feb7dcfcdf403ff7"
+        }
+      ]
+    },
+    {
+      "city": "Beijing, China",
+      "bounds": [
+        116.37822456904756,
+        39.88154222062523,
+        116.43677543095244,
+        39.92645777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 487593.98,
+      "source_tiles": [
+        {
+          "tile": "R5_C30",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C30.zip",
+          "sha256": "d67601e3c559bae79b19cf5ae098101cf182672b36f456af1962386c74126b41"
+        }
+      ]
+    },
+    {
+      "city": "Belfast, United Kingdom",
+      "bounds": [
+        -5.968765215469081,
+        54.57424222062522,
+        -5.891234784530918,
+        54.619157779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 77,
+      "window_population_estimate": 119758.18,
+      "source_tiles": [
+        {
+          "tile": "R4_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C18.zip",
+          "sha256": "3ea89ea38d664ca7815c55fef49e669f874f4cb632519c93bc22260ac7b416ac"
+        }
+      ]
+    },
+    {
+      "city": "Belgrade, Serbia",
+      "bounds": [
+        20.425240420723963,
+        44.79534222062522,
+        20.48855957927604,
+        44.840257779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 193192.83,
+      "source_tiles": [
+        {
+          "tile": "R5_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C21.zip",
+          "sha256": "9d00e434425ac43ad9c30c98d33c3c35c587189ab3f5f09f21aed12c8cd745b9"
+        }
+      ]
+    },
+    {
+      "city": "Berlin, Germany",
+      "bounds": [
+        13.346395043292652,
+        52.494242220625225,
+        13.420204956707348,
+        52.539157779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 238214.01,
+      "source_tiles": [
+        {
+          "tile": "R4_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C20.zip",
+          "sha256": "d531d5ea5ea9e7a9f421f608a00f0bc382142dbd77074653139a4ebd3a612ce5"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham, United Kingdom",
+      "bounds": [
+        -1.9393741645186042,
+        52.45754222062522,
+        -1.865625835481396,
+        52.50245777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 70,
+      "window_population_estimate": 125590.42,
+      "source_tiles": [
+        {
+          "tile": "R4_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C18.zip",
+          "sha256": "3ea89ea38d664ca7815c55fef49e669f874f4cb632519c93bc22260ac7b416ac"
+        }
+      ]
+    },
+    {
+      "city": "Bogota, Colombia",
+      "bounds": [
+        -74.10423065959814,
+        4.587242220625225,
+        -74.05916934040185,
+        4.632157779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 552686.69,
+      "source_tiles": [
+        {
+          "tile": "R9_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R9_C11.zip",
+          "sha256": "0ce909b88f450a37d5fbe0d85e7cc85550a79c40dbc63238bb0221862b423448"
+        }
+      ]
+    },
+    {
+      "city": "Bologna, Italy",
+      "bounds": [
+        11.311316766900893,
+        44.47144222062522,
+        11.374283233099108,
+        44.51635777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 181326.06,
+      "source_tiles": [
+        {
+          "tile": "R5_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C20.zip",
+          "sha256": "ba7be68c73cadb888dc202c7b045f02546fde68b98587f05ff2974ecd12a9e91"
+        }
+      ]
+    },
+    {
+      "city": "Boston, MA, United States",
+      "bounds": [
+        -71.11557255722842,
+        42.29634222062523,
+        -71.05482744277158,
+        42.34125777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 179546.56,
+      "source_tiles": [
+        {
+          "tile": "R5_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C11.zip",
+          "sha256": "cf1568a67ab99141b0d7b31b8f122283265b47cb648f5d71e70d92c197f07e70"
+        }
+      ]
+    },
+    {
+      "city": "Brasilia, Brazil",
+      "bounds": [
+        -47.906138893158634,
+        -15.816357779374776,
+        -47.85946110684137,
+        -15.771442220625225
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 65315.99,
+      "source_tiles": [
+        {
+          "tile": "R11_C14",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R11_C14.zip",
+          "sha256": "62c2b0d35fae4d53a6f9661780f715d8124882c407a7fe58ac0d122eb8a01c62"
+        }
+      ]
+    },
+    {
+      "city": "Bratislava, Slovakia",
+      "bounds": [
+        17.07914286517002,
+        48.122242220625225,
+        17.14645713482998,
+        48.167157779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 63,
+      "window_population_estimate": 105968.52,
+      "source_tiles": [
+        {
+          "tile": "R5_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C20.zip",
+          "sha256": "ba7be68c73cadb888dc202c7b045f02546fde68b98587f05ff2974ecd12a9e91"
+        }
+      ]
+    },
+    {
+      "city": "Bremen, Germany",
+      "bounds": [
+        8.769817590060638,
+        53.053342220625225,
+        8.844582409939362,
+        53.09825777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 102938.09,
+      "source_tiles": [
+        {
+          "tile": "R4_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C19.zip",
+          "sha256": "2f6c06605c005b6ac0f13d90091cd15926a14af83f1ddb86ab6bb7c4256d9108"
+        }
+      ]
+    },
+    {
+      "city": "Brisbane, Australia",
+      "bounds": [
+        153.00248890589657,
+        -27.490257779374776,
+        153.05311109410346,
+        -27.445342220625225
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 111522.06,
+      "source_tiles": [
+        {
+          "tile": "R12_C34",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R12_C34.zip",
+          "sha256": "233ce870604177a8a275e171f66d76a9b2520806541ec1caf58f999a3404ea8f"
+        }
+      ]
+    },
+    {
+      "city": "Bristol, United Kingdom",
+      "bounds": [
+        -2.6335392260847112,
+        51.431142220625226,
+        -2.561460773915289,
+        51.47605777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 70,
+      "window_population_estimate": 166322.69,
+      "source_tiles": [
+        {
+          "tile": "R4_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C18.zip",
+          "sha256": "3ea89ea38d664ca7815c55fef49e669f874f4cb632519c93bc22260ac7b416ac"
+        }
+      ]
+    },
+    {
+      "city": "Brno, Czech Republic",
+      "bounds": [
+        16.573933704721096,
+        49.17284222062523,
+        16.642666295278904,
+        49.21775777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 70,
+      "window_population_estimate": 148227.48,
+      "source_tiles": [
+        {
+          "tile": "R4_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C20.zip",
+          "sha256": "d531d5ea5ea9e7a9f421f608a00f0bc382142dbd77074653139a4ebd3a612ce5"
+        }
+      ]
+    },
+    {
+      "city": "Brooklyn, NY, United States",
+      "bounds": [
+        -73.97920026486507,
+        40.627642220625226,
+        -73.91999973513494,
+        40.67255777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 483455.54,
+      "source_tiles": [
+        {
+          "tile": "R5_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C11.zip",
+          "sha256": "cf1568a67ab99141b0d7b31b8f122283265b47cb648f5d71e70d92c197f07e70"
+        }
+      ]
+    },
+    {
+      "city": "Bucharest, Romania",
+      "bounds": [
+        26.06636013500099,
+        44.39094222062523,
+        26.129239864999008,
+        44.43585777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 63,
+      "window_population_estimate": 348824.67,
+      "source_tiles": [
+        {
+          "tile": "R5_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C21.zip",
+          "sha256": "9d00e434425ac43ad9c30c98d33c3c35c587189ab3f5f09f21aed12c8cd745b9"
+        }
+      ]
+    },
+    {
+      "city": "Budapest, Hungary",
+      "bounds": [
+        19.00755935799955,
+        47.475842220625225,
+        19.07404064200045,
+        47.520757779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 265338.11,
+      "source_tiles": [
+        {
+          "tile": "R5_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C20.zip",
+          "sha256": "ba7be68c73cadb888dc202c7b045f02546fde68b98587f05ff2974ecd12a9e91"
+        }
+      ]
+    },
+    {
+      "city": "Buenos Aires, Argentina",
+      "bounds": [
+        -58.40918308347787,
+        -34.622157779374774,
+        -58.35461691652213,
+        -34.57724222062522
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 438943.06,
+      "source_tiles": [
+        {
+          "tile": "R13_C13",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R13_C13.zip",
+          "sha256": "9ae09b710dc445cc6e23865767e776c9f7479b8a3d81e273c25a4100f0f95bfd"
+        }
+      ]
+    },
+    {
+      "city": "Cairo, Egypt",
+      "bounds": [
+        31.209856374999067,
+        30.021942220625224,
+        31.261743625000936,
+        30.066857779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 802029.93,
+      "source_tiles": [
+        {
+          "tile": "R6_C22",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C22.zip",
+          "sha256": "c9b54cacf6f6fa29ab7524a04ac9f173ac59b4d6cb2f5b550e83ac6fd5eb467f"
+        }
+      ]
+    },
+    {
+      "city": "Calgary, Canada",
+      "bounds": [
+        -114.10242427656901,
+        51.02754222062522,
+        -114.03097572343098,
+        51.07245777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 117256.49,
+      "source_tiles": [
+        {
+          "tile": "R4_C7",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C7.zip",
+          "sha256": "3deb6eb94deb624f765bf35a19bdd8a3f63bf258d57dfa2e24f54d52ea41164f"
+        }
+      ]
+    },
+    {
+      "city": "Cambridge, United Kingdom",
+      "bounds": [
+        0.0858544659279264,
+        52.18254222062522,
+        0.1591455340720736,
+        52.227457779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 70,
+      "window_population_estimate": 97759.8,
+      "source_tiles": [
+        {
+          "tile": "R4_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C19.zip",
+          "sha256": "2f6c06605c005b6ac0f13d90091cd15926a14af83f1ddb86ab6bb7c4256d9108"
+        }
+      ]
+    },
+    {
+      "city": "Cape Town, South Africa",
+      "bounds": [
+        18.39683480150304,
+        -33.947757779374776,
+        18.45096519849696,
+        -33.902842220625224
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 63948.44,
+      "source_tiles": [
+        {
+          "tile": "R13_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R13_C20.zip",
+          "sha256": "9af9b21bbb0e4818412696ea1611cbcf67c73b282aac11097faa881f438e0064"
+        }
+      ]
+    },
+    {
+      "city": "Caracas, Venezuela",
+      "bounds": [
+        -66.93724069215217,
+        10.483642220625224,
+        -66.89155930784783,
+        10.528557779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 362338.36,
+      "source_tiles": [
+        {
+          "tile": "R8_C12",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C12.zip",
+          "sha256": "56bc1e7bece54cbdef1d243cc8ee278edf16e7ad249e194bf7b8d40fd964644c"
+        }
+      ]
+    },
+    {
+      "city": "Casablanca, Morocco",
+      "bounds": [
+        -7.646962418468887,
+        33.57674222062523,
+        -7.593037581531113,
+        33.62165777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 203090.82,
+      "source_tiles": [
+        {
+          "tile": "R6_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C18.zip",
+          "sha256": "bcc43d7d9c7450558e3cad76f7c2d3eefd8174a40c025ae5525d10ee4e194e24"
+        }
+      ]
+    },
+    {
+      "city": "Chennai, India",
+      "bounds": [
+        80.25194380038933,
+        13.060042220625224,
+        80.29805619961068,
+        13.104957779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 659887.14,
+      "source_tiles": [
+        {
+          "tile": "R8_C27",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C27.zip",
+          "sha256": "719b076c7853f5f558b611edece5c79919e3d90dbeacef466585ad1bd71b4151"
+        }
+      ]
+    },
+    {
+      "city": "Chiang Mai, Thailand",
+      "bounds": [
+        98.9595781214611,
+        18.766442220625226,
+        99.0070218785389,
+        18.811357779374777
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 151916.36,
+      "source_tiles": [
+        {
+          "tile": "R8_C28",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C28.zip",
+          "sha256": "d12b7e27471e0a73c7cf661832f0841132c3f33e9f9f4d16db4216fc1881e706"
+        }
+      ]
+    },
+    {
+      "city": "Chicago, IL, United States",
+      "bounds": [
+        -87.71674306824565,
+        41.81504222062522,
+        -87.65645693175435,
+        41.859957779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 63,
+      "window_population_estimate": 132893.62,
+      "source_tiles": [
+        {
+          "tile": "R5_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C10.zip",
+          "sha256": "0e0f0b9afe4b189686142e77e8b8df1ad732089eee7c9a5e8c260033ac61b19d"
+        }
+      ]
+    },
+    {
+      "city": "Christchurch, New Zealand",
+      "bounds": [
+        172.60512377937988,
+        -43.55355777937478,
+        172.66707622062012,
+        -43.50864222062523
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 59896.77,
+      "source_tiles": [
+        {
+          "tile": "R14_C36",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R14_C36.zip",
+          "sha256": "93ca37c01158848351860afc842aa75657045d521d4d8e9cd3ec9ada30f2df6a"
+        }
+      ]
+    },
+    {
+      "city": "Cincinnati, OH, United States",
+      "bounds": [
+        -84.53495567634013,
+        39.118842220625226,
+        -84.47704432365987,
+        39.16375777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 57989.58,
+      "source_tiles": [
+        {
+          "tile": "R5_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C10.zip",
+          "sha256": "0e0f0b9afe4b189686142e77e8b8df1ad732089eee7c9a5e8c260033ac61b19d"
+        }
+      ]
+    },
+    {
+      "city": "Cluj-Napoca, Romania",
+      "bounds": [
+        23.557912177325353,
+        46.74644222062523,
+        23.623487822674644,
+        46.79135777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 63,
+      "window_population_estimate": 213520.76,
+      "source_tiles": [
+        {
+          "tile": "R5_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C21.zip",
+          "sha256": "9d00e434425ac43ad9c30c98d33c3c35c587189ab3f5f09f21aed12c8cd745b9"
+        }
+      ]
+    },
+    {
+      "city": "Cologne, Germany",
+      "bounds": [
+        6.922158617963494,
+        50.919742220625224,
+        6.993441382036505,
+        50.964657779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 179304.3,
+      "source_tiles": [
+        {
+          "tile": "R4_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C19.zip",
+          "sha256": "2f6c06605c005b6ac0f13d90091cd15926a14af83f1ddb86ab6bb7c4256d9108"
+        }
+      ]
+    },
+    {
+      "city": "Colombo, Sri Lanka",
+      "bounds": [
+        79.8379771017471,
+        6.904242220625225,
+        79.88322289825291,
+        6.949157779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 364321.22,
+      "source_tiles": [
+        {
+          "tile": "R9_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R9_C26.zip",
+          "sha256": "c963d73949d33541a79f2cf7059eb06c754e71b01794a682a90423a9caa6993b"
+        }
+      ]
+    },
+    {
+      "city": "Columbus, OH, United States",
+      "bounds": [
+        -83.01481062602069,
+        39.96374222062522,
+        -82.95618937397931,
+        40.00865777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 71113.72,
+      "source_tiles": [
+        {
+          "tile": "R5_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C10.zip",
+          "sha256": "0e0f0b9afe4b189686142e77e8b8df1ad732089eee7c9a5e8c260033ac61b19d"
+        }
+      ]
+    },
+    {
+      "city": "Cork, Ireland",
+      "bounds": [
+        -8.509496229586574,
+        51.87754222062522,
+        -8.436703770413427,
+        51.922457779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 79239.7,
+      "source_tiles": [
+        {
+          "tile": "R4_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C18.zip",
+          "sha256": "3ea89ea38d664ca7815c55fef49e669f874f4cb632519c93bc22260ac7b416ac"
+        }
+      ]
+    },
+    {
+      "city": "Cuenca, Ecuador",
+      "bounds": [
+        -79.02698652497921,
+        -2.9198577793747758,
+        -78.98201347502078,
+        -2.8749422206252246
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 205035.73,
+      "source_tiles": [
+        {
+          "tile": "R10_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R10_C11.zip",
+          "sha256": "fa1eaf9d6cbdaa8710d1f2028083d57172e99a6de3efa72c2a9fd9abd0fe5096"
+        }
+      ]
+    },
+    {
+      "city": "Dallas, TX, United States",
+      "bounds": [
+        -96.7934154769537,
+        32.771042220625226,
+        -96.7399845230463,
+        32.81595777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 69775.76,
+      "source_tiles": [
+        {
+          "tile": "R6_C9",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C9.zip",
+          "sha256": "4a736725b0da21a52e872e36fd9e70393e1a8aeebf3b0e4e6b3dbde4a6020b24"
+        }
+      ]
+    },
+    {
+      "city": "Davao, Philippines",
+      "bounds": [
+        125.58677034113265,
+        7.043742220625225,
+        125.63202965886734,
+        7.088657779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 485950.19,
+      "source_tiles": [
+        {
+          "tile": "R9_C31",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R9_C31.zip",
+          "sha256": "11f815a045c712728fc0e986268f20eb848ca6645a8bbe17dbc5095cff7f5a3b"
+        }
+      ]
+    },
+    {
+      "city": "Delhi, India",
+      "bounds": [
+        77.20440654097196,
+        28.637542220625225,
+        77.25559345902805,
+        28.682457779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 746897.71,
+      "source_tiles": [
+        {
+          "tile": "R7_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C26.zip",
+          "sha256": "30fc081ffd64b44e15e0a82193d93b205f55498a13ad38b07cc6b489c24a5371"
+        }
+      ]
+    },
+    {
+      "city": "Denver, CO, United States",
+      "bounds": [
+        -104.90501497180584,
+        39.739542220625225,
+        -104.84658502819416,
+        39.784457779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 45800.03,
+      "source_tiles": [
+        {
+          "tile": "R5_C8",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C8.zip",
+          "sha256": "28f7ac7e9f3bdcff6b7dd32459787dd6cb81ed9e9a85cc9f2fe3099a9830f337"
+        }
+      ]
+    },
+    {
+      "city": "Detroit, MI, United States",
+      "bounds": [
+        -83.13280378928296,
+        42.360942220625226,
+        -83.07199621071705,
+        42.40585777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 51959.35,
+      "source_tiles": [
+        {
+          "tile": "R5_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C10.zip",
+          "sha256": "0e0f0b9afe4b189686142e77e8b8df1ad732089eee7c9a5e8c260033ac61b19d"
+        }
+      ]
+    },
+    {
+      "city": "Dhaka, Bangladesh",
+      "bounds": [
+        90.36986830457727,
+        23.706442220625224,
+        90.41893169542274,
+        23.751357779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 2039576.77,
+      "source_tiles": [
+        {
+          "tile": "R7_C28",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C28.zip",
+          "sha256": "ef1ea1aad2610c59c539826b69ea5e128ee3e1d27fe76b3ff7d608d56805cd9e"
+        }
+      ]
+    },
+    {
+      "city": "Dnipro, Ukraine",
+      "bounds": [
+        35.00612931693179,
+        48.445042220625226,
+        35.07387068306821,
+        48.48995777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 177233.07,
+      "source_tiles": [
+        {
+          "tile": "R5_C22",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C22.zip",
+          "sha256": "b992e90731044bc423676d9be8a254b158005feab195cf8f4454ec31c41cfe7c"
+        }
+      ]
+    },
+    {
+      "city": "Doha, Qatar",
+      "bounds": [
+        51.5045624395895,
+        25.263642220625226,
+        51.554237560410506,
+        25.308557779374777
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 267614.48,
+      "source_tiles": [
+        {
+          "tile": "R7_C24",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C24.zip",
+          "sha256": "f1293312bad11b7341143c86620b6aa41040a1d1511d3fed728c3f822b14b528"
+        }
+      ]
+    },
+    {
+      "city": "Dubai, United Arab Emirates",
+      "bounds": [
+        55.28456579658465,
+        25.247242220625225,
+        55.33423420341534,
+        25.292157779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 233661.58,
+      "source_tiles": [
+        {
+          "tile": "R7_C24",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C24.zip",
+          "sha256": "f1293312bad11b7341143c86620b6aa41040a1d1511d3fed728c3f822b14b528"
+        }
+      ]
+    },
+    {
+      "city": "Dublin, Ireland",
+      "bounds": [
+        -6.297922167554206,
+        53.32724222062522,
+        -6.222677832445794,
+        53.372157779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 191799.0,
+      "source_tiles": [
+        {
+          "tile": "R4_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C18.zip",
+          "sha256": "3ea89ea38d664ca7815c55fef49e669f874f4cb632519c93bc22260ac7b416ac"
+        }
+      ]
+    },
+    {
+      "city": "Edinburgh, United Kingdom",
+      "bounds": [
+        -3.2234091822137145,
+        55.92754222062523,
+        -3.1431908177862855,
+        55.97245777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 177072.38,
+      "source_tiles": [
+        {
+          "tile": "R4_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C18.zip",
+          "sha256": "3ea89ea38d664ca7815c55fef49e669f874f4cb632519c93bc22260ac7b416ac"
+        }
+      ]
+    },
+    {
+      "city": "Edmonton, Canada",
+      "bounds": [
+        -113.52808607785248,
+        53.51194222062522,
+        -113.45251392214753,
+        53.55685777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 107052.81,
+      "source_tiles": [
+        {
+          "tile": "R4_C7",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C7.zip",
+          "sha256": "3deb6eb94deb624f765bf35a19bdd8a3f63bf258d57dfa2e24f54d52ea41164f"
+        }
+      ]
+    },
+    {
+      "city": "Frankfurt, Germany",
+      "bounds": [
+        8.647181272359362,
+        50.08814222062522,
+        8.717218727640638,
+        50.133057779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 70,
+      "window_population_estimate": 252433.97,
+      "source_tiles": [
+        {
+          "tile": "R4_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C19.zip",
+          "sha256": "2f6c06605c005b6ac0f13d90091cd15926a14af83f1ddb86ab6bb7c4256d9108"
+        }
+      ]
+    },
+    {
+      "city": "Gold Coast, Australia",
+      "bounds": [
+        153.37456104813353,
+        -28.039157779374776,
+        153.42543895186648,
+        -27.994242220625225
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 34549.65,
+      "source_tiles": [
+        {
+          "tile": "R12_C34",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R12_C34.zip",
+          "sha256": "233ce870604177a8a275e171f66d76a9b2520806541ec1caf58f999a3404ea8f"
+        }
+      ]
+    },
+    {
+      "city": "Guadalajara, Mexico",
+      "bounds": [
+        -103.36620388017162,
+        20.653942220625225,
+        -103.31819611982839,
+        20.698857779374777
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 193913.9,
+      "source_tiles": [
+        {
+          "tile": "R7_C8",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C8.zip",
+          "sha256": "63a52e8626c79de39cb2e596debe2ecfcfc1de4336d6d8c86afa1e053ece9797"
+        }
+      ]
+    },
+    {
+      "city": "Guangzhou, China",
+      "bounds": [
+        113.2355791757189,
+        23.107542220625223,
+        113.28442082428111,
+        23.152457779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 1347997.48,
+      "source_tiles": [
+        {
+          "tile": "R7_C30",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C30.zip",
+          "sha256": "ef570fdc03ee4aab7df0f4426451947beab4884eb57a0ec9f8a37f49761e73e1"
+        }
+      ]
+    },
+    {
+      "city": "Guatemala City, Guatemala",
+      "bounds": [
+        -90.53651156430527,
+        14.619242220625225,
+        -90.49008843569473,
+        14.664157779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 240472.57,
+      "source_tiles": [
+        {
+          "tile": "R8_C9",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C9.zip",
+          "sha256": "a7072190bb0bf5b964d3f202c76aa36b839b35f09bc2653fcc4c9f646a0b54cf"
+        }
+      ]
+    },
+    {
+      "city": "Gurgaon, India",
+      "bounds": [
+        77.00775350319768,
+        28.444242220625224,
+        77.05884649680232,
+        28.489157779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 206973.77,
+      "source_tiles": [
+        {
+          "tile": "R7_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C26.zip",
+          "sha256": "30fc081ffd64b44e15e0a82193d93b205f55498a13ad38b07cc6b489c24a5371"
+        }
+      ]
+    },
+    {
+      "city": "Hamburg, Germany",
+      "bounds": [
+        9.96219999461881,
+        53.52754222062522,
+        10.03780000538119,
+        53.57245777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 167273.84,
+      "source_tiles": [
+        {
+          "tile": "R4_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C19.zip",
+          "sha256": "2f6c06605c005b6ac0f13d90091cd15926a14af83f1ddb86ab6bb7c4256d9108"
+        },
+        {
+          "tile": "R4_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C20.zip",
+          "sha256": "d531d5ea5ea9e7a9f421f608a00f0bc382142dbd77074653139a4ebd3a612ce5"
+        }
+      ]
+    },
+    {
+      "city": "Hanoi, Vietnam",
+      "bounds": [
+        105.81714051067182,
+        21.002042220625224,
+        105.86525948932818,
+        21.046957779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 820638.69,
+      "source_tiles": [
+        {
+          "tile": "R7_C29",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C29.zip",
+          "sha256": "11b380e986e596d74d4ded5a9419f32e6e11cd2205b0b4e75f0fe32c36ccaf5d"
+        }
+      ]
+    },
+    {
+      "city": "Helsinki, Finland",
+      "bounds": [
+        24.892351124604012,
+        60.148342220625224,
+        24.982648875395988,
+        60.193257779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 77,
+      "window_population_estimate": 168140.93,
+      "source_tiles": [
+        {
+          "tile": "R3_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R3_C21.zip",
+          "sha256": "a788c294c965d3b26ffaac194e80d339de3abcee62b322db603862d845b4bb3a"
+        }
+      ]
+    },
+    {
+      "city": "Ho Chi Minh City, Vietnam",
+      "bounds": [
+        106.67903911370092,
+        10.753142220625225,
+        106.72476088629907,
+        10.798057779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 898118.87,
+      "source_tiles": [
+        {
+          "tile": "R8_C29",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C29.zip",
+          "sha256": "e1f82c3da79aa3da534ee9c48286509007b2cfe490e8eab0f46f42db8580cf17"
+        }
+      ]
+    },
+    {
+      "city": "Hobart, Australia",
+      "bounds": [
+        147.2860510109661,
+        -42.905757779374774,
+        147.3473489890339,
+        -42.86084222062522
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 32830.93,
+      "source_tiles": [
+        {
+          "tile": "R14_C33",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R14_C33.zip",
+          "sha256": "760360c74c4e1728b4f9ea40fa97cf5494adbcffb4e74e3c26a1b3828704a4e5"
+        }
+      ]
+    },
+    {
+      "city": "Hong Kong, Hong Kong (China)",
+      "bounds": [
+        114.13433059092638,
+        22.255842220625226,
+        114.18286940907363,
+        22.300757779374777
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 317593.65,
+      "source_tiles": [
+        {
+          "tile": "R7_C30",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C30.zip",
+          "sha256": "ef570fdc03ee4aab7df0f4426451947beab4884eb57a0ec9f8a37f49761e73e1"
+        }
+      ]
+    },
+    {
+      "city": "Honolulu, HI, United States",
+      "bounds": [
+        -157.87010914202546,
+        21.306942220625224,
+        -157.82189085797455,
+        21.351857779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 93648.27,
+      "source_tiles": [
+        {
+          "tile": "R7_C3",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C3.zip",
+          "sha256": "5e71b3bed7028673542456871f2c23dd01ace7992cfd11c52b8e2ed315e8eee9"
+        }
+      ]
+    },
+    {
+      "city": "Houston, TX, United States",
+      "bounds": [
+        -95.41437639055401,
+        29.763542220625226,
+        -95.36262360944598,
+        29.808457779374777
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 65931.06,
+      "source_tiles": [
+        {
+          "tile": "R6_C9",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C9.zip",
+          "sha256": "4a736725b0da21a52e872e36fd9e70393e1a8aeebf3b0e4e6b3dbde4a6020b24"
+        }
+      ]
+    },
+    {
+      "city": "Hyderabad, India",
+      "bounds": [
+        78.45117020338418,
+        17.339242220625223,
+        78.49822979661582,
+        17.384157779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 715480.81,
+      "source_tiles": [
+        {
+          "tile": "R8_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C26.zip",
+          "sha256": "29ed47a0c42ae95131072d04b281c5f1d197a0d2fe36ac430e5e147b4bcea6ba"
+        }
+      ]
+    },
+    {
+      "city": "Indianapolis, IN, United States",
+      "bounds": [
+        -86.17502138052055,
+        39.75464222062522,
+        -86.11657861947944,
+        39.79955777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 39592.3,
+      "source_tiles": [
+        {
+          "tile": "R5_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C10.zip",
+          "sha256": "0e0f0b9afe4b189686142e77e8b8df1ad732089eee7c9a5e8c260033ac61b19d"
+        }
+      ]
+    },
+    {
+      "city": "Islamabad, Pakistan",
+      "bounds": [
+        73.00990633383705,
+        33.676442220625226,
+        73.06389366616295,
+        33.72135777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 164014.82,
+      "source_tiles": [
+        {
+          "tile": "R6_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C26.zip",
+          "sha256": "3282891a788cc86bf5db6261a2bbdb4b2129eda75d6c97142c9b3f6fd43c4710"
+        }
+      ]
+    },
+    {
+      "city": "Istanbul, Turkey",
+      "bounds": [
+        28.930538634704135,
+        40.98754222062522,
+        28.990061365295865,
+        41.032457779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 350326.48,
+      "source_tiles": [
+        {
+          "tile": "R5_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C21.zip",
+          "sha256": "9d00e434425ac43ad9c30c98d33c3c35c587189ab3f5f09f21aed12c8cd745b9"
+        }
+      ]
+    },
+    {
+      "city": "Izmir, Turkey",
+      "bounds": [
+        27.109738632649556,
+        38.390242220625225,
+        27.167061367350446,
+        38.43515777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 131707.04,
+      "source_tiles": [
+        {
+          "tile": "R6_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C21.zip",
+          "sha256": "03ba09321ffb4668278d35ab2f40173153094f25fc6fda583667334a75c42cd3"
+        }
+      ]
+    },
+    {
+      "city": "Jacksonville, FL, United States",
+      "bounds": [
+        -81.70091954637586,
+        30.309742220625225,
+        -81.64888045362413,
+        30.354657779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 37702.9,
+      "source_tiles": [
+        {
+          "tile": "R6_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C10.zip",
+          "sha256": "9e5bda1688a3502582f7cff69901b03eb4fe6ace56ac36ab9226f96eadc36a24"
+        }
+      ]
+    },
+    {
+      "city": "Jaipur, India",
+      "bounds": [
+        75.79481405520681,
+        26.892542220625224,
+        75.84518594479317,
+        26.937457779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 586676.75,
+      "source_tiles": [
+        {
+          "tile": "R7_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C26.zip",
+          "sha256": "30fc081ffd64b44e15e0a82193d93b205f55498a13ad38b07cc6b489c24a5371"
+        }
+      ]
+    },
+    {
+      "city": "Jakarta, Indonesia",
+      "bounds": [
+        106.80431114721937,
+        -6.197757779374776,
+        106.84948885278062,
+        -6.1528422206252245
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 537952.51,
+      "source_tiles": [
+        {
+          "tile": "R10_C29",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R10_C29.zip",
+          "sha256": "11da535874fe8c41b049be72077ad1d8cd3fc7329d6ddde02fa3b8aeddb6caba"
+        }
+      ]
+    },
+    {
+      "city": "Kansas City, MO, United States",
+      "bounds": [
+        -94.5830484815572,
+        39.10134222062523,
+        -94.52515151844281,
+        39.14625777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 24894.58,
+      "source_tiles": [
+        {
+          "tile": "R5_C9",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C9.zip",
+          "sha256": "814c02a63ac012eba16e5291c3b8f703f43b72f30f67759d6a4cb4ad9ba3a0bf"
+        }
+      ]
+    },
+    {
+      "city": "Karachi, Pakistan",
+      "bounds": [
+        66.98524870994474,
+        24.837542220625224,
+        67.03475129005527,
+        24.882457779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 1530382.1,
+      "source_tiles": [
+        {
+          "tile": "R7_C25",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C25.zip",
+          "sha256": "bc31974a6172f728c9b282e438031411d7e9d658cbd2f5c98fcbc343ce0ba942"
+        }
+      ]
+    },
+    {
+      "city": "Kathmandu, Nepal",
+      "bounds": [
+        85.29463293488944,
+        27.687542220625225,
+        85.34536706511055,
+        27.732457779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 802903.84,
+      "source_tiles": [
+        {
+          "tile": "R7_C27",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C27.zip",
+          "sha256": "3c4a556d6a2b09c8c6e45c3405152bad19a724a473e9f9d467caeacc1567d23b"
+        }
+      ]
+    },
+    {
+      "city": "Kolkata, India",
+      "bounds": [
+        88.34567999012236,
+        22.545042220625223,
+        88.39432000987765,
+        22.589957779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 992660.9,
+      "source_tiles": [
+        {
+          "tile": "R7_C27",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C27.zip",
+          "sha256": "3c4a556d6a2b09c8c6e45c3405152bad19a724a473e9f9d467caeacc1567d23b"
+        }
+      ]
+    },
+    {
+      "city": "Kuala Lumpur, Malaysia",
+      "bounds": [
+        101.67280828527562,
+        3.1253422206252246,
+        101.71779171472438,
+        3.1702577793747757
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 193232.79,
+      "source_tiles": [
+        {
+          "tile": "R9_C29",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R9_C29.zip",
+          "sha256": "0ee4ac074db08c689adce28db9d59780ab6c4aab1d4fb6001c2ddb1bbc4c418c"
+        }
+      ]
+    },
+    {
+      "city": "Lagos, Nigeria",
+      "bounds": [
+        3.370998891179625,
+        6.433642220625225,
+        3.4162011088203754,
+        6.478557779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 173079.11,
+      "source_tiles": [
+        {
+          "tile": "R9_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R9_C19.zip",
+          "sha256": "01eee4951a271faf84e48da1e705c58067d34ff0feea635168fc1bcb3c01b772"
+        }
+      ]
+    },
+    {
+      "city": "Lahore, Pakistan",
+      "bounds": [
+        74.31724687614046,
+        31.527242220625226,
+        74.36995312385953,
+        31.572157779374777
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 557737.14,
+      "source_tiles": [
+        {
+          "tile": "R6_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C26.zip",
+          "sha256": "3282891a788cc86bf5db6261a2bbdb4b2129eda75d6c97142c9b3f6fd43c4710"
+        }
+      ]
+    },
+    {
+      "city": "Las Vegas, NV, United States",
+      "bounds": [
+        -115.29324193939541,
+        36.210842220625224,
+        -115.23755806060458,
+        36.255757779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 64569.45,
+      "source_tiles": [
+        {
+          "tile": "R6_C7",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C7.zip",
+          "sha256": "47cc59c37c40ed1c6910b523a49209fbae108b799fc3db759d686c46e2609405"
+        }
+      ]
+    },
+    {
+      "city": "Leeds, United Kingdom",
+      "bounds": [
+        -1.5816227313012556,
+        53.775042220625224,
+        -1.5055772686987445,
+        53.819957779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 127833.89,
+      "source_tiles": [
+        {
+          "tile": "R4_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C18.zip",
+          "sha256": "3ea89ea38d664ca7815c55fef49e669f874f4cb632519c93bc22260ac7b416ac"
+        }
+      ]
+    },
+    {
+      "city": "Leipzig, Germany",
+      "bounds": [
+        12.335150633099369,
+        51.31694222062522,
+        12.407049366900631,
+        51.36185777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 139367.62,
+      "source_tiles": [
+        {
+          "tile": "R4_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C20.zip",
+          "sha256": "d531d5ea5ea9e7a9f421f608a00f0bc382142dbd77074653139a4ebd3a612ce5"
+        }
+      ]
+    },
+    {
+      "city": "Lima, Peru",
+      "bounds": [
+        -77.06046462378218,
+        -12.082457779374776,
+        -77.01453537621781,
+        -12.037542220625225
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 528483.58,
+      "source_tiles": [
+        {
+          "tile": "R11_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R11_C11.zip",
+          "sha256": "b7ab91d23a99b3aa668e9e4e76f97d9d82f7e6023e40a407925268b8a5a22aa9"
+        }
+      ]
+    },
+    {
+      "city": "Ljubljana, Slovenia",
+      "bounds": [
+        14.47374068287186,
+        46.028942220625225,
+        14.53845931712814,
+        46.07385777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 128325.34,
+      "source_tiles": [
+        {
+          "tile": "R5_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C20.zip",
+          "sha256": "ba7be68c73cadb888dc202c7b045f02546fde68b98587f05ff2974ecd12a9e91"
+        }
+      ]
+    },
+    {
+      "city": "London, United Kingdom",
+      "bounds": [
+        -0.16358160626540452,
+        51.48474222062522,
+        -0.09141839373459548,
+        51.52965777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 251381.03,
+      "source_tiles": [
+        {
+          "tile": "R4_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C18.zip",
+          "sha256": "3ea89ea38d664ca7815c55fef49e669f874f4cb632519c93bc22260ac7b416ac"
+        }
+      ]
+    },
+    {
+      "city": "Luxembourg, Luxembourg",
+      "bounds": [
+        6.098141809969967,
+        49.58814222062522,
+        6.1674581900300325,
+        49.633057779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 70,
+      "window_population_estimate": 108575.49,
+      "source_tiles": [
+        {
+          "tile": "R4_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C19.zip",
+          "sha256": "2f6c06605c005b6ac0f13d90091cd15926a14af83f1ddb86ab6bb7c4256d9108"
+        }
+      ]
+    },
+    {
+      "city": "Lyon, France",
+      "bounds": [
+        4.8028057737502685,
+        45.74504222062522,
+        4.867194226249731,
+        45.789957779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 287220.91,
+      "source_tiles": [
+        {
+          "tile": "R5_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C19.zip",
+          "sha256": "6be8727273ace2b39a3820312d4496638ed07a6d4464ba40feb7dcfcdf403ff7"
+        }
+      ]
+    },
+    {
+      "city": "Madrid, Spain",
+      "bounds": [
+        -3.732797425340687,
+        40.39444222062522,
+        -3.6738025746593133,
+        40.439357779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 576112.48,
+      "source_tiles": [
+        {
+          "tile": "R5_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C18.zip",
+          "sha256": "15316fda7961ae207eacc1e120c363530c6a56d0500cb2840fa9057e7ebe72b4"
+        }
+      ]
+    },
+    {
+      "city": "Malaga, Spain",
+      "bounds": [
+        -4.444716142191558,
+        36.69424222062523,
+        -4.3886838578084415,
+        36.73915777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 184708.54,
+      "source_tiles": [
+        {
+          "tile": "R6_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C18.zip",
+          "sha256": "bcc43d7d9c7450558e3cad76f7c2d3eefd8174a40c025ae5525d10ee4e194e24"
+        }
+      ]
+    },
+    {
+      "city": "Manchester, United Kingdom",
+      "bounds": [
+        -2.2829367226887567,
+        53.456542220625224,
+        -2.2074632773112435,
+        53.501457779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 77,
+      "window_population_estimate": 137723.55,
+      "source_tiles": [
+        {
+          "tile": "R4_C18",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C18.zip",
+          "sha256": "3ea89ea38d664ca7815c55fef49e669f874f4cb632519c93bc22260ac7b416ac"
+        }
+      ]
+    },
+    {
+      "city": "Manila, Philippines",
+      "bounds": [
+        120.95399328530245,
+        14.573342220625225,
+        121.00040671469755,
+        14.618257779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 848877.12,
+      "source_tiles": [
+        {
+          "tile": "R8_C31",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C31.zip",
+          "sha256": "87700ddb58f012d74fc9fd221ed3c8202cfa568804a3bb55605014e339e6cd51"
+        }
+      ]
+    },
+    {
+      "city": "Medellin, Colombia",
+      "bounds": [
+        -75.59019206756876,
+        6.227742220625225,
+        -75.54500793243123,
+        6.272657779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 523688.0,
+      "source_tiles": [
+        {
+          "tile": "R9_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R9_C11.zip",
+          "sha256": "0ce909b88f450a37d5fbe0d85e7cc85550a79c40dbc63238bb0221862b423448"
+        }
+      ]
+    },
+    {
+      "city": "Melbourne, Australia",
+      "bounds": [
+        144.93467254226192,
+        -37.836657779374775,
+        144.99152745773807,
+        -37.791742220625224
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 187175.42,
+      "source_tiles": [
+        {
+          "tile": "R13_C33",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R13_C33.zip",
+          "sha256": "3a21d2f3910cea668cecd5a79e6f5fa9f0247365373ca0cbbaf60e209f5a3e86"
+        }
+      ]
+    },
+    {
+      "city": "Memphis, TN, United States",
+      "bounds": [
+        -89.99375240394178,
+        35.08624222062522,
+        -89.93884759605822,
+        35.131157779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 44447.09,
+      "source_tiles": [
+        {
+          "tile": "R6_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C10.zip",
+          "sha256": "9e5bda1688a3502582f7cff69901b03eb4fe6ace56ac36ab9226f96eadc36a24"
+        }
+      ]
+    },
+    {
+      "city": "Mexico City, Mexico",
+      "bounds": [
+        -99.15970287541849,
+        19.331342220625224,
+        -99.11209712458152,
+        19.376257779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 282676.49,
+      "source_tiles": [
+        {
+          "tile": "R7_C9",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C9.zip",
+          "sha256": "92f24b84e3fb939821be59e0e4636c4c9454b3babb8c38ec714ef3b1928b2bf0"
+        }
+      ]
+    },
+    {
+      "city": "Miami, FL, United States",
+      "bounds": [
+        -80.23504088723001,
+        25.761542220625223,
+        -80.18515911276998,
+        25.806457779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 154903.43,
+      "source_tiles": [
+        {
+          "tile": "R7_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C10.zip",
+          "sha256": "0d0679ecfb2b004b0946ad9f4a0f63df3ad7f927b7f4e51caf91932eaa7a9fc1"
+        }
+      ]
+    },
+    {
+      "city": "Milan, Italy",
+      "bounds": [
+        9.157977897236256,
+        45.44444222062523,
+        9.222022102763743,
+        45.48935777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 319143.53,
+      "source_tiles": [
+        {
+          "tile": "R5_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C19.zip",
+          "sha256": "6be8727273ace2b39a3820312d4496638ed07a6d4464ba40feb7dcfcdf403ff7"
+        }
+      ]
+    },
+    {
+      "city": "Minneapolis, MN, United States",
+      "bounds": [
+        -93.2995398828751,
+        44.94104222062523,
+        -93.2360601171249,
+        44.98595777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 118177.42,
+      "source_tiles": [
+        {
+          "tile": "R5_C9",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C9.zip",
+          "sha256": "814c02a63ac012eba16e5291c3b8f703f43b72f30f67759d6a4cb4ad9ba3a0bf"
+        }
+      ]
+    },
+    {
+      "city": "Minsk, Belarus",
+      "bounds": [
+        27.523682042030917,
+        53.879742220625225,
+        27.599917957969087,
+        53.924657779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 70,
+      "window_population_estimate": 398136.52,
+      "source_tiles": [
+        {
+          "tile": "R4_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C21.zip",
+          "sha256": "e927bc19ef820d8c737bca46f01f6dfa60280cfa74da5ef573b5acd81f6d1f78"
+        }
+      ]
+    },
+    {
+      "city": "Monterrey, Mexico",
+      "bounds": [
+        -100.34301999828878,
+        25.661942220625225,
+        -100.29318000171122,
+        25.706857779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 100512.21,
+      "source_tiles": [
+        {
+          "tile": "R7_C8",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C8.zip",
+          "sha256": "63a52e8626c79de39cb2e596debe2ecfcfc1de4336d6d8c86afa1e053ece9797"
+        }
+      ]
+    },
+    {
+      "city": "Montevideo, Uruguay",
+      "bounds": [
+        -56.218684431525986,
+        -34.92835777937478,
+        -56.16391556847401,
+        -34.88344222062523
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 168806.06,
+      "source_tiles": [
+        {
+          "tile": "R13_C13",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R13_C13.zip",
+          "sha256": "9ae09b710dc445cc6e23865767e776c9f7479b8a3d81e273c25a4100f0f95bfd"
+        }
+      ]
+    },
+    {
+      "city": "Montreal, Canada",
+      "bounds": [
+        -73.59374598831448,
+        45.48644222062522,
+        -73.52965401168552,
+        45.53135777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 152948.34,
+      "source_tiles": [
+        {
+          "tile": "R5_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C11.zip",
+          "sha256": "cf1568a67ab99141b0d7b31b8f122283265b47cb648f5d71e70d92c197f07e70"
+        }
+      ]
+    },
+    {
+      "city": "Moscow, Russia",
+      "bounds": [
+        37.57759607649058,
+        55.72814222062522,
+        37.65740392350942,
+        55.773057779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 359516.26,
+      "source_tiles": [
+        {
+          "tile": "R4_C22",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C22.zip",
+          "sha256": "72f2a96d0f712965184ae431886c70dde5d51787b6d36ffc5502dd8e92435a98"
+        }
+      ]
+    },
+    {
+      "city": "Mumbai, India",
+      "bounds": [
+        72.85373734264867,
+        19.053342220625225,
+        72.90126265735132,
+        19.098257779374777
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 1013463.26,
+      "source_tiles": [
+        {
+          "tile": "R8_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C26.zip",
+          "sha256": "29ed47a0c42ae95131072d04b281c5f1d197a0d2fe36ac430e5e147b4bcea6ba"
+        }
+      ]
+    },
+    {
+      "city": "Munich, Germany",
+      "bounds": [
+        11.541347585479809,
+        48.11504222062523,
+        11.60865241452019,
+        48.15995777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 63,
+      "window_population_estimate": 275391.67,
+      "source_tiles": [
+        {
+          "tile": "R5_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C20.zip",
+          "sha256": "ba7be68c73cadb888dc202c7b045f02546fde68b98587f05ff2974ecd12a9e91"
+        }
+      ]
+    },
+    {
+      "city": "Nairobi, Kenya",
+      "bounds": [
+        36.794736559081834,
+        -1.3088577793747753,
+        36.839663440918166,
+        -1.2639422206252247
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 240965.7,
+      "source_tiles": [
+        {
+          "tile": "R10_C22",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R10_C22.zip",
+          "sha256": "7cba566f63af53a9267939e1134007b03f9971d8754e61746212a6bd7fde0d16"
+        }
+      ]
+    },
+    {
+      "city": "Nashville, TN, United States",
+      "bounds": [
+        -86.81201996699171,
+        36.149042220625226,
+        -86.75638003300828,
+        36.19395777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 35795.02,
+      "source_tiles": [
+        {
+          "tile": "R6_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C10.zip",
+          "sha256": "9e5bda1688a3502582f7cff69901b03eb4fe6ace56ac36ab9226f96eadc36a24"
+        }
+      ]
+    },
+    {
+      "city": "New Orleans, LA, United States",
+      "bounds": [
+        -89.95474999290214,
+        30.046242220625224,
+        -89.90285000709785,
+        30.091157779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 7526.09,
+      "source_tiles": [
+        {
+          "tile": "R6_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C10.zip",
+          "sha256": "9e5bda1688a3502582f7cff69901b03eb4fe6ace56ac36ab9226f96eadc36a24"
+        }
+      ]
+    },
+    {
+      "city": "New York, NY, United States",
+      "bounds": [
+        -73.95451989304047,
+        40.67184222062522,
+        -73.89528010695952,
+        40.716757779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 470464.52,
+      "source_tiles": [
+        {
+          "tile": "R5_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C11.zip",
+          "sha256": "cf1568a67ab99141b0d7b31b8f122283265b47cb648f5d71e70d92c197f07e70"
+        }
+      ]
+    },
+    {
+      "city": "Oakland, CA, United States",
+      "bounds": [
+        -122.24501829889317,
+        37.76794222062522,
+        -122.18818170110683,
+        37.812857779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 129110.36,
+      "source_tiles": [
+        {
+          "tile": "R6_C6",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C6.zip",
+          "sha256": "808618ae0432b5705dc2c6ceaecaafb77ad14c8411d99bb6fbb50557ac1c8a57"
+        }
+      ]
+    },
+    {
+      "city": "Oklahoma City, OK, United States",
+      "bounds": [
+        -97.54117437684262,
+        35.44514222062522,
+        -97.48602562315737,
+        35.49005777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 24524.62,
+      "source_tiles": [
+        {
+          "tile": "R6_C9",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C9.zip",
+          "sha256": "4a736725b0da21a52e872e36fd9e70393e1a8aeebf3b0e4e6b3dbde4a6020b24"
+        }
+      ]
+    },
+    {
+      "city": "Oslo, Norway",
+      "bounds": [
+        10.694101803306026,
+        59.890842220625224,
+        10.783698196693972,
+        59.935757779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 77,
+      "window_population_estimate": 155550.63,
+      "source_tiles": [
+        {
+          "tile": "R3_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R3_C20.zip",
+          "sha256": "d44eace2c9b90d6ad57e6bc90c499844ac1dbb8b4bd36f96c95996d17595a9e3"
+        }
+      ]
+    },
+    {
+      "city": "Ottawa, Canada",
+      "bounds": [
+        -75.7269981566106,
+        45.402242220625226,
+        -75.66300184338938,
+        45.44715777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 111766.7,
+      "source_tiles": [
+        {
+          "tile": "R5_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C11.zip",
+          "sha256": "cf1568a67ab99141b0d7b31b8f122283265b47cb648f5d71e70d92c197f07e70"
+        }
+      ]
+    },
+    {
+      "city": "Paris, France",
+      "bounds": [
+        2.3180667596088,
+        48.83424222062522,
+        2.3863332403912,
+        48.87915777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 637968.08,
+      "source_tiles": [
+        {
+          "tile": "R5_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C19.zip",
+          "sha256": "6be8727273ace2b39a3820312d4496638ed07a6d4464ba40feb7dcfcdf403ff7"
+        }
+      ]
+    },
+    {
+      "city": "Perth, Australia",
+      "bounds": [
+        115.83323102297211,
+        -31.978257779374776,
+        115.88616897702789,
+        -31.933342220625224
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 51447.34,
+      "source_tiles": [
+        {
+          "tile": "R13_C30",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R13_C30.zip",
+          "sha256": "71b7d220513e83eafa30379d2414331aa8b69c98f08f6ded90de91c57c816a9f"
+        }
+      ]
+    },
+    {
+      "city": "Philadelphia, PA, United States",
+      "bounds": [
+        -75.16321985547187,
+        39.985242220625224,
+        -75.10458014452813,
+        40.030157779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 186055.04,
+      "source_tiles": [
+        {
+          "tile": "R5_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C11.zip",
+          "sha256": "cf1568a67ab99141b0d7b31b8f122283265b47cb648f5d71e70d92c197f07e70"
+        }
+      ]
+    },
+    {
+      "city": "Phoenix, AZ, United States",
+      "bounds": [
+        -112.11615398268506,
+        33.54974222062523,
+        -112.06224601731495,
+        33.59465777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 57013.6,
+      "source_tiles": [
+        {
+          "tile": "R6_C7",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C7.zip",
+          "sha256": "47cc59c37c40ed1c6910b523a49209fbae108b799fc3db759d686c46e2609405"
+        }
+      ]
+    },
+    {
+      "city": "Pittsburgh, PA, United States",
+      "bounds": [
+        -80.00580742690958,
+        40.417242220625226,
+        -79.9467925730904,
+        40.46215777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 70441.65,
+      "source_tiles": [
+        {
+          "tile": "R5_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C11.zip",
+          "sha256": "cf1568a67ab99141b0d7b31b8f122283265b47cb648f5d71e70d92c197f07e70"
+        }
+      ]
+    },
+    {
+      "city": "Portland, OR, United States",
+      "bounds": [
+        -122.682062055433,
+        45.51464222062523,
+        -122.61793794456702,
+        45.55955777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 85281.73,
+      "source_tiles": [
+        {
+          "tile": "R5_C6",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C6.zip",
+          "sha256": "e9d5c6bb0b413bd9a8b714a42a075b19928973b6a1f152d00ab007a608043b5f"
+        }
+      ]
+    },
+    {
+      "city": "Prague, Czech Republic",
+      "bounds": [
+        14.386398153302242,
+        50.06504222062522,
+        14.456401846697759,
+        50.109957779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 63,
+      "window_population_estimate": 229643.1,
+      "source_tiles": [
+        {
+          "tile": "R4_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C20.zip",
+          "sha256": "d531d5ea5ea9e7a9f421f608a00f0bc382142dbd77074653139a4ebd3a612ce5"
+        }
+      ]
+    },
+    {
+      "city": "Pune, India",
+      "bounds": [
+        73.83161552439556,
+        18.498642220625225,
+        73.87898447560444,
+        18.543557779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 850093.05,
+      "source_tiles": [
+        {
+          "tile": "R8_C26",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C26.zip",
+          "sha256": "29ed47a0c42ae95131072d04b281c5f1d197a0d2fe36ac430e5e147b4bcea6ba"
+        }
+      ]
+    },
+    {
+      "city": "Qingdao, Shandong, China",
+      "bounds": [
+        120.37219946060215,
+        36.094242220625226,
+        120.42780053939786,
+        36.13915777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 558024.99,
+      "source_tiles": [
+        {
+          "tile": "R6_C31",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C31.zip",
+          "sha256": "59380199fb508c81b2bd5bd8c565babd7e62323153f29f672a2a0ce787ee22ad"
+        }
+      ]
+    },
+    {
+      "city": "Quebec City, Canada",
+      "bounds": [
+        -71.24091524845211,
+        46.79144222062522,
+        -71.17528475154789,
+        46.83635777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 83053.21,
+      "source_tiles": [
+        {
+          "tile": "R5_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C11.zip",
+          "sha256": "cf1568a67ab99141b0d7b31b8f122283265b47cb648f5d71e70d92c197f07e70"
+        }
+      ]
+    },
+    {
+      "city": "Quito, Ecuador",
+      "bounds": [
+        -78.53495794492873,
+        -0.24245777937477542,
+        -78.49004205507127,
+        -0.19754222062522458
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 245456.07,
+      "source_tiles": [
+        {
+          "tile": "R9_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R9_C11.zip",
+          "sha256": "0ce909b88f450a37d5fbe0d85e7cc85550a79c40dbc63238bb0221862b423448"
+        }
+      ]
+    },
+    {
+      "city": "Raleigh, NC, United States",
+      "bounds": [
+        -78.67060058952373,
+        35.809942220625224,
+        -78.61519941047627,
+        35.854857779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 33206.46,
+      "source_tiles": [
+        {
+          "tile": "R6_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C11.zip",
+          "sha256": "b533789d3ad9cc3b172aa7dc3c3bca1bfbdeb0df47a4aac993dc77add4c25846"
+        }
+      ]
+    },
+    {
+      "city": "Riga, Latvia",
+      "bounds": [
+        24.065723836300307,
+        56.92504222062522,
+        24.14807616369969,
+        56.969957779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 66,
+      "window_population_estimate": 149436.37,
+      "source_tiles": [
+        {
+          "tile": "R4_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C21.zip",
+          "sha256": "e927bc19ef820d8c737bca46f01f6dfa60280cfa74da5ef573b5acd81f6d1f78"
+        }
+      ]
+    },
+    {
+      "city": "Rio de Janeiro, Brazil",
+      "bounds": [
+        -43.22998121322001,
+        -22.933557779374777,
+        -43.181218786779986,
+        -22.888642220625226
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 336527.94,
+      "source_tiles": [
+        {
+          "tile": "R12_C14",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R12_C14.zip",
+          "sha256": "01e4b7c2e191f76d37843f6565738d13566f8a4e879ce2c699cef8759fdd3f8d"
+        }
+      ]
+    },
+    {
+      "city": "Riyadh, Saudi Arabia",
+      "bounds": [
+        46.685290505942596,
+        24.627542220625223,
+        46.734709494057405,
+        24.672457779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 305243.16,
+      "source_tiles": [
+        {
+          "tile": "R7_C23",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C23.zip",
+          "sha256": "7bb16687f551c16ad928b5e5ae88e7fb02245caecf9f8163bf05827fe13a0a29"
+        }
+      ]
+    },
+    {
+      "city": "Rome, Italy",
+      "bounds": [
+        12.452630706954226,
+        41.87064222062522,
+        12.512969293045773,
+        41.91555777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 231380.56,
+      "source_tiles": [
+        {
+          "tile": "R5_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C20.zip",
+          "sha256": "ba7be68c73cadb888dc202c7b045f02546fde68b98587f05ff2974ecd12a9e91"
+        }
+      ]
+    },
+    {
+      "city": "Rotterdam, Netherlands",
+      "bounds": [
+        4.443587558097902,
+        51.897542220625226,
+        4.516412441902099,
+        51.94245777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 63,
+      "window_population_estimate": 132255.24,
+      "source_tiles": [
+        {
+          "tile": "R4_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C19.zip",
+          "sha256": "2f6c06605c005b6ac0f13d90091cd15926a14af83f1ddb86ab6bb7c4256d9108"
+        }
+      ]
+    },
+    {
+      "city": "Sacramento, CA, United States",
+      "bounds": [
+        -121.49722308740655,
+        38.54524222062523,
+        -121.43977691259346,
+        38.59015777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 67598.27,
+      "source_tiles": [
+        {
+          "tile": "R6_C6",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C6.zip",
+          "sha256": "808618ae0432b5705dc2c6ceaecaafb77ad14c8411d99bb6fbb50557ac1c8a57"
+        }
+      ]
+    },
+    {
+      "city": "Saint Petersburg, Russia",
+      "bounds": [
+        30.27185221157352,
+        59.92754222062523,
+        30.36154778842648,
+        59.97245777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 72,
+      "window_population_estimate": 326658.21,
+      "source_tiles": [
+        {
+          "tile": "R3_C22",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R3_C22.zip",
+          "sha256": "3f8d180e7af4456140c32b7d225f6abba0bd28af5a691e705d1033a34f2d252b"
+        }
+      ]
+    },
+    {
+      "city": "San Antonio, TX, United States",
+      "bounds": [
+        -98.54959362236464,
+        29.440742220625225,
+        -98.49800637763535,
+        29.485657779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 79979.46,
+      "source_tiles": [
+        {
+          "tile": "R6_C9",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C9.zip",
+          "sha256": "4a736725b0da21a52e872e36fd9e70393e1a8aeebf3b0e4e6b3dbde4a6020b24"
+        }
+      ]
+    },
+    {
+      "city": "San Diego, CA, United States",
+      "bounds": [
+        -117.1489268433862,
+        32.80884222062522,
+        -117.0954731566138,
+        32.853757779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 16949.41,
+      "source_tiles": [
+        {
+          "tile": "R6_C7",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C7.zip",
+          "sha256": "47cc59c37c40ed1c6910b523a49209fbae108b799fc3db759d686c46e2609405"
+        }
+      ]
+    },
+    {
+      "city": "San Francisco, CA, United States",
+      "bounds": [
+        -122.4733050031935,
+        37.733342220625225,
+        -122.4164949968065,
+        37.778257779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 199094.58,
+      "source_tiles": [
+        {
+          "tile": "R6_C6",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C6.zip",
+          "sha256": "808618ae0432b5705dc2c6ceaecaafb77ad14c8411d99bb6fbb50557ac1c8a57"
+        }
+      ]
+    },
+    {
+      "city": "San Jose, CA, United States",
+      "bounds": [
+        -121.8762324153352,
+        37.278742220625226,
+        -121.8197675846648,
+        37.32365777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 86829.92,
+      "source_tiles": [
+        {
+          "tile": "R6_C6",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C6.zip",
+          "sha256": "808618ae0432b5705dc2c6ceaecaafb77ad14c8411d99bb6fbb50557ac1c8a57"
+        }
+      ]
+    },
+    {
+      "city": "San Juan, Puerto Rico",
+      "bounds": [
+        -66.08466756407148,
+        18.376042220625223,
+        -66.03733243592853,
+        18.420957779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 67936.76,
+      "source_tiles": [
+        {
+          "tile": "R8_C12",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R8_C12.zip",
+          "sha256": "56bc1e7bece54cbdef1d243cc8ee278edf16e7ad249e194bf7b8d40fd964644c"
+        }
+      ]
+    },
+    {
+      "city": "Santiago, Chile",
+      "bounds": [
+        -70.67691206540823,
+        -33.459957779374776,
+        -70.62308793459178,
+        -33.415042220625224
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 199777.57,
+      "source_tiles": [
+        {
+          "tile": "R13_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R13_C11.zip",
+          "sha256": "5c6c206eb545d43728cbf5cb0123d487f111a340b32edb27e7cf76de1e8a9b2a"
+        }
+      ]
+    },
+    {
+      "city": "Sao Paulo, Brazil",
+      "bounds": [
+        -46.6583982653326,
+        -23.572857779374775,
+        -46.609401734667394,
+        -23.527942220625224
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 452091.37,
+      "source_tiles": [
+        {
+          "tile": "R12_C14",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R12_C14.zip",
+          "sha256": "01e4b7c2e191f76d37843f6565738d13566f8a4e879ce2c699cef8759fdd3f8d"
+        }
+      ]
+    },
+    {
+      "city": "Seattle, WA, United States",
+      "bounds": [
+        -122.3577186448881,
+        47.59864222062522,
+        -122.2910813551119,
+        47.643557779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 63,
+      "window_population_estimate": 132127.61,
+      "source_tiles": [
+        {
+          "tile": "R5_C6",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C6.zip",
+          "sha256": "e9d5c6bb0b413bd9a8b714a42a075b19928973b6a1f152d00ab007a608043b5f"
+        }
+      ]
+    },
+    {
+      "city": "Seoul, South Korea",
+      "bounds": [
+        126.96166980856316,
+        37.53754222062523,
+        127.01833019143683,
+        37.58245777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 341746.46,
+      "source_tiles": [
+        {
+          "tile": "R6_C31",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C31.zip",
+          "sha256": "59380199fb508c81b2bd5bd8c565babd7e62323153f29f672a2a0ce787ee22ad"
+        }
+      ]
+    },
+    {
+      "city": "Shanghai, China",
+      "bounds": [
+        121.44293575029796,
+        31.210042220625226,
+        121.49546424970204,
+        31.254957779374777
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 977860.21,
+      "source_tiles": [
+        {
+          "tile": "R6_C31",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C31.zip",
+          "sha256": "59380199fb508c81b2bd5bd8c565babd7e62323153f29f672a2a0ce787ee22ad"
+        }
+      ]
+    },
+    {
+      "city": "Sharjah, United Arab Emirates",
+      "bounds": [
+        55.3870518991999,
+        25.315042220625223,
+        55.4367481008001,
+        25.359957779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 303446.78,
+      "source_tiles": [
+        {
+          "tile": "R7_C24",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C24.zip",
+          "sha256": "f1293312bad11b7341143c86620b6aa41040a1d1511d3fed728c3f822b14b528"
+        }
+      ]
+    },
+    {
+      "city": "Shenzhen, China",
+      "bounds": [
+        114.0300836571905,
+        22.524242220625226,
+        114.0787163428095,
+        22.569157779374777
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 719426.98,
+      "source_tiles": [
+        {
+          "tile": "R7_C30",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C30.zip",
+          "sha256": "ef570fdc03ee4aab7df0f4426451947beab4884eb57a0ec9f8a37f49761e73e1"
+        }
+      ]
+    },
+    {
+      "city": "Singapore, Singapore",
+      "bounds": [
+        103.77753643871397,
+        1.2775422206252247,
+        103.82246356128603,
+        1.3224577793747754
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 36,
+      "window_population_estimate": 211743.24,
+      "source_tiles": [
+        {
+          "tile": "R9_C29",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R9_C29.zip",
+          "sha256": "0ee4ac074db08c689adce28db9d59780ab6c4aab1d4fb6001c2ddb1bbc4c418c"
+        }
+      ]
+    },
+    {
+      "city": "Sofia, Bulgaria",
+      "bounds": [
+        23.291142680809553,
+        42.67544222062522,
+        23.352257319190446,
+        42.72035777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 213445.5,
+      "source_tiles": [
+        {
+          "tile": "R5_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C21.zip",
+          "sha256": "9d00e434425ac43ad9c30c98d33c3c35c587189ab3f5f09f21aed12c8cd745b9"
+        }
+      ]
+    },
+    {
+      "city": "Stockholm, Sweden",
+      "bounds": [
+        18.010676373971222,
+        59.305042220625225,
+        18.09872362602878,
+        59.349957779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 77,
+      "window_population_estimate": 323771.07,
+      "source_tiles": [
+        {
+          "tile": "R3_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R3_C20.zip",
+          "sha256": "d44eace2c9b90d6ad57e6bc90c499844ac1dbb8b4bd36f96c95996d17595a9e3"
+        }
+      ]
+    },
+    {
+      "city": "Stuttgart, Germany",
+      "bounds": [
+        9.145920645542303,
+        48.75504222062523,
+        9.214079354457697,
+        48.79995777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 63,
+      "window_population_estimate": 203820.39,
+      "source_tiles": [
+        {
+          "tile": "R5_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C19.zip",
+          "sha256": "6be8727273ace2b39a3820312d4496638ed07a6d4464ba40feb7dcfcdf403ff7"
+        }
+      ]
+    },
+    {
+      "city": "Sydney, Australia",
+      "bounds": [
+        151.1829530448632,
+        -33.89025777937478,
+        151.2370469551368,
+        -33.84534222062523
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 180040.47,
+      "source_tiles": [
+        {
+          "tile": "R13_C34",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R13_C34.zip",
+          "sha256": "76545f97a1012240243144b0620389986773f4bfb6dce28ea736cfa7230ac95d"
+        }
+      ]
+    },
+    {
+      "city": "Taipei, Taiwan",
+      "bounds": [
+        121.53771301189002,
+        25.015042220625226,
+        121.58728698810998,
+        25.059957779374777
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 644609.16,
+      "source_tiles": [
+        {
+          "tile": "R7_C31",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C31.zip",
+          "sha256": "b49e0a76a1cee5bb395971c654afb3902561dcd252e96d2ccfabe98257f62637"
+        }
+      ]
+    },
+    {
+      "city": "Tallinn, Estonia",
+      "bounds": [
+        24.700833718766077,
+        59.41474222062522,
+        24.789166281233925,
+        59.45965777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 77,
+      "window_population_estimate": 110781.38,
+      "source_tiles": [
+        {
+          "tile": "R3_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R3_C21.zip",
+          "sha256": "a788c294c965d3b26ffaac194e80d339de3abcee62b322db603862d845b4bb3a"
+        }
+      ]
+    },
+    {
+      "city": "Tampa, FL, United States",
+      "bounds": [
+        -82.47013371029423,
+        27.972042220625223,
+        -82.41926628970576,
+        28.016957779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 49,
+      "window_population_estimate": 51195.16,
+      "source_tiles": [
+        {
+          "tile": "R7_C10",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R7_C10.zip",
+          "sha256": "0d0679ecfb2b004b0946ad9f4a0f63df3ad7f927b7f4e51caf91932eaa7a9fc1"
+        }
+      ]
+    },
+    {
+      "city": "Tashkent, Uzbekistan",
+      "bounds": [
+        69.24980159050699,
+        41.28864222062523,
+        69.30959840949302,
+        41.33355777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 63,
+      "window_population_estimate": 97862.35,
+      "source_tiles": [
+        {
+          "tile": "R5_C25",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C25.zip",
+          "sha256": "4a55630e00824a931714160eaa47ed6b23e95985b7ce6794d553530ffd3f8452"
+        }
+      ]
+    },
+    {
+      "city": "Tbilisi, Georgia",
+      "bounds": [
+        44.76241093950716,
+        41.70004222062522,
+        44.82258906049283,
+        41.74495777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 318638.35,
+      "source_tiles": [
+        {
+          "tile": "R5_C23",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C23.zip",
+          "sha256": "1ebe50131b77190c304df822084dc3320c418d719450fea0a2caed03d6b2ad57"
+        }
+      ]
+    },
+    {
+      "city": "Tehran, Iran",
+      "bounds": [
+        51.362049329674996,
+        35.66644222062522,
+        51.417350670325,
+        35.71135777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 500625.41,
+      "source_tiles": [
+        {
+          "tile": "R6_C24",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C24.zip",
+          "sha256": "b2af3b831962156d6cc1e44f2b64db16816fcfd7412302e878944bd2a426e443"
+        }
+      ]
+    },
+    {
+      "city": "Tokyo, Japan",
+      "bounds": [
+        139.72375068143347,
+        35.66254222062523,
+        139.7790493185665,
+        35.70745777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 253862.74,
+      "source_tiles": [
+        {
+          "tile": "R6_C32",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C32.zip",
+          "sha256": "13b45a0bd6a1c374b0a1f86fffa0ba45fad5517ee35fdb4125d993d56a2793bb"
+        }
+      ]
+    },
+    {
+      "city": "Toronto, Canada",
+      "bounds": [
+        -79.40438497499535,
+        43.719242220625226,
+        -79.34221502500465,
+        43.76415777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 65487.6,
+      "source_tiles": [
+        {
+          "tile": "R5_C11",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C11.zip",
+          "sha256": "cf1568a67ab99141b0d7b31b8f122283265b47cb648f5d71e70d92c197f07e70"
+        }
+      ]
+    },
+    {
+      "city": "Tunis, Tunisia",
+      "bounds": [
+        10.151953123388992,
+        36.77834222062523,
+        10.208046876611007,
+        36.82325777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 42,
+      "window_population_estimate": 148856.18,
+      "source_tiles": [
+        {
+          "tile": "R6_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R6_C20.zip",
+          "sha256": "051305135923c0189a781c5a5b0ca138ee93fa859c9b3b52f6141aebfe861fb5"
+        }
+      ]
+    },
+    {
+      "city": "Vancouver, Canada",
+      "bounds": [
+        -123.13440435671784,
+        49.227542220625224,
+        -123.06559564328215,
+        49.272457779374776
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 60,
+      "window_population_estimate": 165420.18,
+      "source_tiles": [
+        {
+          "tile": "R4_C6",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C6.zip",
+          "sha256": "ab724b82d52c73291787136fd6e9e799a3b0901a26cb5bd777c85e55cf80a8c5"
+        }
+      ]
+    },
+    {
+      "city": "Vienna, Austria",
+      "bounds": [
+        16.338801088386138,
+        48.185842220625226,
+        16.40619891161386,
+        48.23075777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 416607.48,
+      "source_tiles": [
+        {
+          "tile": "R5_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C20.zip",
+          "sha256": "ba7be68c73cadb888dc202c7b045f02546fde68b98587f05ff2974ecd12a9e91"
+        }
+      ]
+    },
+    {
+      "city": "Vilnius, Lithuania",
+      "bounds": [
+        25.241148394871864,
+        54.66474222062522,
+        25.31885160512814,
+        54.70965777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 77,
+      "window_population_estimate": 173160.31,
+      "source_tiles": [
+        {
+          "tile": "R4_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C21.zip",
+          "sha256": "e927bc19ef820d8c737bca46f01f6dfa60280cfa74da5ef573b5acd81f6d1f78"
+        }
+      ]
+    },
+    {
+      "city": "Warsaw, Poland",
+      "bounds": [
+        20.974433833407502,
+        52.20754222062522,
+        21.047766166592496,
+        52.25245777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 70,
+      "window_population_estimate": 229786.17,
+      "source_tiles": [
+        {
+          "tile": "R4_C21",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C21.zip",
+          "sha256": "e927bc19ef820d8c737bca46f01f6dfa60280cfa74da5ef573b5acd81f6d1f78"
+        }
+      ]
+    },
+    {
+      "city": "Wellington, New Zealand",
+      "bounds": [
+        174.74731176603376,
+        -41.311357779374774,
+        174.80708823396623,
+        -41.26644222062522
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 56,
+      "window_population_estimate": 72393.74,
+      "source_tiles": [
+        {
+          "tile": "R14_C36",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R14_C36.zip",
+          "sha256": "93ca37c01158848351860afc842aa75657045d521d4d8e9cd3ec9ada30f2df6a"
+        }
+      ]
+    },
+    {
+      "city": "Yekaterinburg, Russia",
+      "bounds": [
+        60.571746973166704,
+        56.813142220625224,
+        60.653853026833296,
+        56.858057779374775
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 77,
+      "window_population_estimate": 284059.4,
+      "source_tiles": [
+        {
+          "tile": "R4_C25",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R4_C25.zip",
+          "sha256": "cec2f7696ca471f13ba34364b22a47f1e9e272d86dceedaea3ca5d5f3c4beb1d"
+        }
+      ]
+    },
+    {
+      "city": "Yerevan, Armenia",
+      "bounds": [
+        44.485005213357844,
+        40.15894222062522,
+        44.54379478664216,
+        40.20385777937477
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 48,
+      "window_population_estimate": 207059.52,
+      "source_tiles": [
+        {
+          "tile": "R5_C23",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C23.zip",
+          "sha256": "1ebe50131b77190c304df822084dc3320c418d719450fea0a2caed03d6b2ad57"
+        }
+      ]
+    },
+    {
+      "city": "Zagreb, Croatia",
+      "bounds": [
+        15.944979423777111,
+        45.79064222062522,
+        16.00942057622289,
+        45.835557779374774
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 63,
+      "window_population_estimate": 207636.7,
+      "source_tiles": [
+        {
+          "tile": "R5_C20",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C20.zip",
+          "sha256": "ba7be68c73cadb888dc202c7b045f02546fde68b98587f05ff2974ecd12a9e91"
+        }
+      ]
+    },
+    {
+      "city": "Zurich, Switzerland",
+      "bounds": [
+        8.507937536307756,
+        47.351942220625226,
+        8.574262463692245,
+        47.39685777937478
+      ],
+      "coverage_fraction": 1.0,
+      "source_cells": 54,
+      "window_population_estimate": 195169.21,
+      "source_tiles": [
+        {
+          "tile": "R5_C19",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0_R5_C19.zip",
+          "sha256": "6be8727273ace2b39a3820312d4496638ed07a6d4464ba40feb7dcfcdf403ff7"
+        }
+      ]
+    }
+  ],
+  "caveat": "Residential population is estimated; the traffic label's date and geographic footprint are unknown. Existing 5 km road windows have unverified road completeness."
+}

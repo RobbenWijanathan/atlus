@@ -1,0 +1,55 @@
+{
+  "inputs": {
+    "graphs": "dataset/city_visuals/osm_city_data",
+    "traffic_labels": "dataset/city_quality/city_traffic.csv",
+    "city_reference": "dataset/city_master/worldcities.csv"
+  },
+  "artifacts_root": "artifacts",
+  "road_window": {
+    "width_metres": 5000,
+    "raster_pixels": 96,
+    "minimum_nodes": 20,
+    "minimum_edges": 20,
+    "highway_tags": [
+      "motorway", "motorway_link", "trunk", "trunk_link",
+      "primary", "primary_link", "secondary", "secondary_link"
+    ]
+  },
+  "population": {
+    "source": "GHS-POP R2023A",
+    "epoch": 2020,
+    "resolution": "4326_30ss",
+    "tile_west_edge_lon": -180.0079166,
+    "tile_north_edge_lat": 89.0995833,
+    "tile_size_degrees": 10,
+    "base_url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A",
+    "requests_timeout_seconds": 120,
+    "maximum_attempts": 3,
+    "image_density_reference_per_km2": 50000,
+    "high_density_threshold_per_km2": 1000
+  },
+  "collection": {
+    "overpass_url": "https://overpass-api.de/api",
+    "minimum_delay_seconds": 5,
+    "requests_timeout_seconds": 300,
+    "maximum_attempts_per_city": 3,
+    "retry_initial_delay_seconds": 30,
+    "retry_max_delay_seconds": 120,
+    "maximum_consecutive_transient_failures": 3,
+    "network_type": "drive",
+    "retain_all": true,
+    "truncate_by_edge": false,
+    "simplify": true
+  },
+  "quality_checks": {
+    "maximum_join_distance_km": 75,
+    "image_grid_cells_per_side": 4,
+    "sparse_grid_empty_cells": 8,
+    "reference_midpoint_review_km": 10
+  },
+  "evaluation": {
+    "fixed_epochs": 25,
+    "fixed_split_units": ["country", "city"],
+    "fixed_models": ["cnn", "gnn"]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "cities": 185,
+  "selection": "inner validation MAE; up to 40 epochs; patience 7",
+  "outer_split": "country",
+  "models": {
+    "cnn": {
+      "parameters": 42901,
+      "selected_epochs": [
+        {
+          "fold": 1,
+          "epochs": 8,
+          "inner_validation_mae": 50.876,
+          "inner_validation_cities": 29
+        },
+        {
+          "fold": 2,
+          "epochs": 6,
+          "inner_validation_mae": 28.575,
+          "inner_validation_cities": 40
+        },
+        {
+          "fold": 3,
+          "epochs": 1,
+          "inner_validation_mae": 30.399,
+          "inner_validation_cities": 48
+        },
+        {
+          "fold": 4,
+          "epochs": 10,
+          "inner_validation_mae": 29.676,
+          "inner_validation_cities": 57
+        },
+        {
+          "fold": 5,
+          "epochs": 11,
+          "inner_validation_mae": 45.686,
+          "inner_validation_cities": 30
+        }
+      ],
+      "mae": 41.836,
+      "rmse": 52.448,
+      "r2": -0.056
+    },
+    "gnn": {
+      "parameters": 6625,
+      "selected_epochs": [
+        {
+          "fold": 1,
+          "epochs": 12,
+          "inner_validation_mae": 56.299,
+          "inner_validation_cities": 29
+        },
+        {
+          "fold": 2,
+          "epochs": 16,
+          "inner_validation_mae": 24.312,
+          "inner_validation_cities": 40
+        },
+        {
+          "fold": 3,
+          "epochs": 1,
+          "inner_validation_mae": 30.327,
+          "inner_validation_cities": 48
+        },
+        {
+          "fold": 4,
+          "epochs": 19,
+          "inner_validation_mae": 27.77,
+          "inner_validation_cities": 57
+        },
+        {
+          "fold": 5,
+          "epochs": 39,
+          "inner_validation_mae": 41.242,
+          "inner_validation_cities": 30
+        }
+      ],
+      "mae": 39.205,
+      "rmse": 50.319,
+      "r2": 0.028
+    },
+    "training_mean": {
+      "mae": 40.923,
+      "rmse": 51.653,
+      "r2": -0.024
+    }
+  },
+  "caveat": "Single inner validation split and single seed per fold; performance remains uncertain."
+}

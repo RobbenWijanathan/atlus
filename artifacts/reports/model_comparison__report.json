@@ -1,0 +1,110 @@
+{
+  "cities": 185,
+  "held_out_unit": "country",
+  "models": {
+    "mean": {
+      "mae": 40.923,
+      "rmse": 51.653,
+      "r2": -0.024
+    },
+    "extent_ridge": {
+      "mae": 39.693,
+      "rmse": 50.399,
+      "r2": 0.025
+    },
+    "cnn": {
+      "mae": 41.836,
+      "rmse": 52.448,
+      "r2": -0.056
+    },
+    "gnn": {
+      "mae": 39.205,
+      "rmse": 50.319,
+      "r2": 0.028
+    },
+    "cnn_rotflip": {
+      "mae": 40.212,
+      "rmse": 51.425,
+      "r2": -0.015
+    },
+    "cnn_small_angle": {
+      "mae": 42.533,
+      "rmse": 53.576,
+      "r2": -0.102
+    },
+    "cnn_small_angle_flip": {
+      "mae": 42.526,
+      "rmse": 53.505,
+      "r2": -0.099
+    }
+  },
+  "differences": {
+    "gnn_minus_mean_mae": {
+      "observed": -1.718,
+      "lower_95": -4.257,
+      "upper_95": 1.191
+    },
+    "gnn_minus_extent_ridge_mae": {
+      "observed": -0.488,
+      "lower_95": -3.597,
+      "upper_95": 3.324
+    },
+    "cnn_minus_mean_mae": {
+      "observed": 0.913,
+      "lower_95": -1.116,
+      "upper_95": 2.504
+    },
+    "cnn_minus_extent_ridge_mae": {
+      "observed": 2.143,
+      "lower_95": -0.416,
+      "upper_95": 5.166
+    },
+    "cnn_rotflip_minus_cnn_mae": {
+      "observed": -1.624,
+      "lower_95": -3.184,
+      "upper_95": 0.416
+    },
+    "cnn_rotflip_minus_mean_mae": {
+      "observed": -0.711,
+      "lower_95": -2.196,
+      "upper_95": 0.626
+    },
+    "cnn_rotflip_minus_extent_ridge_mae": {
+      "observed": 0.519,
+      "lower_95": -2.334,
+      "upper_95": 4.419
+    },
+    "cnn_small_angle_minus_cnn_mae": {
+      "observed": 0.697,
+      "lower_95": -2.405,
+      "upper_95": 3.246
+    },
+    "cnn_small_angle_minus_cnn_rotflip_mae": {
+      "observed": 2.321,
+      "lower_95": -0.834,
+      "upper_95": 5.395
+    },
+    "cnn_small_angle_minus_mean_mae": {
+      "observed": 1.61,
+      "lower_95": -1.526,
+      "upper_95": 4.595
+    },
+    "cnn_small_angle_flip_minus_cnn_mae": {
+      "observed": 0.69,
+      "lower_95": -2.646,
+      "upper_95": 3.491
+    },
+    "cnn_small_angle_flip_minus_cnn_rotflip_mae": {
+      "observed": 2.314,
+      "lower_95": -0.831,
+      "upper_95": 5.642
+    },
+    "cnn_small_angle_flip_minus_mean_mae": {
+      "observed": 1.603,
+      "lower_95": -1.577,
+      "upper_95": 4.835
+    }
+  },
+  "bootstrap": "5000 resamples of countries with replacement; percentile 95% intervals",
+  "caveat": "Exploratory interval conditional on this dataset, trained models and preprocessing."
+}

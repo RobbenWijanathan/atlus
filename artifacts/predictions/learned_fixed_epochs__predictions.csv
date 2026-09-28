@@ -1,0 +1,741 @@
+model,split,fold,city,country,actual,predicted
+cnn,country,1,"Albuquerque, NM, United States",United States,120.0,219.2860107421875
+cnn,country,1,"Asheville, NC, United States",United States,130.8,100.52037811279297
+cnn,country,1,"Atlanta, GA, United States",United States,199.0,92.77354431152344
+cnn,country,1,"Austin, TX, United States",United States,198.8,138.9030303955078
+cnn,country,1,"Baltimore, MD, United States",United States,126.9,191.2958221435547
+cnn,country,1,"Boston, MA, United States",United States,213.1,172.02383422851562
+cnn,country,1,"Brooklyn, NY, United States",United States,188.5,152.64508056640625
+cnn,country,1,"Chicago, IL, United States",United States,188.8,164.18653869628906
+cnn,country,1,"Cincinnati, OH, United States",United States,146.1,151.82603454589844
+cnn,country,1,"Columbus, OH, United States",United States,140.1,119.79716491699219
+cnn,country,1,"Dallas, TX, United States",United States,168.7,56.29661560058594
+cnn,country,1,"Denver, CO, United States",United States,167.4,112.08941650390625
+cnn,country,1,"Detroit, MI, United States",United States,217.6,114.06294250488281
+cnn,country,1,"Honolulu, HI, United States",United States,197.4,104.80162811279297
+cnn,country,1,"Houston, TX, United States",United States,206.3,194.54335021972656
+cnn,country,1,"Indianapolis, IN, United States",United States,136.0,227.44805908203125
+cnn,country,1,"Jacksonville, FL, United States",United States,168.6,127.12445068359375
+cnn,country,1,"Kansas City, MO, United States",United States,150.0,76.13809967041016
+cnn,country,1,"Las Vegas, NV, United States",United States,126.4,149.43289184570312
+cnn,country,1,"Memphis, TN, United States",United States,130.2,128.93594360351562
+cnn,country,1,"Miami, FL, United States",United States,212.0,238.27696228027344
+cnn,country,1,"Minneapolis, MN, United States",United States,168.0,339.2179260253906
+cnn,country,1,"Nashville, TN, United States",United States,183.2,189.64358520507812
+cnn,country,1,"New Orleans, LA, United States",United States,124.3,147.787841796875
+cnn,country,1,"New York, NY, United States",United States,166.5,143.26458740234375
+cnn,country,1,"Oakland, CA, United States",United States,159.5,159.49240112304688
+cnn,country,1,"Oklahoma City, OK, United States",United States,151.5,263.605712890625
+cnn,country,1,"Philadelphia, PA, United States",United States,179.8,144.80792236328125
+cnn,country,1,"Phoenix, AZ, United States",United States,152.7,116.59322357177734
+cnn,country,1,"Pittsburgh, PA, United States",United States,174.6,244.266357421875
+cnn,country,1,"Portland, OR, United States",United States,172.9,182.21299743652344
+cnn,country,1,"Raleigh, NC, United States",United States,190.3,264.6141357421875
+cnn,country,1,"Sacramento, CA, United States",United States,124.5,170.8603057861328
+cnn,country,1,"San Antonio, TX, United States",United States,173.0,172.22921752929688
+cnn,country,1,"San Diego, CA, United States",United States,162.1,294.98956298828125
+cnn,country,1,"San Francisco, CA, United States",United States,242.0,154.61981201171875
+cnn,country,1,"San Jose, CA, United States",United States,183.3,185.37872314453125
+cnn,country,1,"Seattle, WA, United States",United States,199.3,188.66229248046875
+cnn,country,1,"Tampa, FL, United States",United States,184.3,159.22991943359375
+cnn,country,2,"Ahmedabad, India",India,155.3,145.80264282226562
+cnn,country,2,"Bangalore, India",India,253.0,145.52389526367188
+cnn,country,2,"Chennai, India",India,196.8,146.88755798339844
+cnn,country,2,"Delhi, India",India,284.1,183.7736358642578
+cnn,country,2,"Gurgaon, India",India,167.0,138.74966430664062
+cnn,country,2,"Hyderabad, India",India,178.1,210.57481384277344
+cnn,country,2,"Jaipur, India",India,196.5,157.02352905273438
+cnn,country,2,"Kolkata, India",India,269.3,118.67166137695312
+cnn,country,2,"Mumbai, India",India,259.1,152.511474609375
+cnn,country,2,"Pune, India",India,192.4,182.88507080078125
+cnn,country,2,"Bologna, Italy",Italy,118.3,151.81858825683594
+cnn,country,2,"Milan, Italy",Italy,130.2,145.88710021972656
+cnn,country,2,"Rome, Italy",Italy,136.2,171.38258361816406
+cnn,country,2,"Auckland, New Zealand",New Zealand,164.4,157.09841918945312
+cnn,country,2,"Christchurch, New Zealand",New Zealand,98.9,138.53933715820312
+cnn,country,2,"Wellington, New Zealand",New Zealand,173.6,187.1407012939453
+cnn,country,2,"Abu Dhabi, United Arab Emirates",United Arab Emirates,134.9,137.92904663085938
+cnn,country,2,"Dubai, United Arab Emirates",United Arab Emirates,169.4,188.69534301757812
+cnn,country,2,"Sharjah, United Arab Emirates",United Arab Emirates,302.8,167.1752471923828
+cnn,country,2,"Lyon, France",France,141.6,153.2963409423828
+cnn,country,2,"Paris, France",France,149.5,139.69142150878906
+cnn,country,2,"Davao, Philippines",Philippines,105.7,126.79829406738281
+cnn,country,2,"Manila, Philippines",Philippines,233.6,179.86448669433594
+cnn,country,2,"Hanoi, Vietnam",Vietnam,102.1,153.20513916015625
+cnn,country,2,"Ho Chi Minh City, Vietnam",Vietnam,118.5,148.3411407470703
+cnn,country,2,"Dhaka, Bangladesh",Bangladesh,278.3,197.45623779296875
+cnn,country,2,"Sofia, Bulgaria",Bulgaria,109.3,158.14764404296875
+cnn,country,2,"Helsinki, Finland",Finland,72.6,146.3751220703125
+cnn,country,2,"Budapest, Hungary",Hungary,140.0,124.77232360839844
+cnn,country,2,"Almaty, Kazakhstan",Kazakhstan,147.3,121.57574462890625
+cnn,country,2,"Luxembourg, Luxembourg",Luxembourg,112.1,144.48789978027344
+cnn,country,2,"Lagos, Nigeria",Nigeria,348.5,140.14044189453125
+cnn,country,2,"San Juan, Puerto Rico",Puerto Rico,156.8,184.9990997314453
+cnn,country,2,"Singapore, Singapore",Singapore,145.6,154.40652465820312
+cnn,country,2,"Seoul, South Korea",South Korea,143.0,148.64846801757812
+cnn,country,2,"Taipei, Taiwan",Taiwan,123.5,171.97763061523438
+cnn,country,2,"Tashkent, Uzbekistan",Uzbekistan,130.0,150.01803588867188
+cnn,country,3,"Aachen, Germany",Germany,74.1,142.37989807128906
+cnn,country,3,"Berlin, Germany",Germany,98.9,158.08897399902344
+cnn,country,3,"Bremen, Germany",Germany,113.7,148.44029235839844
+cnn,country,3,"Cologne, Germany",Germany,135.0,179.17979431152344
+cnn,country,3,"Frankfurt, Germany",Germany,79.9,93.30970001220703
+cnn,country,3,"Hamburg, Germany",Germany,103.0,170.05628967285156
+cnn,country,3,"Leipzig, Germany",Germany,86.8,141.54556274414062
+cnn,country,3,"Munich, Germany",Germany,93.7,130.94650268554688
+cnn,country,3,"Stuttgart, Germany",Germany,88.4,117.50608825683594
+cnn,country,3,"Brasilia, Brazil",Brazil,132.3,172.56729125976562
+cnn,country,3,"Rio de Janeiro, Brazil",Brazil,230.0,197.83055114746094
+cnn,country,3,"Sao Paulo, Brazil",Brazil,238.9,196.10067749023438
+cnn,country,3,"Guadalajara, Mexico",Mexico,189.4,134.03836059570312
+cnn,country,3,"Mexico City, Mexico",Mexico,259.4,183.82106018066406
+cnn,country,3,"Monterrey, Mexico",Mexico,137.2,162.28587341308594
+cnn,country,3,"Barcelona, Spain",Spain,98.0,156.12615966796875
+cnn,country,3,"Madrid, Spain",Spain,104.9,169.22738647460938
+cnn,country,3,"Malaga, Spain",Spain,91.7,158.48876953125
+cnn,country,3,"Cuenca, Ecuador",Ecuador,110.4,170.0087432861328
+cnn,country,3,"Quito, Ecuador",Ecuador,184.1,130.16587829589844
+cnn,country,3,"Cork, Ireland",Ireland,133.4,159.4204559326172
+cnn,country,3,"Dublin, Ireland",Ireland,159.5,140.4966278076172
+cnn,country,3,"Bangkok, Thailand",Thailand,204.2,168.06858825683594
+cnn,country,3,"Chiang Mai, Thailand",Thailand,115.9,139.47695922851562
+cnn,country,3,"Yerevan, Armenia",Armenia,104.4,104.01728820800781
+cnn,country,3,"Minsk, Belarus",Belarus,114.0,110.93307495117188
+cnn,country,3,"Santiago, Chile",Chile,136.1,189.22467041015625
+cnn,country,3,"Tbilisi, Georgia",Georgia,135.6,129.8396759033203
+cnn,country,3,"Tehran, Iran",Iran,251.7,162.38143920898438
+cnn,country,3,"Nairobi, Kenya",Kenya,250.9,189.397705078125
+cnn,country,3,"Kuala Lumpur, Malaysia",Malaysia,193.4,193.8253631591797
+cnn,country,3,"Oslo, Norway",Norway,95.4,185.0238037109375
+cnn,country,3,"Doha, Qatar",Qatar,134.2,178.8312530517578
+cnn,country,3,"Bratislava, Slovakia",Slovakia,101.5,137.69256591796875
+cnn,country,3,"Colombo, Sri Lanka",Sri Lanka,290.3,162.32330322265625
+cnn,country,3,"Tunis, Tunisia",Tunisia,153.8,159.2342987060547
+cnn,country,3,"Caracas, Venezuela",Venezuela,146.9,161.27081298828125
+cnn,country,4,"Belfast, United Kingdom",United Kingdom,149.6,171.6160430908203
+cnn,country,4,"Birmingham, United Kingdom",United Kingdom,131.1,304.57000732421875
+cnn,country,4,"Bristol, United Kingdom",United Kingdom,121.7,160.65139770507812
+cnn,country,4,"Cambridge, United Kingdom",United Kingdom,166.4,146.445068359375
+cnn,country,4,"Edinburgh, United Kingdom",United Kingdom,97.4,143.5326690673828
+cnn,country,4,"Leeds, United Kingdom",United Kingdom,123.2,200.3681640625
+cnn,country,4,"London, United Kingdom",United Kingdom,158.9,202.82034301757812
+cnn,country,4,"Manchester, United Kingdom",United Kingdom,157.9,222.12429809570312
+cnn,country,4,"Beijing, China",China,178.9,182.23220825195312
+cnn,country,4,"Guangzhou, China",China,137.9,238.73773193359375
+cnn,country,4,"Qingdao, Shandong, China",China,79.6,187.86767578125
+cnn,country,4,"Shanghai, China",China,176.0,199.40771484375
+cnn,country,4,"Shenzhen, China",China,110.5,205.49667358398438
+cnn,country,4,"Islamabad, Pakistan",Pakistan,161.2,210.72793579101562
+cnn,country,4,"Karachi, Pakistan",Pakistan,187.8,168.00254821777344
+cnn,country,4,"Lahore, Pakistan",Pakistan,146.8,122.70205688476562
+cnn,country,4,"Bogota, Colombia",Colombia,223.7,174.1256561279297
+cnn,country,4,"Medellin, Colombia",Colombia,152.6,205.7323455810547
+cnn,country,4,"Alexandria, Egypt",Egypt,209.1,162.80538940429688
+cnn,country,4,"Cairo, Egypt",Egypt,240.9,231.68899536132812
+cnn,country,4,"Amsterdam, Netherlands",Netherlands,77.2,139.7315216064453
+cnn,country,4,"Rotterdam, Netherlands",Netherlands,91.9,143.4074249267578
+cnn,country,4,"Istanbul, Turkey",Turkey,233.8,160.32957458496094
+cnn,country,4,"Izmir, Turkey",Turkey,163.2,148.9494171142578
+cnn,country,4,"Vienna, Austria",Austria,73.2,146.0455322265625
+cnn,country,4,"Antwerp, Belgium",Belgium,164.3,133.58106994628906
+cnn,country,4,"Zagreb, Croatia",Croatia,106.9,140.8938751220703
+cnn,country,4,"Guatemala City, Guatemala",Guatemala,255.1,169.0269012451172
+cnn,country,4,"Tokyo, Japan",Japan,147.1,223.29244995117188
+cnn,country,4,"Riga, Latvia",Latvia,111.2,216.94647216796875
+cnn,country,4,"Casablanca, Morocco",Morocco,181.0,179.72146606445312
+cnn,country,4,"Lima, Peru",Peru,234.8,196.35084533691406
+cnn,country,4,"Riyadh, Saudi Arabia",Saudi Arabia,160.6,176.899658203125
+cnn,country,4,"Ljubljana, Slovenia",Slovenia,99.1,148.19326782226562
+cnn,country,4,"Stockholm, Sweden",Sweden,109.6,189.3169708251953
+cnn,country,4,"Dnipro, Ukraine",Ukraine,125.1,149.82423400878906
+cnn,country,5,"Adelaide, Australia",Australia,169.8,115.19915771484375
+cnn,country,5,"Brisbane, Australia",Australia,194.2,207.9154052734375
+cnn,country,5,"Gold Coast, Australia",Australia,131.8,147.58665466308594
+cnn,country,5,"Hobart, Australia",Australia,168.4,165.18251037597656
+cnn,country,5,"Melbourne, Australia",Australia,187.3,184.984130859375
+cnn,country,5,"Perth, Australia",Australia,200.7,204.49505615234375
+cnn,country,5,"Sydney, Australia",Australia,191.8,155.908935546875
+cnn,country,5,"Calgary, Canada",Canada,125.4,103.52978515625
+cnn,country,5,"Edmonton, Canada",Canada,117.5,127.66740417480469
+cnn,country,5,"Montreal, Canada",Canada,168.3,156.51144409179688
+cnn,country,5,"Ottawa, Canada",Canada,127.5,111.10194396972656
+cnn,country,5,"Quebec City, Canada",Canada,139.5,208.05477905273438
+cnn,country,5,"Toronto, Canada",Canada,195.3,118.30488586425781
+cnn,country,5,"Vancouver, Canada",Canada,147.0,148.12498474121094
+cnn,country,5,"Moscow, Russia",Russia,214.3,139.56094360351562
+cnn,country,5,"Saint Petersburg, Russia",Russia,208.7,114.55781555175781
+cnn,country,5,"Yekaterinburg, Russia",Russia,142.7,127.16719055175781
+cnn,country,5,"Brno, Czech Republic",Czech Republic,83.4,149.3144073486328
+cnn,country,5,"Prague, Czech Republic",Czech Republic,99.3,156.6870880126953
+cnn,country,5,"Bandung, Indonesia",Indonesia,194.5,115.80923461914062
+cnn,country,5,"Jakarta, Indonesia",Indonesia,258.0,118.51374816894531
+cnn,country,5,"Bucharest, Romania",Romania,166.0,144.31178283691406
+cnn,country,5,"Cluj-Napoca, Romania",Romania,105.0,122.66651916503906
+cnn,country,5,"Buenos Aires, Argentina",Argentina,210.8,195.0045928955078
+cnn,country,5,"Baku, Azerbaijan",Azerbaijan,146.1,159.9257049560547
+cnn,country,5,"Banja Luka, Bosnia And Herzegovina",Bosnia And Herzegovina,69.6,131.30322265625
+cnn,country,5,"Tallinn, Estonia",Estonia,84.3,99.68841552734375
+cnn,country,5,"Hong Kong, Hong Kong (China)",Hong Kong (China),142.4,174.6298065185547
+cnn,country,5,"Amman, Jordan",Jordan,188.8,124.47576904296875
+cnn,country,5,"Vilnius, Lithuania",Lithuania,85.9,157.70765686035156
+cnn,country,5,"Kathmandu, Nepal",Nepal,105.2,91.93756103515625
+cnn,country,5,"Warsaw, Poland",Poland,122.7,137.77493286132812
+cnn,country,5,"Belgrade, Serbia",Serbia,137.9,112.78922271728516
+cnn,country,5,"Cape Town, South Africa",South Africa,207.9,162.29676818847656
+cnn,country,5,"Zurich, Switzerland",Switzerland,132.8,137.50743103027344
+cnn,country,5,"Montevideo, Uruguay",Uruguay,159.7,128.14491271972656
+gnn,country,1,"Albuquerque, NM, United States",United States,120.0,163.07339477539062
+gnn,country,1,"Asheville, NC, United States",United States,130.8,175.503662109375
+gnn,country,1,"Atlanta, GA, United States",United States,199.0,144.60821533203125
+gnn,country,1,"Austin, TX, United States",United States,198.8,176.66598510742188
+gnn,country,1,"Baltimore, MD, United States",United States,126.9,172.32435607910156
+gnn,country,1,"Boston, MA, United States",United States,213.1,160.47610473632812
+gnn,country,1,"Brooklyn, NY, United States",United States,188.5,137.94671630859375
+gnn,country,1,"Chicago, IL, United States",United States,188.8,144.94491577148438
+gnn,country,1,"Cincinnati, OH, United States",United States,146.1,149.6948699951172
+gnn,country,1,"Columbus, OH, United States",United States,140.1,180.0350799560547
+gnn,country,1,"Dallas, TX, United States",United States,168.7,167.78489685058594
+gnn,country,1,"Denver, CO, United States",United States,167.4,184.59158325195312
+gnn,country,1,"Detroit, MI, United States",United States,217.6,194.27371215820312
+gnn,country,1,"Honolulu, HI, United States",United States,197.4,155.8408660888672
+gnn,country,1,"Houston, TX, United States",United States,206.3,167.839599609375
+gnn,country,1,"Indianapolis, IN, United States",United States,136.0,174.5111846923828
+gnn,country,1,"Jacksonville, FL, United States",United States,168.6,175.1539764404297
+gnn,country,1,"Kansas City, MO, United States",United States,150.0,150.28945922851562
+gnn,country,1,"Las Vegas, NV, United States",United States,126.4,171.72544860839844
+gnn,country,1,"Memphis, TN, United States",United States,130.2,122.66943359375
+gnn,country,1,"Miami, FL, United States",United States,212.0,181.04022216796875
+gnn,country,1,"Minneapolis, MN, United States",United States,168.0,188.58660888671875
+gnn,country,1,"Nashville, TN, United States",United States,183.2,185.76116943359375
+gnn,country,1,"New Orleans, LA, United States",United States,124.3,186.06468200683594
+gnn,country,1,"New York, NY, United States",United States,166.5,142.62583923339844
+gnn,country,1,"Oakland, CA, United States",United States,159.5,173.6043701171875
+gnn,country,1,"Oklahoma City, OK, United States",United States,151.5,179.77716064453125
+gnn,country,1,"Philadelphia, PA, United States",United States,179.8,150.05972290039062
+gnn,country,1,"Phoenix, AZ, United States",United States,152.7,127.26807403564453
+gnn,country,1,"Pittsburgh, PA, United States",United States,174.6,177.83572387695312
+gnn,country,1,"Portland, OR, United States",United States,172.9,176.59393310546875
+gnn,country,1,"Raleigh, NC, United States",United States,190.3,173.17759704589844
+gnn,country,1,"Sacramento, CA, United States",United States,124.5,171.4795379638672
+gnn,country,1,"San Antonio, TX, United States",United States,173.0,182.10781860351562
+gnn,country,1,"San Diego, CA, United States",United States,162.1,183.05845642089844
+gnn,country,1,"San Francisco, CA, United States",United States,242.0,139.18031311035156
+gnn,country,1,"San Jose, CA, United States",United States,183.3,171.51889038085938
+gnn,country,1,"Seattle, WA, United States",United States,199.3,165.33770751953125
+gnn,country,1,"Tampa, FL, United States",United States,184.3,175.44015502929688
+gnn,country,2,"Ahmedabad, India",India,155.3,139.5172119140625
+gnn,country,2,"Bangalore, India",India,253.0,147.52377319335938
+gnn,country,2,"Chennai, India",India,196.8,142.1878204345703
+gnn,country,2,"Delhi, India",India,284.1,154.01063537597656
+gnn,country,2,"Gurgaon, India",India,167.0,161.65919494628906
+gnn,country,2,"Hyderabad, India",India,178.1,152.23695373535156
+gnn,country,2,"Jaipur, India",India,196.5,162.5345458984375
+gnn,country,2,"Kolkata, India",India,269.3,126.10968780517578
+gnn,country,2,"Mumbai, India",India,259.1,156.89573669433594
+gnn,country,2,"Pune, India",India,192.4,156.3013458251953
+gnn,country,2,"Bologna, Italy",Italy,118.3,137.32994079589844
+gnn,country,2,"Milan, Italy",Italy,130.2,127.07595825195312
+gnn,country,2,"Rome, Italy",Italy,136.2,147.37237548828125
+gnn,country,2,"Auckland, New Zealand",New Zealand,164.4,181.2085418701172
+gnn,country,2,"Christchurch, New Zealand",New Zealand,98.9,151.4930419921875
+gnn,country,2,"Wellington, New Zealand",New Zealand,173.6,170.0604248046875
+gnn,country,2,"Abu Dhabi, United Arab Emirates",United Arab Emirates,134.9,156.25473022460938
+gnn,country,2,"Dubai, United Arab Emirates",United Arab Emirates,169.4,167.90306091308594
+gnn,country,2,"Sharjah, United Arab Emirates",United Arab Emirates,302.8,193.00694274902344
+gnn,country,2,"Lyon, France",France,141.6,158.52316284179688
+gnn,country,2,"Paris, France",France,149.5,136.87643432617188
+gnn,country,2,"Davao, Philippines",Philippines,105.7,134.83802795410156
+gnn,country,2,"Manila, Philippines",Philippines,233.6,168.27452087402344
+gnn,country,2,"Hanoi, Vietnam",Vietnam,102.1,138.25477600097656
+gnn,country,2,"Ho Chi Minh City, Vietnam",Vietnam,118.5,152.77003479003906
+gnn,country,2,"Dhaka, Bangladesh",Bangladesh,278.3,152.99134826660156
+gnn,country,2,"Sofia, Bulgaria",Bulgaria,109.3,148.93634033203125
+gnn,country,2,"Helsinki, Finland",Finland,72.6,146.08949279785156
+gnn,country,2,"Budapest, Hungary",Hungary,140.0,140.77426147460938
+gnn,country,2,"Almaty, Kazakhstan",Kazakhstan,147.3,134.232177734375
+gnn,country,2,"Luxembourg, Luxembourg",Luxembourg,112.1,154.65005493164062
+gnn,country,2,"Lagos, Nigeria",Nigeria,348.5,179.3536834716797
+gnn,country,2,"San Juan, Puerto Rico",Puerto Rico,156.8,170.6642303466797
+gnn,country,2,"Singapore, Singapore",Singapore,145.6,189.78921508789062
+gnn,country,2,"Seoul, South Korea",South Korea,143.0,152.20526123046875
+gnn,country,2,"Taipei, Taiwan",Taiwan,123.5,147.5400848388672
+gnn,country,2,"Tashkent, Uzbekistan",Uzbekistan,130.0,150.8124542236328
+gnn,country,3,"Aachen, Germany",Germany,74.1,164.7974090576172
+gnn,country,3,"Berlin, Germany",Germany,98.9,154.57257080078125
+gnn,country,3,"Bremen, Germany",Germany,113.7,159.99884033203125
+gnn,country,3,"Cologne, Germany",Germany,135.0,189.28225708007812
+gnn,country,3,"Frankfurt, Germany",Germany,79.9,170.8743438720703
+gnn,country,3,"Hamburg, Germany",Germany,103.0,154.2859649658203
+gnn,country,3,"Leipzig, Germany",Germany,86.8,156.70773315429688
+gnn,country,3,"Munich, Germany",Germany,93.7,145.51312255859375
+gnn,country,3,"Stuttgart, Germany",Germany,88.4,139.66769409179688
+gnn,country,3,"Brasilia, Brazil",Brazil,132.3,175.80979919433594
+gnn,country,3,"Rio de Janeiro, Brazil",Brazil,230.0,192.7121124267578
+gnn,country,3,"Sao Paulo, Brazil",Brazil,238.9,172.0711212158203
+gnn,country,3,"Guadalajara, Mexico",Mexico,189.4,140.004638671875
+gnn,country,3,"Mexico City, Mexico",Mexico,259.4,193.2101593017578
+gnn,country,3,"Monterrey, Mexico",Mexico,137.2,168.45138549804688
+gnn,country,3,"Barcelona, Spain",Spain,98.0,153.01333618164062
+gnn,country,3,"Madrid, Spain",Spain,104.9,185.7481231689453
+gnn,country,3,"Malaga, Spain",Spain,91.7,156.04458618164062
+gnn,country,3,"Cuenca, Ecuador",Ecuador,110.4,161.2952117919922
+gnn,country,3,"Quito, Ecuador",Ecuador,184.1,157.4766845703125
+gnn,country,3,"Cork, Ireland",Ireland,133.4,152.9107208251953
+gnn,country,3,"Dublin, Ireland",Ireland,159.5,152.4803924560547
+gnn,country,3,"Bangkok, Thailand",Thailand,204.2,173.8621368408203
+gnn,country,3,"Chiang Mai, Thailand",Thailand,115.9,167.5043182373047
+gnn,country,3,"Yerevan, Armenia",Armenia,104.4,159.53187561035156
+gnn,country,3,"Minsk, Belarus",Belarus,114.0,139.6871337890625
+gnn,country,3,"Santiago, Chile",Chile,136.1,169.99253845214844
+gnn,country,3,"Tbilisi, Georgia",Georgia,135.6,153.2351837158203
+gnn,country,3,"Tehran, Iran",Iran,251.7,170.56163024902344
+gnn,country,3,"Nairobi, Kenya",Kenya,250.9,191.49171447753906
+gnn,country,3,"Kuala Lumpur, Malaysia",Malaysia,193.4,190.6418914794922
+gnn,country,3,"Oslo, Norway",Norway,95.4,163.98419189453125
+gnn,country,3,"Doha, Qatar",Qatar,134.2,190.65829467773438
+gnn,country,3,"Bratislava, Slovakia",Slovakia,101.5,161.81898498535156
+gnn,country,3,"Colombo, Sri Lanka",Sri Lanka,290.3,167.01109313964844
+gnn,country,3,"Tunis, Tunisia",Tunisia,153.8,189.46405029296875
+gnn,country,3,"Caracas, Venezuela",Venezuela,146.9,180.61724853515625
+gnn,country,4,"Belfast, United Kingdom",United Kingdom,149.6,202.58547973632812
+gnn,country,4,"Birmingham, United Kingdom",United Kingdom,131.1,192.12680053710938
+gnn,country,4,"Bristol, United Kingdom",United Kingdom,121.7,209.18296813964844
+gnn,country,4,"Cambridge, United Kingdom",United Kingdom,166.4,145.81822204589844
+gnn,country,4,"Edinburgh, United Kingdom",United Kingdom,97.4,141.7713623046875
+gnn,country,4,"Leeds, United Kingdom",United Kingdom,123.2,213.76431274414062
+gnn,country,4,"London, United Kingdom",United Kingdom,158.9,184.19134521484375
+gnn,country,4,"Manchester, United Kingdom",United Kingdom,157.9,199.14666748046875
+gnn,country,4,"Beijing, China",China,178.9,163.20712280273438
+gnn,country,4,"Guangzhou, China",China,137.9,176.64390563964844
+gnn,country,4,"Qingdao, Shandong, China",China,79.6,165.5321807861328
+gnn,country,4,"Shanghai, China",China,176.0,177.06405639648438
+gnn,country,4,"Shenzhen, China",China,110.5,183.04237365722656
+gnn,country,4,"Islamabad, Pakistan",Pakistan,161.2,155.10398864746094
+gnn,country,4,"Karachi, Pakistan",Pakistan,187.8,209.78018188476562
+gnn,country,4,"Lahore, Pakistan",Pakistan,146.8,166.36643981933594
+gnn,country,4,"Bogota, Colombia",Colombia,223.7,169.54354858398438
+gnn,country,4,"Medellin, Colombia",Colombia,152.6,181.11178588867188
+gnn,country,4,"Alexandria, Egypt",Egypt,209.1,201.83502197265625
+gnn,country,4,"Cairo, Egypt",Egypt,240.9,220.10162353515625
+gnn,country,4,"Amsterdam, Netherlands",Netherlands,77.2,159.00827026367188
+gnn,country,4,"Rotterdam, Netherlands",Netherlands,91.9,190.565673828125
+gnn,country,4,"Istanbul, Turkey",Turkey,233.8,144.57821655273438
+gnn,country,4,"Izmir, Turkey",Turkey,163.2,156.755859375
+gnn,country,4,"Vienna, Austria",Austria,73.2,143.29225158691406
+gnn,country,4,"Antwerp, Belgium",Belgium,164.3,155.1913604736328
+gnn,country,4,"Zagreb, Croatia",Croatia,106.9,147.12576293945312
+gnn,country,4,"Guatemala City, Guatemala",Guatemala,255.1,174.25396728515625
+gnn,country,4,"Tokyo, Japan",Japan,147.1,199.802490234375
+gnn,country,4,"Riga, Latvia",Latvia,111.2,164.60743713378906
+gnn,country,4,"Casablanca, Morocco",Morocco,181.0,170.05186462402344
+gnn,country,4,"Lima, Peru",Peru,234.8,195.60061645507812
+gnn,country,4,"Riyadh, Saudi Arabia",Saudi Arabia,160.6,163.34579467773438
+gnn,country,4,"Ljubljana, Slovenia",Slovenia,99.1,144.6619110107422
+gnn,country,4,"Stockholm, Sweden",Sweden,109.6,214.28756713867188
+gnn,country,4,"Dnipro, Ukraine",Ukraine,125.1,156.0593719482422
+gnn,country,5,"Adelaide, Australia",Australia,169.8,152.98765563964844
+gnn,country,5,"Brisbane, Australia",Australia,194.2,176.31161499023438
+gnn,country,5,"Gold Coast, Australia",Australia,131.8,127.34941101074219
+gnn,country,5,"Hobart, Australia",Australia,168.4,151.3173065185547
+gnn,country,5,"Melbourne, Australia",Australia,187.3,167.78713989257812
+gnn,country,5,"Perth, Australia",Australia,200.7,180.18959045410156
+gnn,country,5,"Sydney, Australia",Australia,191.8,173.30799865722656
+gnn,country,5,"Calgary, Canada",Canada,125.4,157.7115020751953
+gnn,country,5,"Edmonton, Canada",Canada,117.5,120.74278259277344
+gnn,country,5,"Montreal, Canada",Canada,168.3,137.93612670898438
+gnn,country,5,"Ottawa, Canada",Canada,127.5,139.20831298828125
+gnn,country,5,"Quebec City, Canada",Canada,139.5,144.97438049316406
+gnn,country,5,"Toronto, Canada",Canada,195.3,156.43502807617188
+gnn,country,5,"Vancouver, Canada",Canada,147.0,113.67045593261719
+gnn,country,5,"Moscow, Russia",Russia,214.3,139.4645538330078
+gnn,country,5,"Saint Petersburg, Russia",Russia,208.7,127.77782440185547
+gnn,country,5,"Yekaterinburg, Russia",Russia,142.7,114.34619903564453
+gnn,country,5,"Brno, Czech Republic",Czech Republic,83.4,147.37168884277344
+gnn,country,5,"Prague, Czech Republic",Czech Republic,99.3,153.61331176757812
+gnn,country,5,"Bandung, Indonesia",Indonesia,194.5,155.59524536132812
+gnn,country,5,"Jakarta, Indonesia",Indonesia,258.0,119.53071594238281
+gnn,country,5,"Bucharest, Romania",Romania,166.0,123.78276062011719
+gnn,country,5,"Cluj-Napoca, Romania",Romania,105.0,127.57627868652344
+gnn,country,5,"Buenos Aires, Argentina",Argentina,210.8,182.08209228515625
+gnn,country,5,"Baku, Azerbaijan",Azerbaijan,146.1,137.99844360351562
+gnn,country,5,"Banja Luka, Bosnia And Herzegovina",Bosnia And Herzegovina,69.6,121.63006591796875
+gnn,country,5,"Tallinn, Estonia",Estonia,84.3,129.40785217285156
+gnn,country,5,"Hong Kong, Hong Kong (China)",Hong Kong (China),142.4,165.2823486328125
+gnn,country,5,"Amman, Jordan",Jordan,188.8,164.5891571044922
+gnn,country,5,"Vilnius, Lithuania",Lithuania,85.9,152.56271362304688
+gnn,country,5,"Kathmandu, Nepal",Nepal,105.2,148.72869873046875
+gnn,country,5,"Warsaw, Poland",Poland,122.7,117.31800079345703
+gnn,country,5,"Belgrade, Serbia",Serbia,137.9,135.9575653076172
+gnn,country,5,"Cape Town, South Africa",South Africa,207.9,155.22926330566406
+gnn,country,5,"Zurich, Switzerland",Switzerland,132.8,141.7692413330078
+gnn,country,5,"Montevideo, Uruguay",Uruguay,159.7,128.24913024902344
+cnn,city,1,"Adelaide, Australia",Australia,169.8,115.50875091552734
+cnn,city,1,"Casablanca, Morocco",Morocco,181.0,141.55499267578125
+cnn,city,1,"Santiago, Chile",Chile,136.1,245.34991455078125
+cnn,city,1,"Quito, Ecuador",Ecuador,184.1,133.42074584960938
+cnn,city,1,"San Jose, CA, United States",United States,183.3,195.7079620361328
+cnn,city,1,"Montevideo, Uruguay",Uruguay,159.7,115.58444213867188
+cnn,city,1,"Brisbane, Australia",Australia,194.2,211.2705078125
+cnn,city,1,"Shanghai, China",China,176.0,181.60765075683594
+cnn,city,1,"Dublin, Ireland",Ireland,159.5,108.52665710449219
+cnn,city,1,"Bandung, Indonesia",Indonesia,194.5,122.9775619506836
+cnn,city,1,"Rio de Janeiro, Brazil",Brazil,230.0,202.37966918945312
+cnn,city,1,"Hobart, Australia",Australia,168.4,143.9964141845703
+cnn,city,1,"Saint Petersburg, Russia",Russia,208.7,127.1701431274414
+cnn,city,1,"Oklahoma City, OK, United States",United States,151.5,206.50033569335938
+cnn,city,1,"Phoenix, AZ, United States",United States,152.7,128.46652221679688
+cnn,city,1,"Bristol, United Kingdom",United Kingdom,121.7,138.902587890625
+cnn,city,1,"Indianapolis, IN, United States",United States,136.0,175.9051971435547
+cnn,city,1,"Riyadh, Saudi Arabia",Saudi Arabia,160.6,198.81646728515625
+cnn,city,1,"Tashkent, Uzbekistan",Uzbekistan,130.0,167.9349365234375
+cnn,city,1,"Raleigh, NC, United States",United States,190.3,254.677734375
+cnn,city,1,"Minsk, Belarus",Belarus,114.0,99.07940673828125
+cnn,city,1,"Montreal, Canada",Canada,168.3,108.70941162109375
+cnn,city,1,"Jakarta, Indonesia",Indonesia,258.0,141.51101684570312
+cnn,city,1,"Chicago, IL, United States",United States,188.8,125.06312561035156
+cnn,city,1,"Sydney, Australia",Australia,191.8,142.0475311279297
+cnn,city,1,"Brasilia, Brazil",Brazil,132.3,230.11618041992188
+cnn,city,1,"Quebec City, Canada",Canada,139.5,209.2428436279297
+cnn,city,1,"Barcelona, Spain",Spain,98.0,151.54673767089844
+cnn,city,1,"Atlanta, GA, United States",United States,199.0,137.96395874023438
+cnn,city,1,"Las Vegas, NV, United States",United States,126.4,204.79605102539062
+cnn,city,1,"Cairo, Egypt",Egypt,240.9,278.2738037109375
+cnn,city,1,"Abu Dhabi, United Arab Emirates",United Arab Emirates,134.9,158.63719177246094
+cnn,city,1,"Manchester, United Kingdom",United Kingdom,157.9,200.769775390625
+cnn,city,1,"San Juan, Puerto Rico",Puerto Rico,156.8,134.68325805664062
+cnn,city,1,"Amman, Jordan",Jordan,188.8,135.96824645996094
+cnn,city,1,"Qingdao, Shandong, China",China,79.6,208.71578979492188
+cnn,city,1,"Dnipro, Ukraine",Ukraine,125.1,144.103759765625
+cnn,city,2,"Baku, Azerbaijan",Azerbaijan,146.1,140.09033203125
+cnn,city,2,"Toronto, Canada",Canada,195.3,116.42228698730469
+cnn,city,2,"Baltimore, MD, United States",United States,126.9,217.8896484375
+cnn,city,2,"Rome, Italy",Italy,136.2,211.53173828125
+cnn,city,2,"Stockholm, Sweden",Sweden,109.6,179.798583984375
+cnn,city,2,"Lima, Peru",Peru,234.8,178.31515502929688
+cnn,city,2,"Dubai, United Arab Emirates",United Arab Emirates,169.4,257.97515869140625
+cnn,city,2,"Columbus, OH, United States",United States,140.1,169.8809814453125
+cnn,city,2,"Mexico City, Mexico",Mexico,259.4,181.9510955810547
+cnn,city,2,"Yekaterinburg, Russia",Russia,142.7,127.22659301757812
+cnn,city,2,"Lagos, Nigeria",Nigeria,348.5,155.66746520996094
+cnn,city,2,"Asheville, NC, United States",United States,130.8,111.58854675292969
+cnn,city,2,"Ahmedabad, India",India,155.3,173.04989624023438
+cnn,city,2,"London, United Kingdom",United Kingdom,158.9,192.31492614746094
+cnn,city,2,"Luxembourg, Luxembourg",Luxembourg,112.1,119.61992645263672
+cnn,city,2,"Bangkok, Thailand",Thailand,204.2,169.3542938232422
+cnn,city,2,"Philadelphia, PA, United States",United States,179.8,162.12191772460938
+cnn,city,2,"Cologne, Germany",Germany,135.0,172.638427734375
+cnn,city,2,"Cambridge, United Kingdom",United Kingdom,166.4,122.59405517578125
+cnn,city,2,"Madrid, Spain",Spain,104.9,185.7025146484375
+cnn,city,2,"Pune, India",India,192.4,186.89698791503906
+cnn,city,2,"Ho Chi Minh City, Vietnam",Vietnam,118.5,163.34161376953125
+cnn,city,2,"Brno, Czech Republic",Czech Republic,83.4,124.84909057617188
+cnn,city,2,"Oakland, CA, United States",United States,159.5,162.67941284179688
+cnn,city,2,"Vilnius, Lithuania",Lithuania,85.9,189.87942504882812
+cnn,city,2,"Medellin, Colombia",Colombia,152.6,185.87545776367188
+cnn,city,2,"Bangalore, India",India,253.0,146.4352569580078
+cnn,city,2,"Lahore, Pakistan",Pakistan,146.8,154.52767944335938
+cnn,city,2,"Edmonton, Canada",Canada,117.5,117.72663116455078
+cnn,city,2,"Tampa, FL, United States",United States,184.3,185.0151824951172
+cnn,city,2,"Sao Paulo, Brazil",Brazil,238.9,196.67465209960938
+cnn,city,2,"Guangzhou, China",China,137.9,166.1881103515625
+cnn,city,2,"Tunis, Tunisia",Tunisia,153.8,120.0628433227539
+cnn,city,2,"Oslo, Norway",Norway,95.4,238.22222900390625
+cnn,city,2,"Amsterdam, Netherlands",Netherlands,77.2,169.27105712890625
+cnn,city,2,"Tokyo, Japan",Japan,147.1,208.2515106201172
+cnn,city,2,"Guadalajara, Mexico",Mexico,189.4,138.22113037109375
+cnn,city,3,"Nairobi, Kenya",Kenya,250.9,193.454833984375
+cnn,city,3,"Edinburgh, United Kingdom",United Kingdom,97.4,108.66265869140625
+cnn,city,3,"Wellington, New Zealand",New Zealand,173.6,175.02203369140625
+cnn,city,3,"Warsaw, Poland",Poland,122.7,123.38995361328125
+cnn,city,3,"Banja Luka, Bosnia And Herzegovina",Bosnia And Herzegovina,69.6,116.25025939941406
+cnn,city,3,"Bucharest, Romania",Romania,166.0,145.44314575195312
+cnn,city,3,"Seoul, South Korea",South Korea,143.0,162.12242126464844
+cnn,city,3,"Helsinki, Finland",Finland,72.6,130.02359008789062
+cnn,city,3,"Leipzig, Germany",Germany,86.8,139.781494140625
+cnn,city,3,"Nashville, TN, United States",United States,183.2,144.2261199951172
+cnn,city,3,"Buenos Aires, Argentina",Argentina,210.8,184.16465759277344
+cnn,city,3,"Portland, OR, United States",United States,172.9,150.36415100097656
+cnn,city,3,"Leeds, United Kingdom",United Kingdom,123.2,155.31814575195312
+cnn,city,3,"Shenzhen, China",China,110.5,166.14276123046875
+cnn,city,3,"Kuala Lumpur, Malaysia",Malaysia,193.4,206.62730407714844
+cnn,city,3,"Moscow, Russia",Russia,214.3,148.6865234375
+cnn,city,3,"Guatemala City, Guatemala",Guatemala,255.1,147.4291534423828
+cnn,city,3,"Stuttgart, Germany",Germany,88.4,126.35724639892578
+cnn,city,3,"New York, NY, United States",United States,166.5,131.27635192871094
+cnn,city,3,"Memphis, TN, United States",United States,130.2,106.07958984375
+cnn,city,3,"Kolkata, India",India,269.3,113.84953308105469
+cnn,city,3,"Antwerp, Belgium",Belgium,164.3,118.79971313476562
+cnn,city,3,"Istanbul, Turkey",Turkey,233.8,133.5514678955078
+cnn,city,3,"Chiang Mai, Thailand",Thailand,115.9,114.35108947753906
+cnn,city,3,"Christchurch, New Zealand",New Zealand,98.9,138.8750762939453
+cnn,city,3,"Pittsburgh, PA, United States",United States,174.6,167.6040802001953
+cnn,city,3,"Cincinnati, OH, United States",United States,146.1,145.7047576904297
+cnn,city,3,"Bremen, Germany",Germany,113.7,153.19110107421875
+cnn,city,3,"Jaipur, India",India,196.5,139.8976287841797
+cnn,city,3,"Vienna, Austria",Austria,73.2,128.75534057617188
+cnn,city,3,"Jacksonville, FL, United States",United States,168.6,161.48712158203125
+cnn,city,3,"San Antonio, TX, United States",United States,173.0,170.77401733398438
+cnn,city,3,"Cluj-Napoca, Romania",Romania,105.0,122.19911193847656
+cnn,city,3,"Denver, CO, United States",United States,167.4,216.18003845214844
+cnn,city,3,"Manila, Philippines",Philippines,233.6,159.59475708007812
+cnn,city,3,"Bogota, Colombia",Colombia,223.7,177.38217163085938
+cnn,city,3,"Almaty, Kazakhstan",Kazakhstan,147.3,118.30560302734375
+cnn,city,4,"Seattle, WA, United States",United States,199.3,150.73130798339844
+cnn,city,4,"Perth, Australia",Australia,200.7,238.82876586914062
+cnn,city,4,"Budapest, Hungary",Hungary,140.0,152.65695190429688
+cnn,city,4,"Alexandria, Egypt",Egypt,209.1,169.10342407226562
+cnn,city,4,"Bratislava, Slovakia",Slovakia,101.5,141.13967895507812
+cnn,city,4,"Dhaka, Bangladesh",Bangladesh,278.3,150.73365783691406
+cnn,city,4,"Gold Coast, Australia",Australia,131.8,143.093505859375
+cnn,city,4,"Cape Town, South Africa",South Africa,207.9,155.1072998046875
+cnn,city,4,"Aachen, Germany",Germany,74.1,164.9589385986328
+cnn,city,4,"Colombo, Sri Lanka",Sri Lanka,290.3,127.5552978515625
+cnn,city,4,"Honolulu, HI, United States",United States,197.4,140.9762725830078
+cnn,city,4,"Sharjah, United Arab Emirates",United Arab Emirates,302.8,154.57998657226562
+cnn,city,4,"Ottawa, Canada",Canada,127.5,148.49127197265625
+cnn,city,4,"Sacramento, CA, United States",United States,124.5,164.7845458984375
+cnn,city,4,"Ljubljana, Slovenia",Slovenia,99.1,141.29437255859375
+cnn,city,4,"Singapore, Singapore",Singapore,145.6,153.1815948486328
+cnn,city,4,"Bologna, Italy",Italy,118.3,164.67384338378906
+cnn,city,4,"Albuquerque, NM, United States",United States,120.0,212.4500732421875
+cnn,city,4,"Zagreb, Croatia",Croatia,106.9,161.38113403320312
+cnn,city,4,"Munich, Germany",Germany,93.7,142.61666870117188
+cnn,city,4,"Frankfurt, Germany",Germany,79.9,125.17405700683594
+cnn,city,4,"Hyderabad, India",India,178.1,160.58184814453125
+cnn,city,4,"Rotterdam, Netherlands",Netherlands,91.9,164.12559509277344
+cnn,city,4,"Malaga, Spain",Spain,91.7,164.57696533203125
+cnn,city,4,"Auckland, New Zealand",New Zealand,164.4,147.88221740722656
+cnn,city,4,"Hamburg, Germany",Germany,103.0,169.97657775878906
+cnn,city,4,"Kathmandu, Nepal",Nepal,105.2,193.8042449951172
+cnn,city,4,"Prague, Czech Republic",Czech Republic,99.3,142.38194274902344
+cnn,city,4,"Karachi, Pakistan",Pakistan,187.8,125.48565673828125
+cnn,city,4,"Izmir, Turkey",Turkey,163.2,182.59718322753906
+cnn,city,4,"Tehran, Iran",Iran,251.7,151.1064910888672
+cnn,city,4,"Milan, Italy",Italy,130.2,143.6959686279297
+cnn,city,4,"Riga, Latvia",Latvia,111.2,133.83799743652344
+cnn,city,4,"Cuenca, Ecuador",Ecuador,110.4,211.51025390625
+cnn,city,4,"San Diego, CA, United States",United States,162.1,177.1922607421875
+cnn,city,4,"Brooklyn, NY, United States",United States,188.5,146.23025512695312
+cnn,city,4,"Boston, MA, United States",United States,213.1,190.77610778808594
+cnn,city,5,"Islamabad, Pakistan",Pakistan,161.2,148.78260803222656
+cnn,city,5,"Austin, TX, United States",United States,198.8,172.13067626953125
+cnn,city,5,"Birmingham, United Kingdom",United Kingdom,131.1,204.9061279296875
+cnn,city,5,"Gurgaon, India",India,167.0,133.62435913085938
+cnn,city,5,"Miami, FL, United States",United States,212.0,189.68179321289062
+cnn,city,5,"Zurich, Switzerland",Switzerland,132.8,128.8822021484375
+cnn,city,5,"Minneapolis, MN, United States",United States,168.0,188.83877563476562
+cnn,city,5,"Lyon, France",France,141.6,162.4881134033203
+cnn,city,5,"Mumbai, India",India,259.1,160.6720428466797
+cnn,city,5,"Detroit, MI, United States",United States,217.6,141.21791076660156
+cnn,city,5,"Caracas, Venezuela",Venezuela,146.9,120.64202117919922
+cnn,city,5,"Kansas City, MO, United States",United States,150.0,119.62406921386719
+cnn,city,5,"Hong Kong, Hong Kong (China)",Hong Kong (China),142.4,215.87791442871094
+cnn,city,5,"Cork, Ireland",Ireland,133.4,175.585205078125
+cnn,city,5,"Paris, France",France,149.5,150.93209838867188
+cnn,city,5,"Doha, Qatar",Qatar,134.2,150.59164428710938
+cnn,city,5,"Tbilisi, Georgia",Georgia,135.6,167.8101806640625
+cnn,city,5,"New Orleans, LA, United States",United States,124.3,200.5697479248047
+cnn,city,5,"Vancouver, Canada",Canada,147.0,147.33740234375
+cnn,city,5,"Taipei, Taiwan",Taiwan,123.5,201.3095703125
+cnn,city,5,"Beijing, China",China,178.9,188.11734008789062
+cnn,city,5,"San Francisco, CA, United States",United States,242.0,147.7882537841797
+cnn,city,5,"Chennai, India",India,196.8,162.68626403808594
+cnn,city,5,"Houston, TX, United States",United States,206.3,138.86607360839844
+cnn,city,5,"Melbourne, Australia",Australia,187.3,160.5750732421875
+cnn,city,5,"Delhi, India",India,284.1,212.7481689453125
+cnn,city,5,"Hanoi, Vietnam",Vietnam,102.1,156.7214813232422
+cnn,city,5,"Monterrey, Mexico",Mexico,137.2,151.88925170898438
+cnn,city,5,"Berlin, Germany",Germany,98.9,171.1185760498047
+cnn,city,5,"Tallinn, Estonia",Estonia,84.3,131.1342315673828
+cnn,city,5,"Calgary, Canada",Canada,125.4,143.3208465576172
+cnn,city,5,"Dallas, TX, United States",United States,168.7,65.1558837890625
+cnn,city,5,"Yerevan, Armenia",Armenia,104.4,188.8691864013672
+cnn,city,5,"Belgrade, Serbia",Serbia,137.9,121.67840576171875
+cnn,city,5,"Belfast, United Kingdom",United Kingdom,149.6,214.90272521972656
+cnn,city,5,"Davao, Philippines",Philippines,105.7,139.57891845703125
+cnn,city,5,"Sofia, Bulgaria",Bulgaria,109.3,157.4538116455078
+gnn,city,1,"Adelaide, Australia",Australia,169.8,167.5367431640625
+gnn,city,1,"Casablanca, Morocco",Morocco,181.0,139.77444458007812
+gnn,city,1,"Santiago, Chile",Chile,136.1,181.4772186279297
+gnn,city,1,"Quito, Ecuador",Ecuador,184.1,145.24945068359375
+gnn,city,1,"San Jose, CA, United States",United States,183.3,192.11227416992188
+gnn,city,1,"Montevideo, Uruguay",Uruguay,159.7,118.966064453125
+gnn,city,1,"Brisbane, Australia",Australia,194.2,179.14242553710938
+gnn,city,1,"Shanghai, China",China,176.0,157.23080444335938
+gnn,city,1,"Dublin, Ireland",Ireland,159.5,158.35238647460938
+gnn,city,1,"Bandung, Indonesia",Indonesia,194.5,146.36036682128906
+gnn,city,1,"Rio de Janeiro, Brazil",Brazil,230.0,175.10992431640625
+gnn,city,1,"Hobart, Australia",Australia,168.4,157.22804260253906
+gnn,city,1,"Saint Petersburg, Russia",Russia,208.7,134.7235565185547
+gnn,city,1,"Oklahoma City, OK, United States",United States,151.5,183.68991088867188
+gnn,city,1,"Phoenix, AZ, United States",United States,152.7,118.08836364746094
+gnn,city,1,"Bristol, United Kingdom",United Kingdom,121.7,168.3226318359375
+gnn,city,1,"Indianapolis, IN, United States",United States,136.0,190.06326293945312
+gnn,city,1,"Riyadh, Saudi Arabia",Saudi Arabia,160.6,152.97523498535156
+gnn,city,1,"Tashkent, Uzbekistan",Uzbekistan,130.0,156.85475158691406
+gnn,city,1,"Raleigh, NC, United States",United States,190.3,172.60836791992188
+gnn,city,1,"Minsk, Belarus",Belarus,114.0,132.45079040527344
+gnn,city,1,"Montreal, Canada",Canada,168.3,134.82669067382812
+gnn,city,1,"Jakarta, Indonesia",Indonesia,258.0,136.10479736328125
+gnn,city,1,"Chicago, IL, United States",United States,188.8,143.0906524658203
+gnn,city,1,"Sydney, Australia",Australia,191.8,169.71011352539062
+gnn,city,1,"Brasilia, Brazil",Brazil,132.3,185.4383544921875
+gnn,city,1,"Quebec City, Canada",Canada,139.5,154.11561584472656
+gnn,city,1,"Barcelona, Spain",Spain,98.0,169.45570373535156
+gnn,city,1,"Atlanta, GA, United States",United States,199.0,141.10943603515625
+gnn,city,1,"Las Vegas, NV, United States",United States,126.4,176.87384033203125
+gnn,city,1,"Cairo, Egypt",Egypt,240.9,190.954833984375
+gnn,city,1,"Abu Dhabi, United Arab Emirates",United Arab Emirates,134.9,162.8551788330078
+gnn,city,1,"Manchester, United Kingdom",United Kingdom,157.9,164.36703491210938
+gnn,city,1,"San Juan, Puerto Rico",Puerto Rico,156.8,185.8704376220703
+gnn,city,1,"Amman, Jordan",Jordan,188.8,180.42904663085938
+gnn,city,1,"Qingdao, Shandong, China",China,79.6,161.2388153076172
+gnn,city,1,"Dnipro, Ukraine",Ukraine,125.1,121.36788940429688
+gnn,city,2,"Baku, Azerbaijan",Azerbaijan,146.1,150.44837951660156
+gnn,city,2,"Toronto, Canada",Canada,195.3,147.98330688476562
+gnn,city,2,"Baltimore, MD, United States",United States,126.9,166.35275268554688
+gnn,city,2,"Rome, Italy",Italy,136.2,137.80850219726562
+gnn,city,2,"Stockholm, Sweden",Sweden,109.6,176.91131591796875
+gnn,city,2,"Lima, Peru",Peru,234.8,166.33514404296875
+gnn,city,2,"Dubai, United Arab Emirates",United Arab Emirates,169.4,174.60374450683594
+gnn,city,2,"Columbus, OH, United States",United States,140.1,170.36386108398438
+gnn,city,2,"Mexico City, Mexico",Mexico,259.4,181.03289794921875
+gnn,city,2,"Yekaterinburg, Russia",Russia,142.7,135.6167755126953
+gnn,city,2,"Lagos, Nigeria",Nigeria,348.5,179.12185668945312
+gnn,city,2,"Asheville, NC, United States",United States,130.8,183.49337768554688
+gnn,city,2,"Ahmedabad, India",India,155.3,136.86599731445312
+gnn,city,2,"London, United Kingdom",United Kingdom,158.9,187.68960571289062
+gnn,city,2,"Luxembourg, Luxembourg",Luxembourg,112.1,153.28594970703125
+gnn,city,2,"Bangkok, Thailand",Thailand,204.2,149.1313934326172
+gnn,city,2,"Philadelphia, PA, United States",United States,179.8,172.27120971679688
+gnn,city,2,"Cologne, Germany",Germany,135.0,197.023193359375
+gnn,city,2,"Cambridge, United Kingdom",United Kingdom,166.4,136.8516845703125
+gnn,city,2,"Madrid, Spain",Spain,104.9,187.7492218017578
+gnn,city,2,"Pune, India",India,192.4,181.2471466064453
+gnn,city,2,"Ho Chi Minh City, Vietnam",Vietnam,118.5,173.1976318359375
+gnn,city,2,"Brno, Czech Republic",Czech Republic,83.4,188.45718383789062
+gnn,city,2,"Oakland, CA, United States",United States,159.5,165.4794464111328
+gnn,city,2,"Vilnius, Lithuania",Lithuania,85.9,172.62294006347656
+gnn,city,2,"Medellin, Colombia",Colombia,152.6,176.22451782226562
+gnn,city,2,"Bangalore, India",India,253.0,157.15609741210938
+gnn,city,2,"Lahore, Pakistan",Pakistan,146.8,157.72056579589844
+gnn,city,2,"Edmonton, Canada",Canada,117.5,134.2991180419922
+gnn,city,2,"Tampa, FL, United States",United States,184.3,158.14669799804688
+gnn,city,2,"Sao Paulo, Brazil",Brazil,238.9,185.96575927734375
+gnn,city,2,"Guangzhou, China",China,137.9,185.69879150390625
+gnn,city,2,"Tunis, Tunisia",Tunisia,153.8,185.94696044921875
+gnn,city,2,"Oslo, Norway",Norway,95.4,180.83677673339844
+gnn,city,2,"Amsterdam, Netherlands",Netherlands,77.2,156.634033203125
+gnn,city,2,"Tokyo, Japan",Japan,147.1,184.74188232421875
+gnn,city,2,"Guadalajara, Mexico",Mexico,189.4,138.24591064453125
+gnn,city,3,"Nairobi, Kenya",Kenya,250.9,165.99046325683594
+gnn,city,3,"Edinburgh, United Kingdom",United Kingdom,97.4,122.62246704101562
+gnn,city,3,"Wellington, New Zealand",New Zealand,173.6,149.4311065673828
+gnn,city,3,"Warsaw, Poland",Poland,122.7,137.38665771484375
+gnn,city,3,"Banja Luka, Bosnia And Herzegovina",Bosnia And Herzegovina,69.6,122.84713745117188
+gnn,city,3,"Bucharest, Romania",Romania,166.0,143.57730102539062
+gnn,city,3,"Seoul, South Korea",South Korea,143.0,145.1739044189453
+gnn,city,3,"Helsinki, Finland",Finland,72.6,131.92762756347656
+gnn,city,3,"Leipzig, Germany",Germany,86.8,139.32083129882812
+gnn,city,3,"Nashville, TN, United States",United States,183.2,167.52992248535156
+gnn,city,3,"Buenos Aires, Argentina",Argentina,210.8,167.24807739257812
+gnn,city,3,"Portland, OR, United States",United States,172.9,158.8107147216797
+gnn,city,3,"Leeds, United Kingdom",United Kingdom,123.2,179.6214599609375
+gnn,city,3,"Shenzhen, China",China,110.5,176.98977661132812
+gnn,city,3,"Kuala Lumpur, Malaysia",Malaysia,193.4,178.98995971679688
+gnn,city,3,"Moscow, Russia",Russia,214.3,141.06259155273438
+gnn,city,3,"Guatemala City, Guatemala",Guatemala,255.1,148.25567626953125
+gnn,city,3,"Stuttgart, Germany",Germany,88.4,128.29161071777344
+gnn,city,3,"New York, NY, United States",United States,166.5,155.011474609375
+gnn,city,3,"Memphis, TN, United States",United States,130.2,116.94085693359375
+gnn,city,3,"Kolkata, India",India,269.3,122.08843994140625
+gnn,city,3,"Antwerp, Belgium",Belgium,164.3,138.5852813720703
+gnn,city,3,"Istanbul, Turkey",Turkey,233.8,137.99432373046875
+gnn,city,3,"Chiang Mai, Thailand",Thailand,115.9,150.27548217773438
+gnn,city,3,"Christchurch, New Zealand",New Zealand,98.9,137.81114196777344
+gnn,city,3,"Pittsburgh, PA, United States",United States,174.6,176.08335876464844
+gnn,city,3,"Cincinnati, OH, United States",United States,146.1,153.46749877929688
+gnn,city,3,"Bremen, Germany",Germany,113.7,148.14674377441406
+gnn,city,3,"Jaipur, India",India,196.5,147.73536682128906
+gnn,city,3,"Vienna, Austria",Austria,73.2,127.8868408203125
+gnn,city,3,"Jacksonville, FL, United States",United States,168.6,171.74032592773438
+gnn,city,3,"San Antonio, TX, United States",United States,173.0,164.63685607910156
+gnn,city,3,"Cluj-Napoca, Romania",Romania,105.0,124.73955535888672
+gnn,city,3,"Denver, CO, United States",United States,167.4,168.431396484375
+gnn,city,3,"Manila, Philippines",Philippines,233.6,184.23959350585938
+gnn,city,3,"Bogota, Colombia",Colombia,223.7,158.14190673828125
+gnn,city,3,"Almaty, Kazakhstan",Kazakhstan,147.3,143.32916259765625
+gnn,city,4,"Seattle, WA, United States",United States,199.3,173.14126586914062
+gnn,city,4,"Perth, Australia",Australia,200.7,184.32461547851562
+gnn,city,4,"Budapest, Hungary",Hungary,140.0,155.92507934570312
+gnn,city,4,"Alexandria, Egypt",Egypt,209.1,152.68771362304688
+gnn,city,4,"Bratislava, Slovakia",Slovakia,101.5,168.37193298339844
+gnn,city,4,"Dhaka, Bangladesh",Bangladesh,278.3,147.6151885986328
+gnn,city,4,"Gold Coast, Australia",Australia,131.8,154.3246612548828
+gnn,city,4,"Cape Town, South Africa",South Africa,207.9,162.1338653564453
+gnn,city,4,"Aachen, Germany",Germany,74.1,150.9000244140625
+gnn,city,4,"Colombo, Sri Lanka",Sri Lanka,290.3,151.30538940429688
+gnn,city,4,"Honolulu, HI, United States",United States,197.4,157.35052490234375
+gnn,city,4,"Sharjah, United Arab Emirates",United Arab Emirates,302.8,183.19186401367188
+gnn,city,4,"Ottawa, Canada",Canada,127.5,159.32081604003906
+gnn,city,4,"Sacramento, CA, United States",United States,124.5,173.6184844970703
+gnn,city,4,"Ljubljana, Slovenia",Slovenia,99.1,142.94711303710938
+gnn,city,4,"Singapore, Singapore",Singapore,145.6,181.84596252441406
+gnn,city,4,"Bologna, Italy",Italy,118.3,141.4996337890625
+gnn,city,4,"Albuquerque, NM, United States",United States,120.0,166.4345703125
+gnn,city,4,"Zagreb, Croatia",Croatia,106.9,158.05418395996094
+gnn,city,4,"Munich, Germany",Germany,93.7,156.9871826171875
+gnn,city,4,"Frankfurt, Germany",Germany,79.9,154.04676818847656
+gnn,city,4,"Hyderabad, India",India,178.1,149.1961212158203
+gnn,city,4,"Rotterdam, Netherlands",Netherlands,91.9,176.24884033203125
+gnn,city,4,"Malaga, Spain",Spain,91.7,149.35023498535156
+gnn,city,4,"Auckland, New Zealand",New Zealand,164.4,179.27833557128906
+gnn,city,4,"Hamburg, Germany",Germany,103.0,146.87765502929688
+gnn,city,4,"Kathmandu, Nepal",Nepal,105.2,142.89698791503906
+gnn,city,4,"Prague, Czech Republic",Czech Republic,99.3,155.91177368164062
+gnn,city,4,"Karachi, Pakistan",Pakistan,187.8,154.2482452392578
+gnn,city,4,"Izmir, Turkey",Turkey,163.2,153.39865112304688
+gnn,city,4,"Tehran, Iran",Iran,251.7,153.4850616455078
+gnn,city,4,"Milan, Italy",Italy,130.2,146.5996551513672
+gnn,city,4,"Riga, Latvia",Latvia,111.2,146.4658660888672
+gnn,city,4,"Cuenca, Ecuador",Ecuador,110.4,152.7316436767578
+gnn,city,4,"San Diego, CA, United States",United States,162.1,172.48800659179688
+gnn,city,4,"Brooklyn, NY, United States",United States,188.5,150.69601440429688
+gnn,city,4,"Boston, MA, United States",United States,213.1,162.8693389892578
+gnn,city,5,"Islamabad, Pakistan",Pakistan,161.2,185.2286834716797
+gnn,city,5,"Austin, TX, United States",United States,198.8,189.36984252929688
+gnn,city,5,"Birmingham, United Kingdom",United Kingdom,131.1,201.86260986328125
+gnn,city,5,"Gurgaon, India",India,167.0,170.11175537109375
+gnn,city,5,"Miami, FL, United States",United States,212.0,198.70657348632812
+gnn,city,5,"Zurich, Switzerland",Switzerland,132.8,174.55538940429688
+gnn,city,5,"Minneapolis, MN, United States",United States,168.0,212.33026123046875
+gnn,city,5,"Lyon, France",France,141.6,185.35928344726562
+gnn,city,5,"Mumbai, India",India,259.1,192.9641571044922
+gnn,city,5,"Detroit, MI, United States",United States,217.6,207.51287841796875
+gnn,city,5,"Caracas, Venezuela",Venezuela,146.9,194.06143188476562
+gnn,city,5,"Kansas City, MO, United States",United States,150.0,157.11180114746094
+gnn,city,5,"Hong Kong, Hong Kong (China)",Hong Kong (China),142.4,193.03817749023438
+gnn,city,5,"Cork, Ireland",Ireland,133.4,196.43017578125
+gnn,city,5,"Paris, France",France,149.5,161.65225219726562
+gnn,city,5,"Doha, Qatar",Qatar,134.2,175.48348999023438
+gnn,city,5,"Tbilisi, Georgia",Georgia,135.6,178.10630798339844
+gnn,city,5,"New Orleans, LA, United States",United States,124.3,194.10458374023438
+gnn,city,5,"Vancouver, Canada",Canada,147.0,147.29873657226562
+gnn,city,5,"Taipei, Taiwan",Taiwan,123.5,157.49131774902344
+gnn,city,5,"Beijing, China",China,178.9,171.66375732421875
+gnn,city,5,"San Francisco, CA, United States",United States,242.0,162.2797393798828
+gnn,city,5,"Chennai, India",India,196.8,162.1632843017578
+gnn,city,5,"Houston, TX, United States",United States,206.3,177.8085174560547
+gnn,city,5,"Melbourne, Australia",Australia,187.3,197.98672485351562
+gnn,city,5,"Delhi, India",India,284.1,181.51300048828125
+gnn,city,5,"Hanoi, Vietnam",Vietnam,102.1,147.80621337890625
+gnn,city,5,"Monterrey, Mexico",Mexico,137.2,190.94236755371094
+gnn,city,5,"Berlin, Germany",Germany,98.9,187.8295440673828
+gnn,city,5,"Tallinn, Estonia",Estonia,84.3,161.374267578125
+gnn,city,5,"Calgary, Canada",Canada,125.4,192.35546875
+gnn,city,5,"Dallas, TX, United States",United States,168.7,182.05984497070312
+gnn,city,5,"Yerevan, Armenia",Armenia,104.4,159.42559814453125
+gnn,city,5,"Belgrade, Serbia",Serbia,137.9,151.9835205078125
+gnn,city,5,"Belfast, United Kingdom",United Kingdom,149.6,180.854736328125
+gnn,city,5,"Davao, Philippines",Philippines,105.7,137.95924377441406
+gnn,city,5,"Sofia, Bulgaria",Bulgaria,109.3,186.74658203125

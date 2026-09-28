@@ -1,0 +1,2644 @@
+[
+  {
+    "folder": "aachen",
+    "graph_center_lat": 50.75134,
+    "graph_center_lon": 6.10699,
+    "reference_city": "Aachen",
+    "reference_admin": "North Rhine-Westphalia",
+    "reference_country": "Germany",
+    "distance_km": 3.2,
+    "traffic_labels": [
+      "Aachen, Germany"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "abu_dhabi",
+    "graph_center_lat": 24.4163,
+    "graph_center_lon": 54.54339,
+    "reference_city": "Abu Dhabi",
+    "reference_admin": "Abū Z̧aby",
+    "reference_country": "United Arab Emirates",
+    "distance_km": 15.3,
+    "traffic_labels": [
+      "Abu Dhabi, United Arab Emirates"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "adelaide",
+    "graph_center_lat": -34.9511,
+    "graph_center_lon": 138.61444,
+    "reference_city": "Adelaide",
+    "reference_admin": "South Australia",
+    "reference_country": "Australia",
+    "distance_km": 2.9,
+    "traffic_labels": [
+      "Adelaide, Australia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "ahmedabad",
+    "graph_center_lat": 22.79364,
+    "graph_center_lon": 72.34087,
+    "reference_city": "Ahmedabad",
+    "reference_admin": "Gujarāt",
+    "reference_country": "India",
+    "distance_km": 35.3,
+    "traffic_labels": [
+      "Ahmedabad, India"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "albuquerque",
+    "graph_center_lat": 35.10095,
+    "graph_center_lon": -106.61971,
+    "reference_city": "Albuquerque",
+    "reference_admin": "New Mexico",
+    "reference_country": "United States",
+    "distance_km": 2.5,
+    "traffic_labels": [
+      "Albuquerque, NM, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "alexandria",
+    "graph_center_lat": 31.10636,
+    "graph_center_lon": 29.84049,
+    "reference_city": "Alexandria",
+    "reference_admin": "Al Iskandarīyah",
+    "reference_country": "Egypt",
+    "distance_km": 11.3,
+    "traffic_labels": [
+      "Alexandria, Egypt"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "almaty",
+    "graph_center_lat": 43.24646,
+    "graph_center_lon": 76.91232,
+    "reference_city": "Almaty",
+    "reference_admin": "Almaty",
+    "reference_country": "Kazakhstan",
+    "distance_km": 0.8,
+    "traffic_labels": [
+      "Almaty, Kazakhstan"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "amman",
+    "graph_center_lat": 31.68074,
+    "graph_center_lon": 36.21621,
+    "reference_city": "Amman",
+    "reference_admin": "Al ‘Āşimah",
+    "reference_country": "Jordan",
+    "distance_km": 40.1,
+    "traffic_labels": [
+      "Amman, Jordan"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "amsterdam",
+    "graph_center_lat": 52.37699,
+    "graph_center_lon": 4.87621,
+    "reference_city": "Amsterdam",
+    "reference_admin": "Noord-Holland",
+    "reference_country": "Netherlands",
+    "distance_km": 1.2,
+    "traffic_labels": [
+      "Amsterdam, Netherlands"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "anchorage",
+    "graph_center_lat": 61.13166,
+    "graph_center_lon": -149.3928,
+    "reference_city": "Anchorage",
+    "reference_admin": "Alaska",
+    "reference_country": "United States",
+    "distance_km": 15.4,
+    "traffic_labels": [
+      "Anchorage, AK, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "antwerp",
+    "graph_center_lat": 51.26364,
+    "graph_center_lon": 4.37886,
+    "reference_city": "Antwerp",
+    "reference_admin": "Flanders",
+    "reference_country": "Belgium",
+    "distance_km": 5.0,
+    "traffic_labels": [
+      "Antwerp, Belgium"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "asheville",
+    "graph_center_lat": 35.53759,
+    "graph_center_lon": -82.55332,
+    "reference_city": "Asheville",
+    "reference_admin": "North Carolina",
+    "reference_country": "United States",
+    "distance_km": 3.7,
+    "traffic_labels": [
+      "Asheville, NC, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "atlanta",
+    "graph_center_lat": 33.75971,
+    "graph_center_lon": -84.40365,
+    "reference_city": "Atlanta",
+    "reference_admin": "Georgia",
+    "reference_country": "United States",
+    "distance_km": 1.7,
+    "traffic_labels": [
+      "Atlanta, GA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "auckland",
+    "graph_center_lat": -36.87499,
+    "graph_center_lon": 174.79826,
+    "reference_city": "Auckland",
+    "reference_admin": "Auckland",
+    "reference_country": "New Zealand",
+    "distance_km": 4.1,
+    "traffic_labels": [
+      "Auckland, New Zealand"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "austin",
+    "graph_center_lat": 30.29855,
+    "graph_center_lon": -97.74801,
+    "reference_city": "Austin",
+    "reference_admin": "Texas",
+    "reference_country": "United States",
+    "distance_km": 0.5,
+    "traffic_labels": [
+      "Austin, TX, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "baku",
+    "graph_center_lat": 40.37076,
+    "graph_center_lon": 49.87236,
+    "reference_city": "Baku",
+    "reference_admin": "Bakı",
+    "reference_country": "Azerbaijan",
+    "distance_km": 3.2,
+    "traffic_labels": [
+      "Baku, Azerbaijan"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "baltimore",
+    "graph_center_lat": 39.291,
+    "graph_center_lon": -76.62054,
+    "reference_city": "Baltimore",
+    "reference_admin": "Maryland",
+    "reference_country": "United States",
+    "distance_km": 1.7,
+    "traffic_labels": [
+      "Baltimore, MD, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "bandung",
+    "graph_center_lat": -6.91405,
+    "graph_center_lon": 107.63513,
+    "reference_city": "Bandung",
+    "reference_admin": "Jawa Barat",
+    "reference_country": "Indonesia",
+    "distance_km": 3.2,
+    "traffic_labels": [
+      "Bandung, Indonesia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "bangalore",
+    "graph_center_lat": 12.98597,
+    "graph_center_lon": 77.62,
+    "reference_city": "Bangalore",
+    "reference_admin": "Karnātaka",
+    "reference_country": "India",
+    "distance_km": 3.2,
+    "traffic_labels": [
+      "Bangalore, India"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "bangkok",
+    "graph_center_lat": 13.74986,
+    "graph_center_lon": 100.55014,
+    "reference_city": "Bangkok",
+    "reference_admin": "Krung Thep Maha Nakhon",
+    "reference_country": "Thailand",
+    "distance_km": 3.6,
+    "traffic_labels": [
+      "Bangkok, Thailand"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "banja_luka",
+    "graph_center_lat": 44.78655,
+    "graph_center_lon": 17.20778,
+    "reference_city": "Banja Luka",
+    "reference_admin": "Srpska, Republika",
+    "reference_country": "Bosnia and Herzegovina",
+    "distance_km": 2.0,
+    "traffic_labels": [
+      "Banja Luka, Bosnia And Herzegovina"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "barcelona",
+    "graph_center_lat": 41.39238,
+    "graph_center_lon": 2.14085,
+    "reference_city": "Barcelona",
+    "reference_admin": "Catalonia",
+    "reference_country": "Spain",
+    "distance_km": 3.2,
+    "traffic_labels": [
+      "Barcelona, Spain"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "beijing",
+    "graph_center_lat": 39.9,
+    "graph_center_lon": 116.40009,
+    "reference_city": "Beijing",
+    "reference_admin": "Beijing",
+    "reference_country": "China",
+    "distance_km": 0.8,
+    "traffic_labels": [
+      "Beijing, China"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "beirut",
+    "graph_center_lat": 33.8829,
+    "graph_center_lon": 35.5039,
+    "reference_city": "Beirut",
+    "reference_admin": "Beyrouth",
+    "reference_country": "Lebanon",
+    "distance_km": 1.0,
+    "traffic_labels": [
+      "Beirut, Lebanon"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "belfast",
+    "graph_center_lat": 54.59743,
+    "graph_center_lon": -5.92186,
+    "reference_city": "Belfast",
+    "reference_admin": "Belfast",
+    "reference_country": "United Kingdom",
+    "distance_km": 0.5,
+    "traffic_labels": [
+      "Belfast, United Kingdom"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "belgrade",
+    "graph_center_lat": 44.81529,
+    "graph_center_lon": 20.42808,
+    "reference_city": "Belgrade",
+    "reference_admin": "Beograd",
+    "reference_country": "Serbia",
+    "distance_km": 2.3,
+    "traffic_labels": [
+      "Belgrade, Serbia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "berlin",
+    "graph_center_lat": 52.5126,
+    "graph_center_lon": 13.38651,
+    "reference_city": "Berlin",
+    "reference_admin": "Berlin",
+    "reference_country": "Germany",
+    "distance_km": 0.5,
+    "traffic_labels": [
+      "Berlin, Germany"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "bern",
+    "graph_center_lat": 46.95168,
+    "graph_center_lon": 7.42214,
+    "reference_city": "Bern",
+    "reference_admin": "Bern",
+    "reference_country": "Switzerland",
+    "distance_km": 2.0,
+    "traffic_labels": [
+      "Bern, Switzerland"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "birmingham",
+    "graph_center_lat": 52.48611,
+    "graph_center_lon": -1.88423,
+    "reference_city": "Birmingham",
+    "reference_admin": "Birmingham",
+    "reference_country": "United Kingdom",
+    "distance_km": 1.4,
+    "traffic_labels": [
+      "Birmingham, United Kingdom"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "bogota",
+    "graph_center_lat": 4.64913,
+    "graph_center_lon": -74.11961,
+    "reference_city": "Bogotá",
+    "reference_admin": "Bogotá",
+    "reference_country": "Colombia",
+    "distance_km": 6.1,
+    "traffic_labels": [
+      "Bogota, Colombia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "bologna",
+    "graph_center_lat": 44.50295,
+    "graph_center_lon": 11.33603,
+    "reference_city": "Bologna",
+    "reference_admin": "Emilia-Romagna",
+    "reference_country": "Italy",
+    "distance_km": 1.1,
+    "traffic_labels": [
+      "Bologna, Italy"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "boston",
+    "graph_center_lat": 42.31448,
+    "graph_center_lon": -71.08632,
+    "reference_city": "Boston",
+    "reference_admin": "Massachusetts",
+    "reference_country": "United States",
+    "distance_km": 0.5,
+    "traffic_labels": [
+      "Boston, MA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "brasilia",
+    "graph_center_lat": -15.77741,
+    "graph_center_lon": -47.80418,
+    "reference_city": "Brasília",
+    "reference_admin": "Distrito Federal",
+    "reference_country": "Brazil",
+    "distance_km": 8.6,
+    "traffic_labels": [
+      "Brasilia, Brazil"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "bratislava",
+    "graph_center_lat": 48.13198,
+    "graph_center_lon": 17.12265,
+    "reference_city": "Bratislava",
+    "reference_admin": "Bratislava",
+    "reference_country": "Slovakia",
+    "distance_km": 1.6,
+    "traffic_labels": [
+      "Bratislava, Slovakia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "bremen",
+    "graph_center_lat": 53.1019,
+    "graph_center_lon": 8.83306,
+    "reference_city": "Bremen",
+    "reference_admin": "Bremen",
+    "reference_country": "Germany",
+    "distance_km": 3.4,
+    "traffic_labels": [
+      "Bremen, Germany"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "brisbane",
+    "graph_center_lat": -27.47499,
+    "graph_center_lon": 153.00061,
+    "reference_city": "Brisbane",
+    "reference_admin": "Queensland",
+    "reference_country": "Australia",
+    "distance_km": 2.8,
+    "traffic_labels": [
+      "Brisbane, Australia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "bristol",
+    "graph_center_lat": 51.4683,
+    "graph_center_lon": -2.60621,
+    "reference_city": "Bristol",
+    "reference_admin": "Bristol, City of",
+    "reference_country": "United Kingdom",
+    "distance_km": 1.7,
+    "traffic_labels": [
+      "Bristol, United Kingdom"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "brno",
+    "graph_center_lat": 49.20072,
+    "graph_center_lon": 16.57106,
+    "reference_city": "Brno",
+    "reference_admin": "Jihomoravský Kraj",
+    "reference_country": "Czechia",
+    "distance_km": 2.8,
+    "traffic_labels": [
+      "Brno, Czech Republic"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "brooklyn",
+    "graph_center_lat": 40.653,
+    "graph_center_lon": -73.94958,
+    "reference_city": "Brooklyn",
+    "reference_admin": "New York",
+    "reference_country": "United States",
+    "distance_km": 0.3,
+    "traffic_labels": [
+      "Brooklyn, NY, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "brussels",
+    "graph_center_lat": 50.85358,
+    "graph_center_lon": 4.37587,
+    "reference_city": "Brussels",
+    "reference_admin": "Brussels-Capital Region",
+    "reference_country": "Belgium",
+    "distance_km": 3.7,
+    "traffic_labels": [
+      "Brussels, Belgium"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "bucharest",
+    "graph_center_lat": 44.43897,
+    "graph_center_lon": 26.09804,
+    "reference_city": "Bucharest",
+    "reference_admin": "Bucureşti",
+    "reference_country": "Romania",
+    "distance_km": 2.8,
+    "traffic_labels": [
+      "Bucharest, Romania"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "budapest",
+    "graph_center_lat": 47.48144,
+    "graph_center_lon": 19.14384,
+    "reference_city": "Budapest",
+    "reference_admin": "Budapest",
+    "reference_country": "Hungary",
+    "distance_km": 8.0,
+    "traffic_labels": [
+      "Budapest, Hungary"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "buenos_aires",
+    "graph_center_lat": -34.61998,
+    "graph_center_lon": -58.44228,
+    "reference_city": "Buenos Aires",
+    "reference_admin": "Buenos Aires, Ciudad Autónoma de",
+    "reference_country": "Argentina",
+    "distance_km": 6.0,
+    "traffic_labels": [
+      "Buenos Aires, Argentina"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "cairo",
+    "graph_center_lat": 30.02527,
+    "graph_center_lon": 31.3,
+    "reference_city": "Cairo",
+    "reference_admin": "Al Qāhirah",
+    "reference_country": "Egypt",
+    "distance_km": 6.5,
+    "traffic_labels": [
+      "Cairo, Egypt"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "calgary",
+    "graph_center_lat": 51.02312,
+    "graph_center_lon": -114.06656,
+    "reference_city": "Calgary",
+    "reference_admin": "Alberta",
+    "reference_country": "Canada",
+    "distance_km": 3.0,
+    "traffic_labels": [
+      "Calgary, Canada"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "cambridge",
+    "graph_center_lat": 52.19578,
+    "graph_center_lon": 0.12138,
+    "reference_city": "Cambridge",
+    "reference_admin": "Cambridgeshire",
+    "reference_country": "United Kingdom",
+    "distance_km": 1.0,
+    "traffic_labels": [
+      "Cambridge, United Kingdom"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "cape_town",
+    "graph_center_lat": -33.92507,
+    "graph_center_lon": 18.52583,
+    "reference_city": "Cape Town",
+    "reference_admin": "Western Cape",
+    "reference_country": "South Africa",
+    "distance_km": 9.4,
+    "traffic_labels": [
+      "Cape Town, South Africa"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "caracas",
+    "graph_center_lat": 10.46772,
+    "graph_center_lon": -66.87701,
+    "reference_city": "Caracas",
+    "reference_admin": "Miranda",
+    "reference_country": "Venezuela",
+    "distance_km": 5.9,
+    "traffic_labels": [
+      "Caracas, Venezuela"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "casablanca",
+    "graph_center_lat": 33.56357,
+    "graph_center_lon": -7.60657,
+    "reference_city": "Casablanca",
+    "reference_admin": "Casablanca-Settat",
+    "reference_country": "Morocco",
+    "distance_km": 4.2,
+    "traffic_labels": [
+      "Casablanca, Morocco"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "cebu",
+    "graph_center_lat": 10.33764,
+    "graph_center_lon": 123.86985,
+    "reference_city": "Cebu City",
+    "reference_admin": "Cebu",
+    "reference_country": "Philippines",
+    "distance_km": 6.1,
+    "traffic_labels": [
+      "Cebu, Philippines"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "chennai",
+    "graph_center_lat": 13.04313,
+    "graph_center_lon": 80.23419,
+    "reference_city": "Chennai",
+    "reference_admin": "Tamil Nādu",
+    "reference_country": "India",
+    "distance_km": 6.2,
+    "traffic_labels": [
+      "Chennai, India"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "chiang_mai",
+    "graph_center_lat": 18.79974,
+    "graph_center_lon": 98.99005,
+    "reference_city": "Chiang Mai",
+    "reference_admin": "Chiang Mai",
+    "reference_country": "Thailand",
+    "distance_km": 1.4,
+    "traffic_labels": [
+      "Chiang Mai, Thailand"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "chicago",
+    "graph_center_lat": 41.83393,
+    "graph_center_lon": -87.6909,
+    "reference_city": "Chicago",
+    "reference_admin": "Illinois",
+    "reference_country": "United States",
+    "distance_km": 0.5,
+    "traffic_labels": [
+      "Chicago, IL, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "christchurch",
+    "graph_center_lat": -43.51926,
+    "graph_center_lon": 172.58507,
+    "reference_city": "Christchurch",
+    "reference_admin": "Canterbury",
+    "reference_country": "New Zealand",
+    "distance_km": 4.3,
+    "traffic_labels": [
+      "Christchurch, New Zealand"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "cincinnati",
+    "graph_center_lat": 39.13656,
+    "graph_center_lon": -84.53223,
+    "reference_city": "Cincinnati",
+    "reference_admin": "Ohio",
+    "reference_country": "United States",
+    "distance_km": 2.3,
+    "traffic_labels": [
+      "Cincinnati, OH, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "cluj-napoca",
+    "graph_center_lat": 46.77257,
+    "graph_center_lon": 23.6119,
+    "reference_city": "Cluj-Napoca",
+    "reference_admin": "Cluj",
+    "reference_country": "Romania",
+    "distance_km": 1.7,
+    "traffic_labels": [
+      "Cluj-Napoca, Romania"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "cologne",
+    "graph_center_lat": 50.95307,
+    "graph_center_lon": 6.96945,
+    "reference_city": "Cologne",
+    "reference_admin": "North Rhine-Westphalia",
+    "reference_country": "Germany",
+    "distance_km": 1.5,
+    "traffic_labels": [
+      "Cologne, Germany"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "colombo",
+    "graph_center_lat": 6.91506,
+    "graph_center_lon": 79.85733,
+    "reference_city": "Colombo",
+    "reference_admin": "Western",
+    "reference_country": "Sri Lanka",
+    "distance_km": 1.3,
+    "traffic_labels": [
+      "Colombo, Sri Lanka"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "columbus",
+    "graph_center_lat": 40.00855,
+    "graph_center_lon": -82.97426,
+    "reference_city": "Columbus",
+    "reference_admin": "Ohio",
+    "reference_country": "United States",
+    "distance_km": 2.7,
+    "traffic_labels": [
+      "Columbus, OH, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "cork",
+    "graph_center_lat": 51.90322,
+    "graph_center_lon": -8.50926,
+    "reference_city": "Cork",
+    "reference_admin": "Cork",
+    "reference_country": "Ireland",
+    "distance_km": 2.5,
+    "traffic_labels": [
+      "Cork, Ireland"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "cuenca",
+    "graph_center_lat": -2.96973,
+    "graph_center_lon": -78.98911,
+    "reference_city": "Cuenca",
+    "reference_admin": "Azuay",
+    "reference_country": "Ecuador",
+    "distance_km": 8.2,
+    "traffic_labels": [
+      "Cuenca, Ecuador"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "dallas",
+    "graph_center_lat": 32.81903,
+    "graph_center_lon": -96.78006,
+    "reference_city": "Dallas",
+    "reference_admin": "Texas",
+    "reference_country": "United States",
+    "distance_km": 3.1,
+    "traffic_labels": [
+      "Dallas, TX, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "davao",
+    "graph_center_lat": 7.26619,
+    "graph_center_lon": 125.47672,
+    "reference_city": "Davao",
+    "reference_admin": "Davao",
+    "reference_country": "Philippines",
+    "distance_km": 26.6,
+    "traffic_labels": [
+      "Davao, Philippines"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "delhi",
+    "graph_center_lat": 28.57498,
+    "graph_center_lon": 77.17486,
+    "reference_city": "Delhi",
+    "reference_admin": "Delhi",
+    "reference_country": "India",
+    "distance_km": 10.9,
+    "traffic_labels": [
+      "Delhi, India"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "denver",
+    "graph_center_lat": 39.73798,
+    "graph_center_lon": -104.88416,
+    "reference_city": "Denver",
+    "reference_admin": "Colorado",
+    "reference_country": "United States",
+    "distance_km": 2.8,
+    "traffic_labels": [
+      "Denver, CO, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "detroit",
+    "graph_center_lat": 42.35547,
+    "graph_center_lon": -83.09919,
+    "reference_city": "Detroit",
+    "reference_admin": "Michigan",
+    "reference_country": "United States",
+    "distance_km": 3.1,
+    "traffic_labels": [
+      "Detroit, MI, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "dhaka",
+    "graph_center_lat": 23.80974,
+    "graph_center_lon": 90.17595,
+    "reference_city": "Dhaka",
+    "reference_admin": "Dhaka",
+    "reference_country": "Bangladesh",
+    "distance_km": 24.0,
+    "traffic_labels": [
+      "Dhaka, Bangladesh"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "dnipro",
+    "graph_center_lat": 48.46883,
+    "graph_center_lon": 35.0421,
+    "reference_city": "Dnipro",
+    "reference_admin": "Dnipropetrovska Oblast",
+    "reference_country": "Ukraine",
+    "distance_km": 0.2,
+    "traffic_labels": [
+      "Dnipro, Ukraine"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "doha",
+    "graph_center_lat": 25.29972,
+    "graph_center_lon": 51.53261,
+    "reference_city": "Doha",
+    "reference_admin": "Ad Dawḩah",
+    "reference_country": "Qatar",
+    "distance_km": 1.5,
+    "traffic_labels": [
+      "Doha, Qatar"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "dubai",
+    "graph_center_lat": 25.17499,
+    "graph_center_lon": 55.2751,
+    "reference_city": "Dubai",
+    "reference_admin": "Dubayy",
+    "reference_country": "United Arab Emirates",
+    "distance_km": 11.1,
+    "traffic_labels": [
+      "Dubai, United Arab Emirates"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "dublin",
+    "graph_center_lat": 53.35913,
+    "graph_center_lon": -6.24955,
+    "reference_city": "Dublin",
+    "reference_admin": "Dublin",
+    "reference_country": "Ireland",
+    "distance_km": 1.3,
+    "traffic_labels": [
+      "Dublin, Ireland"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "edinburgh",
+    "graph_center_lat": 55.94209,
+    "graph_center_lon": -3.25435,
+    "reference_city": "Edinburgh",
+    "reference_admin": "Edinburgh, City of",
+    "reference_country": "United Kingdom",
+    "distance_km": 4.5,
+    "traffic_labels": [
+      "Edinburgh, United Kingdom"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "edmonton",
+    "graph_center_lat": 53.55404,
+    "graph_center_lon": -113.50446,
+    "reference_city": "Edmonton",
+    "reference_admin": "Alberta",
+    "reference_country": "Canada",
+    "distance_km": 2.4,
+    "traffic_labels": [
+      "Edmonton, Canada"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "frankfurt",
+    "graph_center_lat": 50.12556,
+    "graph_center_lon": 8.62739,
+    "reference_city": "Frankfurt",
+    "reference_admin": "Hesse",
+    "reference_country": "Germany",
+    "distance_km": 4.2,
+    "traffic_labels": [
+      "Frankfurt, Germany"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "geneva",
+    "graph_center_lat": 46.20676,
+    "graph_center_lon": 6.14021,
+    "reference_city": "Geneva",
+    "reference_admin": "Genève",
+    "reference_country": "Switzerland",
+    "distance_km": 1.1,
+    "traffic_labels": [
+      "Geneva, Switzerland"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "gold_coast",
+    "graph_center_lat": -27.97817,
+    "graph_center_lon": 153.37025,
+    "reference_city": "Gold Coast",
+    "reference_admin": "Queensland",
+    "reference_country": "Australia",
+    "distance_km": 5.2,
+    "traffic_labels": [
+      "Gold Coast, Australia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "guadalajara",
+    "graph_center_lat": 20.66684,
+    "graph_center_lon": -103.33747,
+    "reference_city": "Guadalajara",
+    "reference_admin": "Jalisco",
+    "reference_country": "Mexico",
+    "distance_km": 1.2,
+    "traffic_labels": [
+      "Guadalajara, Mexico"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "guangzhou",
+    "graph_center_lat": 23.14958,
+    "graph_center_lon": 113.34997,
+    "reference_city": "Guangzhou",
+    "reference_admin": "Guangdong",
+    "reference_country": "China",
+    "distance_km": 9.5,
+    "traffic_labels": [
+      "Guangzhou, China"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "guatemala_city",
+    "graph_center_lat": 14.62057,
+    "graph_center_lon": -90.47985,
+    "reference_city": "Guatemala City",
+    "reference_admin": "Guatemala",
+    "reference_country": "Guatemala",
+    "distance_km": 4.3,
+    "traffic_labels": [
+      "Guatemala City, Guatemala"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "gurgaon",
+    "graph_center_lat": 28.37445,
+    "graph_center_lon": 76.94116,
+    "reference_city": "Gurgaon",
+    "reference_admin": "Haryāna",
+    "reference_country": "India",
+    "distance_km": 13.7,
+    "traffic_labels": [
+      "Gurgaon, India"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "haifa",
+    "graph_center_lat": 32.79961,
+    "graph_center_lon": 35.0168,
+    "reference_city": "Haifa",
+    "reference_admin": "Haifa",
+    "reference_country": "Israel",
+    "distance_km": 2.7,
+    "traffic_labels": [
+      "Haifa, Israel"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "halifax",
+    "graph_center_lat": 44.64761,
+    "graph_center_lon": -63.6318,
+    "reference_city": "Halifax",
+    "reference_admin": "Nova Scotia",
+    "reference_country": "Canada",
+    "distance_km": 3.3,
+    "traffic_labels": [
+      "Halifax, Canada"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "hamburg",
+    "graph_center_lat": 53.55358,
+    "graph_center_lon": 9.99775,
+    "reference_city": "Hamburg",
+    "reference_admin": "Hamburg",
+    "reference_country": "Germany",
+    "distance_km": 0.4,
+    "traffic_labels": [
+      "Hamburg, Germany"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "hanoi",
+    "graph_center_lat": 21.02511,
+    "graph_center_lon": 105.84986,
+    "reference_city": "Hanoi",
+    "reference_admin": "Hà Nội",
+    "reference_country": "Vietnam",
+    "distance_km": 0.9,
+    "traffic_labels": [
+      "Hanoi, Vietnam"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "helsinki",
+    "graph_center_lat": 60.21636,
+    "graph_center_lon": 25.03038,
+    "reference_city": "Helsinki",
+    "reference_admin": "Uusimaa",
+    "reference_country": "Finland",
+    "distance_km": 7.2,
+    "traffic_labels": [
+      "Helsinki, Finland"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "ho_chi_minh_city",
+    "graph_center_lat": 10.80118,
+    "graph_center_lon": 106.69481,
+    "reference_city": "Ho Chi Minh City",
+    "reference_admin": "Hồ Chí Minh",
+    "reference_country": "Vietnam",
+    "distance_km": 2.9,
+    "traffic_labels": [
+      "Ho Chi Minh City, Vietnam"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "hobart",
+    "graph_center_lat": -42.85317,
+    "graph_center_lon": 147.36756,
+    "reference_city": "Hobart",
+    "reference_admin": "Tasmania",
+    "reference_country": "Australia",
+    "distance_km": 5.3,
+    "traffic_labels": [
+      "Hobart, Australia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "hong_kong",
+    "graph_center_lat": 22.38368,
+    "graph_center_lon": 114.07702,
+    "reference_city": "Hong Kong",
+    "reference_admin": "",
+    "reference_country": "Hong Kong",
+    "distance_km": 14.4,
+    "traffic_labels": [
+      "Hong Kong, Hong Kong (China)"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "honolulu",
+    "graph_center_lat": 21.32084,
+    "graph_center_lon": -157.8006,
+    "reference_city": "Honolulu",
+    "reference_admin": "Hawaii",
+    "reference_country": "United States",
+    "distance_km": 4.8,
+    "traffic_labels": [
+      "Honolulu, HI, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "houston",
+    "graph_center_lat": 29.78119,
+    "graph_center_lon": -95.39874,
+    "reference_city": "Houston",
+    "reference_admin": "Texas",
+    "reference_country": "United States",
+    "distance_km": 1.1,
+    "traffic_labels": [
+      "Houston, TX, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "hyderabad",
+    "graph_center_lat": 17.41969,
+    "graph_center_lon": 78.45474,
+    "reference_city": "Hyderābād",
+    "reference_admin": "Telangāna",
+    "reference_country": "India",
+    "distance_km": 6.8,
+    "traffic_labels": [
+      "Hyderabad, India"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "indianapolis",
+    "graph_center_lat": 39.78079,
+    "graph_center_lon": -86.14019,
+    "reference_city": "Indianapolis",
+    "reference_admin": "Indiana",
+    "reference_country": "United States",
+    "distance_km": 0.6,
+    "traffic_labels": [
+      "Indianapolis, IN, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "islamabad",
+    "graph_center_lat": 33.67268,
+    "graph_center_lon": 73.07404,
+    "reference_city": "Islamabad",
+    "reference_admin": "Islamabad",
+    "reference_country": "Pakistan",
+    "distance_km": 4.5,
+    "traffic_labels": [
+      "Islamabad, Pakistan"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "istanbul",
+    "graph_center_lat": 41.02502,
+    "graph_center_lon": 28.97497,
+    "reference_city": "Istanbul",
+    "reference_admin": "İstanbul",
+    "reference_country": "Turkey",
+    "distance_km": 2.1,
+    "traffic_labels": [
+      "Istanbul, Turkey"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "izmir",
+    "graph_center_lat": 38.54311,
+    "graph_center_lon": 27.25995,
+    "reference_city": "İzmir",
+    "reference_admin": "İzmir",
+    "reference_country": "Turkey",
+    "distance_km": 18.0,
+    "traffic_labels": [
+      "Izmir, Turkey"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "jacksonville",
+    "graph_center_lat": 30.31411,
+    "graph_center_lon": -81.72371,
+    "reference_city": "Jacksonville",
+    "reference_admin": "Florida",
+    "reference_country": "United States",
+    "distance_km": 5.1,
+    "traffic_labels": [
+      "Jacksonville, FL, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "jaipur",
+    "graph_center_lat": 26.97462,
+    "graph_center_lon": 75.71174,
+    "reference_city": "Jaipur",
+    "reference_admin": "Rājasthān",
+    "reference_country": "India",
+    "distance_km": 12.6,
+    "traffic_labels": [
+      "Jaipur, India"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "jakarta",
+    "graph_center_lat": -6.22557,
+    "graph_center_lon": 106.82471,
+    "reference_city": "Jakarta",
+    "reference_admin": "Jakarta",
+    "reference_country": "Indonesia",
+    "distance_km": 5.6,
+    "traffic_labels": [
+      "Jakarta, Indonesia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "kansas_city",
+    "graph_center_lat": 39.09296,
+    "graph_center_lon": -94.56439,
+    "reference_city": "Kansas City",
+    "reference_admin": "Missouri",
+    "reference_country": "United States",
+    "distance_km": 3.5,
+    "traffic_labels": [
+      "Kansas City, MO, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "karachi",
+    "graph_center_lat": 24.89792,
+    "graph_center_lon": 67.05011,
+    "reference_city": "Karachi",
+    "reference_admin": "Sindh",
+    "reference_country": "Pakistan",
+    "distance_km": 5.8,
+    "traffic_labels": [
+      "Karachi, Pakistan"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "kathmandu",
+    "graph_center_lat": 27.70478,
+    "graph_center_lon": 85.32314,
+    "reference_city": "Kathmandu",
+    "reference_admin": "",
+    "reference_country": "Nepal",
+    "distance_km": 0.7,
+    "traffic_labels": [
+      "Kathmandu, Nepal"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "kolkata",
+    "graph_center_lat": 22.53534,
+    "graph_center_lon": 88.35776,
+    "reference_city": "Kolkāta",
+    "reference_admin": "West Bengal",
+    "reference_country": "India",
+    "distance_km": 3.8,
+    "traffic_labels": [
+      "Kolkata, India"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "kuala_lumpur",
+    "graph_center_lat": 3.14411,
+    "graph_center_lon": 101.68655,
+    "reference_city": "Kuala Lumpur",
+    "reference_admin": "Kuala Lumpur",
+    "reference_country": "Malaysia",
+    "distance_km": 1.1,
+    "traffic_labels": [
+      "Kuala Lumpur, Malaysia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "lagos",
+    "graph_center_lat": 6.55122,
+    "graph_center_lon": 3.35212,
+    "reference_city": "Lagos",
+    "reference_admin": "Lagos",
+    "reference_country": "Nigeria",
+    "distance_km": 11.5,
+    "traffic_labels": [
+      "Lagos, Nigeria"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "lahore",
+    "graph_center_lat": 31.44473,
+    "graph_center_lon": 74.32497,
+    "reference_city": "Lahore",
+    "reference_admin": "Punjab",
+    "reference_country": "Pakistan",
+    "distance_km": 11.8,
+    "traffic_labels": [
+      "Lahore, Pakistan"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "las_vegas",
+    "graph_center_lat": 36.22988,
+    "graph_center_lon": -115.21935,
+    "reference_city": "Las Vegas",
+    "reference_admin": "Nevada",
+    "reference_country": "United States",
+    "distance_km": 4.1,
+    "traffic_labels": [
+      "Las Vegas, NV, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "leeds",
+    "graph_center_lat": 53.82737,
+    "graph_center_lon": -1.51511,
+    "reference_city": "Leeds",
+    "reference_admin": "Leeds",
+    "reference_country": "United Kingdom",
+    "distance_km": 3.8,
+    "traffic_labels": [
+      "Leeds, United Kingdom"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "leipzig",
+    "graph_center_lat": 51.33276,
+    "graph_center_lon": 12.38902,
+    "reference_city": "Leipzig",
+    "reference_admin": "Saxony",
+    "reference_country": "Germany",
+    "distance_km": 1.4,
+    "traffic_labels": [
+      "Leipzig, Germany"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "lima",
+    "graph_center_lat": -12.05114,
+    "graph_center_lon": -77.00063,
+    "reference_city": "Lima",
+    "reference_admin": "Lima",
+    "reference_country": "Peru",
+    "distance_km": 4.1,
+    "traffic_labels": [
+      "Lima, Peru"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "lisbon",
+    "graph_center_lat": 38.7442,
+    "graph_center_lon": -9.16125,
+    "reference_city": "Lisbon",
+    "reference_admin": "Lisboa",
+    "reference_country": "Portugal",
+    "distance_km": 4.3,
+    "traffic_labels": [
+      "Lisbon, Portugal"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "liverpool",
+    "graph_center_lat": 53.40933,
+    "graph_center_lon": -2.91706,
+    "reference_city": "Liverpool",
+    "reference_admin": "Liverpool",
+    "reference_country": "United Kingdom",
+    "distance_km": 5.0,
+    "traffic_labels": [
+      "Liverpool, United Kingdom"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "ljubljana",
+    "graph_center_lat": 46.06826,
+    "graph_center_lon": 14.52726,
+    "reference_city": "Ljubljana",
+    "reference_admin": "Ljubljana",
+    "reference_country": "Slovenia",
+    "distance_km": 2.5,
+    "traffic_labels": [
+      "Ljubljana, Slovenia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "london",
+    "graph_center_lat": 51.49329,
+    "graph_center_lon": -0.10741,
+    "reference_city": "London",
+    "reference_admin": "London, City of",
+    "reference_country": "United Kingdom",
+    "distance_km": 2.1,
+    "traffic_labels": [
+      "London, United Kingdom",
+      "London, Canada"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "los_angeles",
+    "graph_center_lat": 34.07977,
+    "graph_center_lon": -118.40882,
+    "reference_city": "Los Angeles",
+    "reference_admin": "California",
+    "reference_country": "United States",
+    "distance_km": 3.8,
+    "traffic_labels": [
+      "Los Angeles, CA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "luxembourg",
+    "graph_center_lat": 49.61022,
+    "graph_center_lon": 6.1415,
+    "reference_city": "Luxembourg",
+    "reference_admin": "Luxembourg",
+    "reference_country": "Luxembourg",
+    "distance_km": 0.6,
+    "traffic_labels": [
+      "Luxembourg, Luxembourg"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "lyon",
+    "graph_center_lat": 45.76132,
+    "graph_center_lon": 4.8396,
+    "reference_city": "Lyon",
+    "reference_admin": "Auvergne-Rhône-Alpes",
+    "reference_country": "France",
+    "distance_km": 0.8,
+    "traffic_labels": [
+      "Lyon, France"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "madrid",
+    "graph_center_lat": 40.45253,
+    "graph_center_lon": -3.67738,
+    "reference_city": "Madrid",
+    "reference_admin": "Madrid",
+    "reference_country": "Spain",
+    "distance_km": 4.5,
+    "traffic_labels": [
+      "Madrid, Spain"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "malaga",
+    "graph_center_lat": 36.73869,
+    "graph_center_lon": -4.441,
+    "reference_city": "Málaga",
+    "reference_admin": "Andalusia",
+    "reference_country": "Spain",
+    "distance_km": 3.3,
+    "traffic_labels": [
+      "Malaga, Spain"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "manchester",
+    "graph_center_lat": 53.44506,
+    "graph_center_lon": -2.23411,
+    "reference_city": "Manchester",
+    "reference_admin": "Manchester",
+    "reference_country": "United Kingdom",
+    "distance_km": 3.8,
+    "traffic_labels": [
+      "Manchester, United Kingdom"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "manila",
+    "graph_center_lat": 14.56559,
+    "graph_center_lon": 121.03485,
+    "reference_city": "Manila",
+    "reference_admin": "Manila",
+    "reference_country": "Philippines",
+    "distance_km": 7.1,
+    "traffic_labels": [
+      "Manila, Philippines"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "medellin",
+    "graph_center_lat": 6.27152,
+    "graph_center_lon": -75.59996,
+    "reference_city": "Medellín",
+    "reference_admin": "Antioquia",
+    "reference_country": "Colombia",
+    "distance_km": 4.3,
+    "traffic_labels": [
+      "Medellin, Colombia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "melbourne",
+    "graph_center_lat": -37.80334,
+    "graph_center_lon": 144.99998,
+    "reference_city": "Melbourne",
+    "reference_admin": "Victoria",
+    "reference_country": "Australia",
+    "distance_km": 3.5,
+    "traffic_labels": [
+      "Melbourne, Australia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "memphis",
+    "graph_center_lat": 35.12669,
+    "graph_center_lon": -89.89748,
+    "reference_city": "Memphis",
+    "reference_admin": "Tennessee",
+    "reference_country": "United States",
+    "distance_km": 6.6,
+    "traffic_labels": [
+      "Memphis, TN, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "mexico_city",
+    "graph_center_lat": 19.33562,
+    "graph_center_lon": -99.1342,
+    "reference_city": "Mexico City",
+    "reference_admin": "Ciudad de México",
+    "reference_country": "Mexico",
+    "distance_km": 2.0,
+    "traffic_labels": [
+      "Mexico City, Mexico"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "miami",
+    "graph_center_lat": 25.7857,
+    "graph_center_lon": -80.23146,
+    "reference_city": "Miami",
+    "reference_admin": "Florida",
+    "reference_country": "United States",
+    "distance_km": 2.1,
+    "traffic_labels": [
+      "Miami, FL, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "milan",
+    "graph_center_lat": 45.46483,
+    "graph_center_lon": 9.16021,
+    "reference_city": "Milan",
+    "reference_admin": "Lombardy",
+    "reference_country": "Italy",
+    "distance_km": 2.3,
+    "traffic_labels": [
+      "Milan, Italy"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "minneapolis",
+    "graph_center_lat": 44.96912,
+    "graph_center_lon": -93.26786,
+    "reference_city": "Minneapolis",
+    "reference_admin": "Minnesota",
+    "reference_country": "United States",
+    "distance_km": 0.6,
+    "traffic_labels": [
+      "Minneapolis, MN, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "minsk",
+    "graph_center_lat": 53.89737,
+    "graph_center_lon": 27.57953,
+    "reference_city": "Minsk",
+    "reference_admin": "Minsk",
+    "reference_country": "Belarus",
+    "distance_km": 1.3,
+    "traffic_labels": [
+      "Minsk, Belarus"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "monterrey",
+    "graph_center_lat": 25.66883,
+    "graph_center_lon": -100.32798,
+    "reference_city": "Monterrey",
+    "reference_admin": "Nuevo León",
+    "reference_country": "Mexico",
+    "distance_km": 2.0,
+    "traffic_labels": [
+      "Monterrey, Mexico"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "montevideo",
+    "graph_center_lat": -34.84087,
+    "graph_center_lon": -56.1937,
+    "reference_city": "Montevideo",
+    "reference_admin": "Montevideo",
+    "reference_country": "Uruguay",
+    "distance_km": 7.2,
+    "traffic_labels": [
+      "Montevideo, Uruguay"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "montreal",
+    "graph_center_lat": 45.55826,
+    "graph_center_lon": -73.64518,
+    "reference_city": "Montréal",
+    "reference_admin": "Quebec",
+    "reference_country": "Canada",
+    "distance_km": 8.5,
+    "traffic_labels": [
+      "Montreal, Canada"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "moscow",
+    "graph_center_lat": 55.72505,
+    "graph_center_lon": 37.60013,
+    "reference_city": "Moscow",
+    "reference_admin": "Moskva",
+    "reference_country": "Russia",
+    "distance_km": 3.0,
+    "traffic_labels": [
+      "Moscow, Russia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "mumbai",
+    "graph_center_lat": 19.10282,
+    "graph_center_lon": 72.88698,
+    "reference_city": "Mumbai",
+    "reference_admin": "Mahārāshtra",
+    "reference_country": "India",
+    "distance_km": 3.2,
+    "traffic_labels": [
+      "Mumbai, India"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "munich",
+    "graph_center_lat": 48.15112,
+    "graph_center_lon": 11.5526,
+    "reference_city": "Munich",
+    "reference_admin": "Bavaria",
+    "reference_country": "Germany",
+    "distance_km": 2.2,
+    "traffic_labels": [
+      "Munich, Germany"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "muscat",
+    "graph_center_lat": 23.61731,
+    "graph_center_lon": 58.58507,
+    "reference_city": "Muscat",
+    "reference_admin": "Masqaţ",
+    "reference_country": "Oman",
+    "distance_km": 0.8,
+    "traffic_labels": [
+      "Muscat, Oman"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "nairobi",
+    "graph_center_lat": -1.26632,
+    "graph_center_lon": 36.84331,
+    "reference_city": "Nairobi",
+    "reference_admin": "Nairobi City",
+    "reference_country": "Kenya",
+    "distance_km": 3.7,
+    "traffic_labels": [
+      "Nairobi, Kenya"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "naples",
+    "graph_center_lat": 40.86729,
+    "graph_center_lon": 14.254,
+    "reference_city": "Naples",
+    "reference_admin": "Campania",
+    "reference_country": "Italy",
+    "distance_km": 3.5,
+    "traffic_labels": [
+      "Naples, Italy"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "nashville",
+    "graph_center_lat": 36.15906,
+    "graph_center_lon": -86.80992,
+    "reference_city": "Nashville",
+    "reference_admin": "Tennessee",
+    "reference_country": "United States",
+    "distance_km": 2.7,
+    "traffic_labels": [
+      "Nashville, TN, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "new_orleans",
+    "graph_center_lat": 30.03578,
+    "graph_center_lon": -89.93477,
+    "reference_city": "New Orleans",
+    "reference_admin": "Louisiana",
+    "reference_country": "United States",
+    "distance_km": 3.7,
+    "traffic_labels": [
+      "New Orleans, LA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "new_york",
+    "graph_center_lat": 40.70628,
+    "graph_center_lon": -73.97452,
+    "reference_city": "New York",
+    "reference_admin": "New York",
+    "reference_country": "United States",
+    "distance_km": 4.4,
+    "traffic_labels": [
+      "New York, NY, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "nicosia",
+    "graph_center_lat": 35.05264,
+    "graph_center_lon": 33.05936,
+    "reference_city": "Nicosia",
+    "reference_admin": "Lefkosía",
+    "reference_country": "Cyprus",
+    "distance_km": 30.8,
+    "traffic_labels": [
+      "Nicosia, Cyprus"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "oakland",
+    "graph_center_lat": 37.79063,
+    "graph_center_lon": -122.22304,
+    "reference_city": "Oakland",
+    "reference_admin": "California",
+    "reference_country": "United States",
+    "distance_km": 0.6,
+    "traffic_labels": [
+      "Oakland, CA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "oklahoma_city",
+    "graph_center_lat": 35.49208,
+    "graph_center_lon": -97.45117,
+    "reference_city": "Oklahoma City",
+    "reference_admin": "Oklahoma",
+    "reference_country": "United States",
+    "distance_km": 6.3,
+    "traffic_labels": [
+      "Oklahoma City, OK, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "orlando",
+    "graph_center_lat": 28.50735,
+    "graph_center_lon": -81.37406,
+    "reference_city": "Orlando",
+    "reference_admin": "Florida",
+    "reference_country": "United States",
+    "distance_km": 4.9,
+    "traffic_labels": [
+      "Orlando, FL, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "oslo",
+    "graph_center_lat": 59.8991,
+    "graph_center_lon": 10.7914,
+    "reference_city": "Oslo",
+    "reference_admin": "Oslo",
+    "reference_country": "Norway",
+    "distance_km": 3.3,
+    "traffic_labels": [
+      "Oslo, Norway"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "ottawa",
+    "graph_center_lat": 45.25218,
+    "graph_center_lon": -75.81104,
+    "reference_city": "Ottawa",
+    "reference_admin": "Ontario",
+    "reference_country": "Canada",
+    "distance_km": 21.2,
+    "traffic_labels": [
+      "Ottawa, Canada"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "oxford",
+    "graph_center_lat": 51.75576,
+    "graph_center_lon": -1.23639,
+    "reference_city": "Oxford",
+    "reference_admin": "Oxfordshire",
+    "reference_country": "United Kingdom",
+    "distance_km": 1.5,
+    "traffic_labels": [
+      "Oxford, United Kingdom"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "paris",
+    "graph_center_lat": 48.85866,
+    "graph_center_lon": 2.32427,
+    "reference_city": "Paris",
+    "reference_admin": "Île-de-France",
+    "reference_country": "France",
+    "distance_km": 2.1,
+    "traffic_labels": [
+      "Paris, France"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "perth",
+    "graph_center_lat": -31.94953,
+    "graph_center_lon": 115.83919,
+    "reference_city": "Perth",
+    "reference_admin": "Western Australia",
+    "reference_country": "Australia",
+    "distance_km": 2.1,
+    "traffic_labels": [
+      "Perth, Australia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "philadelphia",
+    "graph_center_lat": 40.0055,
+    "graph_center_lon": -75.11517,
+    "reference_city": "Philadelphia",
+    "reference_admin": "Pennsylvania",
+    "reference_country": "United States",
+    "distance_km": 1.6,
+    "traffic_labels": [
+      "Philadelphia, PA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "phoenix",
+    "graph_center_lat": 33.54829,
+    "graph_center_lon": -112.10739,
+    "reference_city": "Phoenix",
+    "reference_admin": "Arizona",
+    "reference_country": "United States",
+    "distance_km": 3.1,
+    "traffic_labels": [
+      "Phoenix, AZ, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "pittsburgh",
+    "graph_center_lat": 40.43405,
+    "graph_center_lon": -79.96696,
+    "reference_city": "Pittsburgh",
+    "reference_admin": "Pennsylvania",
+    "reference_country": "United States",
+    "distance_km": 1.0,
+    "traffic_labels": [
+      "Pittsburgh, PA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "portland",
+    "graph_center_lat": 45.53953,
+    "graph_center_lon": -122.65687,
+    "reference_city": "Portland",
+    "reference_admin": "Oregon",
+    "reference_country": "United States",
+    "distance_km": 0.6,
+    "traffic_labels": [
+      "Portland, OR, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "porto",
+    "graph_center_lat": 41.16276,
+    "graph_center_lon": -8.62401,
+    "reference_city": "Porto",
+    "reference_admin": "Porto",
+    "reference_country": "Portugal",
+    "distance_km": 1.8,
+    "traffic_labels": [
+      "Porto, Portugal"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "prague",
+    "graph_center_lat": 50.05364,
+    "graph_center_lon": 14.45591,
+    "reference_city": "Prague",
+    "reference_admin": "Praha",
+    "reference_country": "Czechia",
+    "distance_km": 4.5,
+    "traffic_labels": [
+      "Prague, Czech Republic"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "pune",
+    "graph_center_lat": 18.6079,
+    "graph_center_lon": 74.20837,
+    "reference_city": "Pune",
+    "reference_admin": "Mahārāshtra",
+    "reference_country": "India",
+    "distance_km": 38.4,
+    "traffic_labels": [
+      "Pune, India"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "qingdao",
+    "graph_center_lat": 36.34689,
+    "graph_center_lon": 120.23662,
+    "reference_city": "Qingdao",
+    "reference_admin": "Shandong",
+    "reference_country": "China",
+    "distance_km": 29.5,
+    "traffic_labels": [
+      "Qingdao, Shandong, China"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "quebec_city",
+    "graph_center_lat": 46.83645,
+    "graph_center_lon": -71.29623,
+    "reference_city": "Quebec City",
+    "reference_admin": "Quebec",
+    "reference_country": "Canada",
+    "distance_km": 7.2,
+    "traffic_labels": [
+      "Quebec City, Canada"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "quito",
+    "graph_center_lat": -0.10753,
+    "graph_center_lon": -78.53247,
+    "reference_city": "Quito",
+    "reference_admin": "Pichincha",
+    "reference_country": "Ecuador",
+    "distance_km": 12.7,
+    "traffic_labels": [
+      "Quito, Ecuador"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "raleigh",
+    "graph_center_lat": 35.82257,
+    "graph_center_lon": -78.67196,
+    "reference_city": "Raleigh",
+    "reference_admin": "North Carolina",
+    "reference_country": "United States",
+    "distance_km": 2.8,
+    "traffic_labels": [
+      "Raleigh, NC, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "reykjavik",
+    "graph_center_lat": 64.12327,
+    "graph_center_lon": -21.8336,
+    "reference_city": "Reykjavík",
+    "reference_admin": "Reykjavík",
+    "reference_country": "Iceland",
+    "distance_km": 5.6,
+    "traffic_labels": [
+      "Reykjavik, Iceland"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "riga",
+    "graph_center_lat": 56.9611,
+    "graph_center_lon": 24.15191,
+    "reference_city": "Riga",
+    "reference_admin": "Rīga",
+    "reference_country": "Latvia",
+    "distance_km": 3.1,
+    "traffic_labels": [
+      "Riga, Latvia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "rio_de_janeiro",
+    "graph_center_lat": -22.91855,
+    "graph_center_lon": -43.45054,
+    "reference_city": "Rio de Janeiro",
+    "reference_admin": "Rio de Janeiro",
+    "reference_country": "Brazil",
+    "distance_km": 25.1,
+    "traffic_labels": [
+      "Rio de Janeiro, Brazil"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "riyadh",
+    "graph_center_lat": 24.72498,
+    "graph_center_lon": 46.7246,
+    "reference_city": "Riyadh",
+    "reference_admin": "Ar Riyāḑ",
+    "reference_country": "Saudi Arabia",
+    "distance_km": 8.5,
+    "traffic_labels": [
+      "Riyadh, Saudi Arabia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "rome",
+    "graph_center_lat": 41.88263,
+    "graph_center_lon": 12.50679,
+    "reference_city": "Rome",
+    "reference_admin": "Lazio",
+    "reference_country": "Italy",
+    "distance_km": 2.3,
+    "traffic_labels": [
+      "Rome, Italy"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "rotterdam",
+    "graph_center_lat": 51.91738,
+    "graph_center_lon": 4.49982,
+    "reference_city": "Rotterdam",
+    "reference_admin": "Zuid-Holland",
+    "reference_country": "Netherlands",
+    "distance_km": 1.4,
+    "traffic_labels": [
+      "Rotterdam, Netherlands"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "sacramento",
+    "graph_center_lat": 38.56178,
+    "graph_center_lon": -121.45902,
+    "reference_city": "Sacramento",
+    "reference_admin": "California",
+    "reference_country": "United States",
+    "distance_km": 1.1,
+    "traffic_labels": [
+      "Sacramento, CA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "saint_petersburg",
+    "graph_center_lat": 59.95735,
+    "graph_center_lon": 30.10657,
+    "reference_city": "Saint Petersburg",
+    "reference_admin": "Sankt-Peterburg",
+    "reference_country": "Russia",
+    "distance_km": 11.7,
+    "traffic_labels": [
+      "Saint Petersburg, Russia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "san_antonio",
+    "graph_center_lat": 29.46486,
+    "graph_center_lon": -98.49438,
+    "reference_city": "San Antonio",
+    "reference_admin": "Texas",
+    "reference_country": "United States",
+    "distance_km": 2.9,
+    "traffic_labels": [
+      "San Antonio, TX, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "san_diego",
+    "graph_center_lat": 32.86438,
+    "graph_center_lon": -117.14308,
+    "reference_city": "San Diego",
+    "reference_admin": "California",
+    "reference_country": "United States",
+    "distance_km": 4.2,
+    "traffic_labels": [
+      "San Diego, CA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "san_francisco",
+    "graph_center_lat": 37.76377,
+    "graph_center_lon": -122.43087,
+    "reference_city": "San Francisco",
+    "reference_admin": "California",
+    "reference_country": "United States",
+    "distance_km": 1.5,
+    "traffic_labels": [
+      "San Francisco, CA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "san_jose",
+    "graph_center_lat": 37.31317,
+    "graph_center_lon": -121.87981,
+    "reference_city": "San Jose",
+    "reference_admin": "California",
+    "reference_country": "United States",
+    "distance_km": 3.1,
+    "traffic_labels": [
+      "San Jose, Costa Rica",
+      "San Jose, CA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "san_juan",
+    "graph_center_lat": 18.40038,
+    "graph_center_lon": -66.05253,
+    "reference_city": "San Juan",
+    "reference_admin": "Puerto Rico",
+    "reference_country": "Puerto Rico",
+    "distance_km": 0.9,
+    "traffic_labels": [
+      "San Juan, Puerto Rico"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "santiago",
+    "graph_center_lat": -33.47564,
+    "graph_center_lon": -70.64991,
+    "reference_city": "Santiago",
+    "reference_admin": "Región Metropolitana",
+    "reference_country": "Chile",
+    "distance_km": 4.2,
+    "traffic_labels": [
+      "Santiago, Chile"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "sao_paulo",
+    "graph_center_lat": -23.60663,
+    "graph_center_lon": -46.59625,
+    "reference_city": "São Paulo",
+    "reference_admin": "São Paulo",
+    "reference_country": "Brazil",
+    "distance_km": 7.3,
+    "traffic_labels": [
+      "Sao Paulo, Brazil"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "seattle",
+    "graph_center_lat": 47.62107,
+    "graph_center_lon": -122.33499,
+    "reference_city": "Seattle",
+    "reference_admin": "Washington",
+    "reference_country": "United States",
+    "distance_km": 0.8,
+    "traffic_labels": [
+      "Seattle, WA, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "seoul",
+    "graph_center_lat": 37.56408,
+    "graph_center_lon": 126.99021,
+    "reference_city": "Seoul",
+    "reference_admin": "Seoul",
+    "reference_country": "Korea, South",
+    "distance_km": 0.5,
+    "traffic_labels": [
+      "Seoul, South Korea"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "shanghai",
+    "graph_center_lat": 31.19979,
+    "graph_center_lon": 121.44997,
+    "reference_city": "Shanghai",
+    "reference_admin": "Shanghai",
+    "reference_country": "China",
+    "distance_km": 4.1,
+    "traffic_labels": [
+      "Shanghai, China"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "sharjah",
+    "graph_center_lat": 25.14542,
+    "graph_center_lon": 55.68268,
+    "reference_city": "Sharjah",
+    "reference_admin": "Ash Shāriqah",
+    "reference_country": "United Arab Emirates",
+    "distance_km": 34.6,
+    "traffic_labels": [
+      "Sharjah, United Arab Emirates"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "shenzhen",
+    "graph_center_lat": 22.65153,
+    "graph_center_lon": 114.16318,
+    "reference_city": "Shenzhen",
+    "reference_admin": "Guangdong",
+    "reference_country": "China",
+    "distance_km": 16.1,
+    "traffic_labels": [
+      "Shenzhen, China"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "singapore",
+    "graph_center_lat": 1.34064,
+    "graph_center_lon": 103.82038,
+    "reference_city": "Singapore",
+    "reference_admin": "",
+    "reference_country": "Singapore",
+    "distance_km": 5.1,
+    "traffic_labels": [
+      "Singapore, Singapore"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "sofia",
+    "graph_center_lat": 42.70097,
+    "graph_center_lon": 23.33396,
+    "reference_city": "Sofia",
+    "reference_admin": "Sofia-Grad",
+    "reference_country": "Bulgaria",
+    "distance_km": 1.1,
+    "traffic_labels": [
+      "Sofia, Bulgaria"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "stockholm",
+    "graph_center_lat": 59.32654,
+    "graph_center_lon": 18.02571,
+    "reference_city": "Stockholm",
+    "reference_admin": "Stockholm",
+    "reference_country": "Sweden",
+    "distance_km": 1.6,
+    "traffic_labels": [
+      "Stockholm, Sweden"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "stuttgart",
+    "graph_center_lat": 48.77193,
+    "graph_center_lon": 9.16882,
+    "reference_city": "Stuttgart",
+    "reference_admin": "Baden-Württemberg",
+    "reference_country": "Germany",
+    "distance_km": 1.0,
+    "traffic_labels": [
+      "Stuttgart, Germany"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "sydney",
+    "graph_center_lat": -33.8501,
+    "graph_center_lon": 151.08663,
+    "reference_city": "Sydney",
+    "reference_admin": "New South Wales",
+    "reference_country": "Australia",
+    "distance_km": 11.6,
+    "traffic_labels": [
+      "Sydney, Australia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "taipei",
+    "graph_center_lat": 25.07724,
+    "graph_center_lon": 121.55893,
+    "reference_city": "Taipei",
+    "reference_admin": "Taipei",
+    "reference_country": "Taiwan",
+    "distance_km": 4.4,
+    "traffic_labels": [
+      "Taipei, Taiwan"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "tallinn",
+    "graph_center_lat": 59.42936,
+    "graph_center_lon": 24.75735,
+    "reference_city": "Tallinn",
+    "reference_admin": "Tallinn",
+    "reference_country": "Estonia",
+    "distance_km": 1.1,
+    "traffic_labels": [
+      "Tallinn, Estonia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "tampa",
+    "graph_center_lat": 27.9579,
+    "graph_center_lon": -82.51236,
+    "reference_city": "Tampa",
+    "reference_admin": "Florida",
+    "reference_country": "United States",
+    "distance_km": 7.8,
+    "traffic_labels": [
+      "Tampa, FL, United States"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "tashkent",
+    "graph_center_lat": 41.28107,
+    "graph_center_lon": 69.33021,
+    "reference_city": "Tashkent",
+    "reference_admin": "Toshkent",
+    "reference_country": "Uzbekistan",
+    "distance_km": 5.4,
+    "traffic_labels": [
+      "Tashkent, Uzbekistan"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "tbilisi",
+    "graph_center_lat": 41.72767,
+    "graph_center_lon": 44.82923,
+    "reference_city": "Tbilisi",
+    "reference_admin": "Tbilisi",
+    "reference_country": "Georgia",
+    "distance_km": 3.1,
+    "traffic_labels": [
+      "Tbilisi, Georgia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "tehran",
+    "graph_center_lat": 35.69806,
+    "graph_center_lon": 51.34739,
+    "reference_city": "Tehran",
+    "reference_admin": "Tehrān",
+    "reference_country": "Iran",
+    "distance_km": 4.0,
+    "traffic_labels": [
+      "Tehran, Iran"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "tokyo",
+    "graph_center_lat": 35.67501,
+    "graph_center_lon": 139.74001,
+    "reference_city": "Tokyo",
+    "reference_admin": "Tōkyō",
+    "reference_country": "Japan",
+    "distance_km": 1.5,
+    "traffic_labels": [
+      "Tokyo, Japan"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "toronto",
+    "graph_center_lat": 43.72376,
+    "graph_center_lon": -79.38538,
+    "reference_city": "Toronto",
+    "reference_admin": "Ontario",
+    "reference_country": "Canada",
+    "distance_km": 2.2,
+    "traffic_labels": [
+      "Toronto, Canada"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "tunis",
+    "graph_center_lat": 36.83574,
+    "graph_center_lon": 10.19692,
+    "reference_city": "Tunis",
+    "reference_admin": "Tunis",
+    "reference_country": "Tunisia",
+    "distance_km": 4.2,
+    "traffic_labels": [
+      "Tunis, Tunisia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "vancouver",
+    "graph_center_lat": 49.25614,
+    "graph_center_lon": -123.11948,
+    "reference_city": "Vancouver",
+    "reference_admin": "British Columbia",
+    "reference_country": "Canada",
+    "distance_km": 1.6,
+    "traffic_labels": [
+      "Vancouver, WA, United States",
+      "Vancouver, Canada"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "vienna",
+    "graph_center_lat": 48.20894,
+    "graph_center_lon": 16.36316,
+    "reference_city": "Vienna",
+    "reference_admin": "Wien",
+    "reference_country": "Austria",
+    "distance_km": 0.7,
+    "traffic_labels": [
+      "Vienna, Austria"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "vilnius",
+    "graph_center_lat": 54.69821,
+    "graph_center_lon": 25.25101,
+    "reference_city": "Vilnius",
+    "reference_admin": "Vilniaus Miestas",
+    "reference_country": "Lithuania",
+    "distance_km": 2.2,
+    "traffic_labels": [
+      "Vilnius, Lithuania"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "warsaw",
+    "graph_center_lat": 52.23456,
+    "graph_center_lon": 21.06348,
+    "reference_city": "Warsaw",
+    "reference_admin": "Mazowieckie",
+    "reference_country": "Poland",
+    "distance_km": 3.6,
+    "traffic_labels": [
+      "Warsaw, Poland"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "wellington",
+    "graph_center_lat": -41.04227,
+    "graph_center_lon": 175.32112,
+    "reference_city": "Wellington",
+    "reference_admin": "Wellington",
+    "reference_country": "New Zealand",
+    "distance_km": 53.2,
+    "traffic_labels": [
+      "Wellington, New Zealand"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "yekaterinburg",
+    "graph_center_lat": 56.81929,
+    "graph_center_lon": 60.66851,
+    "reference_city": "Yekaterinburg",
+    "reference_admin": "Sverdlovskaya Oblast’",
+    "reference_country": "Russia",
+    "distance_km": 3.8,
+    "traffic_labels": [
+      "Yekaterinburg, Russia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "yerevan",
+    "graph_center_lat": 40.15716,
+    "graph_center_lon": 44.51246,
+    "reference_city": "Yerevan",
+    "reference_admin": "Yerevan",
+    "reference_country": "Armenia",
+    "distance_km": 2.7,
+    "traffic_labels": [
+      "Yerevan, Armenia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "zagreb",
+    "graph_center_lat": 45.7983,
+    "graph_center_lon": 16.00297,
+    "reference_city": "Zagreb",
+    "reference_admin": "Zagreb, Grad",
+    "reference_country": "Croatia",
+    "distance_km": 2.6,
+    "traffic_labels": [
+      "Zagreb, Croatia"
+    ],
+    "status": "country_and_location_match"
+  },
+  {
+    "folder": "zurich",
+    "graph_center_lat": 47.38006,
+    "graph_center_lon": 8.53253,
+    "reference_city": "Zürich",
+    "reference_admin": "Zürich",
+    "reference_country": "Switzerland",
+    "distance_km": 0.9,
+    "traffic_labels": [
+      "Zurich, Switzerland"
+    ],
+    "status": "country_and_location_match"
+  }
+]

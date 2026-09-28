@@ -1,0 +1,30 @@
+{
+  "cities": 203,
+  "status_counts": {
+    "accepted": 183,
+    "too_few_center_roads": 3,
+    "bbox_does_not_surround_window": 15,
+    "accepted_with_sparse_warning": 2
+  },
+  "note": "Bounding-box failure is evidence of incomplete geographic extent. Sparse images can reflect water, geography, major-road filtering, original query boundaries or missing OSM data; they require review.",
+  "review_first": [
+    "Anchorage, AK, United States",
+    "Beirut, Lebanon",
+    "Bern, Switzerland",
+    "Brussels, Belgium",
+    "Cebu, Philippines",
+    "Geneva, Switzerland",
+    "Haifa, Israel",
+    "Halifax, Canada",
+    "Lisbon, Portugal",
+    "Liverpool, United Kingdom",
+    "Los Angeles, CA, United States",
+    "Muscat, Oman",
+    "Naples, Italy",
+    "Nicosia, Cyprus",
+    "Orlando, FL, United States",
+    "Oxford, United Kingdom",
+    "Porto, Portugal",
+    "Reykjavik, Iceland"
+  ]
+}

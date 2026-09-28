@@ -1,0 +1,99 @@
+{
+  "cities": 185,
+  "population_source": "GHS-POP R2023A",
+  "population_epoch": 2020,
+  "population_resolution": "4326_30ss",
+  "window_km": 5.0,
+  "road_features": [
+    "log_nodes",
+    "log_edges",
+    "log_directed_road_km",
+    "log_directed_road_km_per_25_km2",
+    "mean_segment_m",
+    "dead_end_node_fraction",
+    "intersection_node_fraction",
+    "oneway_edge_fraction",
+    "motorway_length_fraction",
+    "trunk_length_fraction",
+    "primary_length_fraction"
+  ],
+  "extent_features": [
+    "log_nodes",
+    "log_edges",
+    "log_directed_road_km",
+    "log_bbox_km2"
+  ],
+  "population_features": [
+    "log_mean_residents_per_km2",
+    "log_peak_residents_per_km2",
+    "fraction_area_above_density_threshold"
+  ],
+  "model": "Ridge regression; alpha=10; training-fold standardization",
+  "splits": {
+    "country": {
+      "mean": {
+        "mae": 40.923,
+        "rmse": 51.653,
+        "r2": -0.024
+      },
+      "population": {
+        "mae": 43.727,
+        "rmse": 53.405,
+        "r2": -0.095
+      },
+      "road": {
+        "mae": 41.995,
+        "rmse": 52.246,
+        "r2": -0.048
+      },
+      "combined": {
+        "mae": 41.907,
+        "rmse": 51.627,
+        "r2": -0.023
+      },
+      "extent": {
+        "mae": 39.693,
+        "rmse": 50.399,
+        "r2": 0.025
+      },
+      "extent_population": {
+        "mae": 41.515,
+        "rmse": 52.32,
+        "r2": -0.051
+      }
+    },
+    "city": {
+      "mean": {
+        "mae": 40.514,
+        "rmse": 51.107,
+        "r2": -0.003
+      },
+      "population": {
+        "mae": 40.732,
+        "rmse": 50.282,
+        "r2": 0.029
+      },
+      "road": {
+        "mae": 41.124,
+        "rmse": 50.975,
+        "r2": 0.003
+      },
+      "combined": {
+        "mae": 39.165,
+        "rmse": 48.823,
+        "r2": 0.085
+      },
+      "extent": {
+        "mae": 37.791,
+        "rmse": 47.931,
+        "r2": 0.118
+      },
+      "extent_population": {
+        "mae": 38.259,
+        "rmse": 47.972,
+        "r2": 0.117
+      }
+    }
+  },
+  "limitations": "The Traffic Index date and spatial footprint are unknown; residential density is not daytime travel demand; fixed-window road completeness is unverified."
+}

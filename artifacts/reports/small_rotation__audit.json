@@ -1,0 +1,9 @@
+{
+  "cities": 185,
+  "rotation": "uniform -15 to +15 degrees",
+  "sampling": "bilinear with black zero padding",
+  "mean_pixel_mass_ratio": 0.9803,
+  "min_pixel_mass_ratio": 0.895,
+  "mean_fraction_of_active_pixels_interpolated": 0.9386,
+  "caveat": "Pixel mass and interpolation do not directly measure graph connectivity."
+}

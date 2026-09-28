@@ -1,0 +1,17 @@
+{
+  "window_metres": 5000,
+  "requested_cities": 1,
+  "processed_cities": 1,
+  "run_complete": true,
+  "successful_cities": 0,
+  "run_successful": false,
+  "overpass_url": "https://lz4.overpass-api.de/api",
+  "stopped_reason": null,
+  "results": [
+    {
+      "city": "Beirut, Lebanon",
+      "status": "failed",
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+    }
+  ]
+}

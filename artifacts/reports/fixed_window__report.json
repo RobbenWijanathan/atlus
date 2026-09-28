@@ -1,0 +1,155 @@
+{
+  "window_km": 5.0,
+  "cities": 185,
+  "excluded": [
+    {
+      "city": "Anchorage, AK, United States",
+      "bbox_covers_window": true,
+      "nodes": 0,
+      "edges": 0
+    },
+    {
+      "city": "Beirut, Lebanon",
+      "bbox_covers_window": false,
+      "nodes": 437,
+      "edges": 639
+    },
+    {
+      "city": "Bern, Switzerland",
+      "bbox_covers_window": false,
+      "nodes": 235,
+      "edges": 447
+    },
+    {
+      "city": "Brussels, Belgium",
+      "bbox_covers_window": false,
+      "nodes": 119,
+      "edges": 172
+    },
+    {
+      "city": "Cebu, Philippines",
+      "bbox_covers_window": false,
+      "nodes": 146,
+      "edges": 257
+    },
+    {
+      "city": "Geneva, Switzerland",
+      "bbox_covers_window": false,
+      "nodes": 237,
+      "edges": 452
+    },
+    {
+      "city": "Haifa, Israel",
+      "bbox_covers_window": false,
+      "nodes": 125,
+      "edges": 148
+    },
+    {
+      "city": "Halifax, Canada",
+      "bbox_covers_window": false,
+      "nodes": 159,
+      "edges": 290
+    },
+    {
+      "city": "Lisbon, Portugal",
+      "bbox_covers_window": false,
+      "nodes": 284,
+      "edges": 482
+    },
+    {
+      "city": "Liverpool, United Kingdom",
+      "bbox_covers_window": false,
+      "nodes": 291,
+      "edges": 514
+    },
+    {
+      "city": "Los Angeles, CA, United States",
+      "bbox_covers_window": true,
+      "nodes": 2,
+      "edges": 3
+    },
+    {
+      "city": "Muscat, Oman",
+      "bbox_covers_window": false,
+      "nodes": 32,
+      "edges": 45
+    },
+    {
+      "city": "Naples, Italy",
+      "bbox_covers_window": false,
+      "nodes": 211,
+      "edges": 337
+    },
+    {
+      "city": "Nicosia, Cyprus",
+      "bbox_covers_window": false,
+      "nodes": 215,
+      "edges": 390
+    },
+    {
+      "city": "Orlando, FL, United States",
+      "bbox_covers_window": true,
+      "nodes": 0,
+      "edges": 0
+    },
+    {
+      "city": "Oxford, United Kingdom",
+      "bbox_covers_window": false,
+      "nodes": 54,
+      "edges": 100
+    },
+    {
+      "city": "Porto, Portugal",
+      "bbox_covers_window": false,
+      "nodes": 333,
+      "edges": 534
+    },
+    {
+      "city": "Reykjavik, Iceland",
+      "bbox_covers_window": false,
+      "nodes": 197,
+      "edges": 281
+    }
+  ],
+  "graphs_with_documented_query_bounds": 0,
+  "feature_names": [
+    "log_nodes",
+    "log_edges",
+    "log_directed_road_km",
+    "log_directed_road_km_per_25_km2",
+    "mean_segment_m",
+    "dead_end_node_fraction",
+    "intersection_node_fraction",
+    "oneway_edge_fraction",
+    "motorway_length_fraction",
+    "trunk_length_fraction",
+    "primary_length_fraction"
+  ],
+  "splits": {
+    "city": {
+      "original_full_network": {
+        "mae": 39.654,
+        "rmse": 49.829,
+        "r2": 0.047
+      },
+      "fixed_window": {
+        "mae": 41.124,
+        "rmse": 50.975,
+        "r2": 0.003
+      }
+    },
+    "country": {
+      "original_full_network": {
+        "mae": 41.713,
+        "rmse": 52.727,
+        "r2": -0.067
+      },
+      "fixed_window": {
+        "mae": 41.995,
+        "rmse": 52.246,
+        "r2": -0.048
+      }
+    }
+  },
+  "caveat": "A graph bounding box or documented query extent does not prove that OSM mapped every road inside it."
+}
